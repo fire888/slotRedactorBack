@@ -1,1 +1,154 @@
-{"items": []}
+{
+    "items": [
+        {
+            "id": "1evilk1okktg3v0ah",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "hj",
+            "armatureName": "Armhj",
+            "animationsNames": [
+                "hj",
+                "hj"
+            ],
+            "files": [
+                {
+                    "type-file": "dragon-ske",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-tex",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-img",
+                    "file": "--"
+                }
+            ]
+        },
+        {
+            "id": "1evilk738ktg4ib7c",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "b",
+            "armatureName": "Armb",
+            "animationsNames": [
+                "b",
+                "b"
+            ],
+            "files": [
+                {
+                    "type-file": "dragon-ske",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-tex",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-img",
+                    "file": "--"
+                }
+            ]
+        },
+        {
+            "id": "1evilk738ktg4ibob",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "bb",
+            "armatureName": "Armbb",
+            "animationsNames": [
+                "bb",
+                "bb"
+            ],
+            "files": [
+                {
+                    "type-file": "dragon-ske",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-tex",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-img",
+                    "file": "--"
+                }
+            ]
+        },
+        {
+            "id": "1evilk738ktg4ibwi",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "bbb",
+            "armatureName": "Armbbb",
+            "animationsNames": [
+                "bbb",
+                "bbb"
+            ],
+            "files": [
+                {
+                    "type-file": "dragon-ske",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-tex",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-img",
+                    "file": "--"
+                }
+            ]
+        },
+        {
+            "id": "1evilk738ktg4ic16",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "bbbb",
+            "armatureName": "Armbbbb",
+            "animationsNames": [
+                "bbbb",
+                "bbbb"
+            ],
+            "files": [
+                {
+                    "type-file": "dragon-ske",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-tex",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-img",
+                    "file": "--"
+                }
+            ]
+        },
+        {
+            "id": "1evilk738ktg4iva8",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "porokh.vs@gmail.com",
+            "armatureName": "Armporokh.vs@gmail.com",
+            "animationsNames": [
+                "porokh.vs@gmail.com",
+                "porokh.vs@gmail.com"
+            ],
+            "files": [
+                {
+                    "type-file": "dragon-ske",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-tex",
+                    "file": "--"
+                },
+                {
+                    "type-file": "dragon-img",
+                    "file": "--"
+                }
+            ]
+        }
+    ]
+}

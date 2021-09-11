@@ -1,8 +1,10 @@
 {
     "id": "dfdcvdffdcvvbfg",
-    "type-exec": "dragonBones",
-    "type-view": "slot-item",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
     "name": "scatter",
+    "armatureName": "armature",
+    "animationsNames": ["down", "up", "win"],
     "files": [
         {
           "type-file": "dragon-ske",
