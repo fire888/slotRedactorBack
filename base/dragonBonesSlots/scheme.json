@@ -1,0 +1,23 @@
+{
+    "id": "dfdcvdffdcvvbfg",
+    "type-exec": "dragonBones",
+    "type-view": "slot-item",
+    "name": "scatter",
+    "files": [
+        {
+          "type-file": "dragon-ske",
+          "path": "././",
+          "name": "aaaa.json"
+        },
+        {
+          "type-file": "dragon-tex",
+          "path": "././",
+          "name": "bbb.json"
+        },
+        {
+          "type-file": "dragon-img",
+          "path": "././",
+          "name": "bbb.png"
+        }
+    ]
+}
