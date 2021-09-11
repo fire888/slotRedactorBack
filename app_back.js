@@ -6,7 +6,8 @@ var cors = require('cors')
 
 
 
-var IP = '192.168.0.101'
+//var IP = '192.168.0.101'
+var IP = '192.168.10.2' // home
 var PORT = 3010
 
 var app = express();
@@ -18,11 +19,7 @@ app.use(bodyParser.json())
 
 app.post('/api/add-item', (req, res) => {
     dragonBonesBaseApi.saveToBase(req.body, mess => {
-        if (mess[0] !== 'success') {
-            res.json({ mess })
-        } else {
-            res.json({ mess })
-        }
+        res.json({ mess })
     })
 })
 
@@ -30,6 +27,13 @@ app.post('/api/add-item', (req, res) => {
 app.post('/api/remove-item', (req, res) => {
     dragonBonesBaseApi.removeFromBase(req.body, list => {
         res.json({ list })
+    })
+})
+
+
+app.post('/api/edit-item', (req, res) => {
+    dragonBonesBaseApi.editItem(req.body, mess => {
+        res.json({ mess })
     })
 })
 

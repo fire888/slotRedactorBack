@@ -46,6 +46,35 @@ exports.removeFromBase = function (data, callback) {
 }
 
 
+exports.editItem = function (data, callback) {
+    fs.readFile(baseScheme, 'utf8', function (err, fileScheme) {
+        if (err) {
+            return console.log(err);
+        }
+        fs.readFile(baseFileName, 'utf8', function (err, fileBase) {
+            if (err) {
+                return console.log(err);
+            }
+            const currentContentBase = JSON.parse(fileBase)
+            const currentScheme = JSON.parse(fileScheme)
+            const { mess, newData } = prepareNewData(currentScheme, data)
+
+            if (!mess.length) {
+                for (let i = 0; i < currentContentBase['items'].length; i++) {
+                    if (currentContentBase['items'][i].id === data.id) {
+                        currentContentBase['items'][i] = newData
+                    }
+                }
+                fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
+                callback(['success'])
+            } else {
+                callback(mess)
+            }
+        })
+    })
+}
+
+
 exports.getList = function (data, callback) {
     fs.readFile(baseFileName, 'utf8', function (err, fileBase) {
         if (err) {
@@ -64,7 +93,7 @@ const prepareNewData = (scheme, data) => {
 
     for (let key in scheme) {
         if (key === "id") {
-            newData[key] = uniqid()
+            newData[key] = data.id || uniqid()
         }
 
         if (key === "typeExec") {
