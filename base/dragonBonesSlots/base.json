@@ -8,8 +8,8 @@
             "armatureName": "sun_arm",
             "animationsNames": [
                 "sun_idle",
-                null,
-                null
+                "sun_show",
+                "sun_basic"
             ],
             "files": {
                 "dragon-ske": {

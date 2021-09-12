@@ -161,10 +161,8 @@ const prepareNewData = (scheme, data) => {
         }
 
         if (key === "files") {
-            newData.files = {}
+            newData.files = data.files
         }
     }
-
-    //console.log('!!!', data)
     return { newData, mess }
 }
