@@ -1,5 +1,4 @@
 var fs = require('fs');
-var uniqid = require('uniqid')
 
 var baseFileName = './base/dragonBonesSlots/base.json'
 var baseScheme = './base/dragonBonesSlots/scheme.json'
@@ -41,7 +40,7 @@ exports.removeFromBase = function (data, callback) {
 
         currentContentBase['items'] = currentContentBase['items'].filter(item => item.id !== data.id)
         fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
-        callback(currentContentBase['items'])
+        callback()
     })
 }
 
@@ -86,6 +85,24 @@ exports.getList = function (data, callback) {
 }
 
 
+exports.addFile = function (data, fileData, callback) {
+    fs.readFile(baseFileName, 'utf8', function (err, fileBase) {
+        if (err) {
+            return console.log(err);
+        }
+        const currentContentBase = JSON.parse(fileBase)
+
+        for (let i = 0; i < currentContentBase['items'].length; i++) {
+            if (currentContentBase['items'][i].id === data.id) {
+                currentContentBase['items'][i].files[data.type] = { path: data.id, name: fileData.originalname }
+            }
+        }
+        fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
+        callback(['success'])
+    })
+}
+
+
 
 const prepareNewData = (scheme, data) => {
     const newData = {}
@@ -93,7 +110,12 @@ const prepareNewData = (scheme, data) => {
 
     for (let key in scheme) {
         if (key === "id") {
-            newData[key] = data.id || uniqid()
+            if (!data.id) {
+                mess.push('no id')
+            } else {
+                newData[key] = data.id
+            }
+
         }
 
         if (key === "typeExec") {
@@ -111,9 +133,23 @@ const prepareNewData = (scheme, data) => {
 
 
         if (key === "animationsNames") {
-            if (!data.animationsNames) mess.push('not animationsNames')
-            else if (!data.animationsNames.length === 0) mess.push('not animationsNames')
-            else newData[key] = data[key]
+            if (!data.animationsNames) {
+                mess.push('not animationsNames')
+            } else if (data.animationsNames.length === 0) {
+                mess.push('not animationsNames')
+            } else {
+                let isHasAnimations = false
+
+                for (let i = 0; i < data.animationsNames.length; i++) {
+                    (data.animationsNames[i] !== null && data.animationsNames[i] !== '') && (isHasAnimations = true)
+                }
+
+                if (isHasAnimations) {
+                    newData[key] = data[key]
+                } else {
+                    mess.push('not animationsNames')
+                }
+            }
         }
 
         if (key === "armatureName") {
@@ -125,29 +161,10 @@ const prepareNewData = (scheme, data) => {
         }
 
         if (key === "files") {
-            if (!data.files) {
-                mess.push('no files')
-            } else if (data.files.length === 0) {
-                mess.push('no files')
-            } else {
-                newData.files = []
-
-                for (let i = 0; i < scheme['files'].length; i++) {
-                    if (!data.files[i]['type-file']) {
-                        mess.push('no type-file')
-                    }
-
-                    if (!data.files[i]['file']) {
-                        mess.push('no file item')
-                    }
-
-                    newData['files'].push({
-                        'type-file': data.files[i]['type-file'],
-                        'file': data.files[i]['file']
-                    })
-                }
-            }
+            newData.files = {}
         }
     }
+
+    //console.log('!!!', data)
     return { newData, mess }
 }

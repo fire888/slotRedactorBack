@@ -5,21 +5,9 @@
     "name": "scatter",
     "armatureName": "armature",
     "animationsNames": ["down", "up", "win"],
-    "files": [
-        {
-          "type-file": "dragon-ske",
-          "path": "././",
-          "name": "aaaa.json"
-        },
-        {
-          "type-file": "dragon-tex",
-          "path": "././",
-          "name": "bbb.json"
-        },
-        {
-          "type-file": "dragon-img",
-          "path": "././",
-          "name": "bbb.png"
-        }
-    ]
+    "files": {
+      "dragon-ske": {},
+      "dragon-tex": {},
+      "dragon-img": {}
+    }
 }

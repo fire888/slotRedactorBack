@@ -1,23 +1,54 @@
 var express = require("express");
-//var baseApi = require("./base/baseApi")
 var dragonBonesBaseApi = require("./base/dragonBonesSlots/dragonBonesBaseApi")
 var bodyParser = require('body-parser')
 var cors = require('cors')
+const multer = require("multer");
+var fs = require('fs');
+
+
+/** saver files *****************************/
+
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        //console.log(req.body);
+
+        const dir = `uploads/${req.body.id}`
+        fs.exists(dir, exist => {
+            if (!exist) {
+                fs.mkdir(dir, error => cb(error, dir))
+                return cb(null, dir)
+            } else {
+                return cb(null, dir)
+            }
+        })
+    },
+    filename: function (req, file, cb) {
+        cb(null, file.originalname)
+    }
+})
+const upload = multer({ storage });
 
 
 
-//var IP = '192.168.0.101'
-var IP = '192.168.10.2' // home
+
+/** app ******************************************/
+
+var IP = '192.168.0.101' // work
+//var IP = '192.168.10.2' // home
 var PORT = 3010
 
 var app = express();
 var http = require('http').Server(app);
-app.use(express.static('www'))
+app.use(express.static('uploads'))
 app.use(cors(/*{ origin: ['http://192.168.0.101:9000'] }*/));
 app.use(bodyParser.json())
 
 
+
+/** routers **************************************/
+
 app.post('/api/add-item', (req, res) => {
+    //console.log('===', req.body)
     dragonBonesBaseApi.saveToBase(req.body, mess => {
         res.json({ mess })
     })
@@ -25,8 +56,8 @@ app.post('/api/add-item', (req, res) => {
 
 
 app.post('/api/remove-item', (req, res) => {
-    dragonBonesBaseApi.removeFromBase(req.body, list => {
-        res.json({ list })
+    dragonBonesBaseApi.removeFromBase(req.body, () => {
+        res.json({})
     })
 })
 
@@ -43,6 +74,13 @@ app.post('/api/get-list', (req, res) => {
         res.json({ list })
     })
 })
+
+
+app.post("/api/upload-file", upload.single("file"), (req, res) => {
+    dragonBonesBaseApi.addFile(req.body, req.file, mess => {
+        res.json({ mess });
+    })
+});
 
 
 app.listen(PORT, IP)
