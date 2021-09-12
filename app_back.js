@@ -33,15 +33,15 @@ const upload = multer({ storage });
 
 /** app ******************************************/
 
-var IP = '192.168.0.101' // work
-//var IP = '192.168.10.2' // home
+//var IP = '192.168.0.101' // work
+var IP = '192.168.10.2' // home
 var PORT = 3010
 
 var app = express();
 var http = require('http').Server(app);
 app.use(express.static('uploads'))
-app.use(cors(/*{ origin: ['http://192.168.0.101:9000'] }*/));
 app.use(bodyParser.json())
+app.use(cors({ origin: 'http://192.168.10.2:9000' }/*{ origin: ['http://192.168.0.101:9000'] }*/));
 
 
 
