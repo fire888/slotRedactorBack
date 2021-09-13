@@ -10,7 +10,6 @@ var fs = require('fs');
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        //console.log(req.body);
 
         const dir = `uploads/${req.body.id}`
         fs.exists(dir, exist => {
@@ -45,7 +44,6 @@ app.use(cors({ origin: 'http://192.168.10.2:9000' }/*{ origin: ['http://192.168.
 /** routers **************************************/
 
 app.post('/api/add-item', (req, res) => {
-    console.log('add-item', req.body)
     dragonBonesBaseApi.createItem(req.body, mess => {
         res.json({ mess })
     })

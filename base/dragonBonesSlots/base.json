@@ -4,12 +4,13 @@
             "id": "ktik353t",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "sphere01",
+            "name": "sphere",
             "armatureName": "sun_arm",
             "animationsNames": [
                 "sun_idle",
                 "sun_show",
-                "sun_basic"
+                "sun_basic",
+                ""
             ],
             "files": {
                 "dragon-ske": {
@@ -28,6 +29,69 @@
                     "fileKey": "dragon-img_ktik353t"
                 }
             }
+        },
+        {
+            "id": "ktixho07",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "scatter",
+            "armatureName": "Armature02",
+            "animationsNames": [
+                "scatter_on"
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "ktixho07",
+                    "name": "scatter_ske.json",
+                    "fileKey": "dragon-ske_ktixho07"
+                },
+                "dragon-tex": {
+                    "path": "ktixho07",
+                    "name": "scatter_tex.json",
+                    "fileKey": "dragon-tex_ktixho07"
+                },
+                "dragon-img": {
+                    "path": "ktixho07",
+                    "name": "scatter_tex.png",
+                    "fileKey": "dragon-img_ktixho07"
+                }
+            }
+        },
+        {
+            "id": "ktiy032v",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "wild",
+            "armatureName": "",
+            "animationsNames": [],
+            "files": {}
+        },
+        {
+            "id": "ktiy3iuv",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "01",
+            "armatureName": "",
+            "animationsNames": [],
+            "files": {}
+        },
+        {
+            "id": "ktiy64ll",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "02",
+            "armatureName": "",
+            "animationsNames": [],
+            "files": {}
+        },
+        {
+            "id": "ktiy6l75",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "03",
+            "armatureName": "",
+            "animationsNames": [],
+            "files": {}
         }
     ]
 }

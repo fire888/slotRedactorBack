@@ -90,12 +90,14 @@ exports.addFile = function (reqBody, fileData, callback) {
 
         for (let i = 0; i < currentContentBase['items'].length; i++) {
             if (currentContentBase['items'][i].id === reqBody.id) {
-                console.log('!!!', currentContentBase['items'][i].files)
+
                 currentContentBase['items'][i].files[reqBody.type] = {
                     path: reqBody.id,
                     name: fileData.originalname,
                     fileKey: reqBody.fileKey,
                 }
+
+                console.log('!!!', currentContentBase['items'][i].files)
             }
         }
         fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
