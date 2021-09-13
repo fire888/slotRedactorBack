@@ -45,8 +45,8 @@ app.use(cors({ origin: 'http://192.168.10.2:9000' }/*{ origin: ['http://192.168.
 /** routers **************************************/
 
 app.post('/api/add-item', (req, res) => {
-    //console.log('===', req.body)
-    dragonBonesBaseApi.saveToBase(req.body, mess => {
+    console.log('add-item', req.body)
+    dragonBonesBaseApi.createItem(req.body, mess => {
         res.json({ mess })
     })
 })
@@ -82,8 +82,8 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 
 /** start  ******************************************/
 
-//var IP = '192.168.0.101' // work
-var IP = '192.168.10.2' // home
+var IP = '192.168.0.101' // work
+//var IP = '192.168.10.2' // home
 var PORT = 3010
 app.listen(PORT, IP)
 console.log("listen: " + IP + ":" + PORT)

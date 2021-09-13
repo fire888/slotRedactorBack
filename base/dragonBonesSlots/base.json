@@ -1,10 +1,10 @@
 {
     "items": [
         {
-            "id": "kthhlqaw",
+            "id": "ktik353t",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "sphere",
+            "name": "sphere01",
             "armatureName": "sun_arm",
             "animationsNames": [
                 "sun_idle",
@@ -13,16 +13,19 @@
             ],
             "files": {
                 "dragon-ske": {
-                    "path": "kthhlqaw",
-                    "name": "sun_ske.json"
+                    "path": "ktik353t",
+                    "name": "sun_ske.json",
+                    "fileKey": "dragon-ske_ktik353t"
                 },
                 "dragon-tex": {
-                    "path": "kthhlqaw",
-                    "name": "sun_tex.json"
+                    "path": "ktik353t",
+                    "name": "sun_tex.json",
+                    "fileKey": "dragon-tex_ktik353t"
                 },
                 "dragon-img": {
-                    "path": "kthhlqaw",
-                    "name": "sun_tex.png"
+                    "path": "ktik353t",
+                    "name": "sun_tex.png",
+                    "fileKey": "dragon-img_ktik353t"
                 }
             }
         }

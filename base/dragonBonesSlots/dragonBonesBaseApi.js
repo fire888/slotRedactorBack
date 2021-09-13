@@ -6,7 +6,7 @@ var baseScheme = './base/dragonBonesSlots/scheme.json'
 
 
 
-exports.saveToBase = function (data, callback) {
+exports.createItem = function (data, callback) {
     fs.readFile(baseScheme, 'utf8', function (err, fileScheme) {
         if (err) {
             return console.log(err);
@@ -19,13 +19,9 @@ exports.saveToBase = function (data, callback) {
             const currentScheme = JSON.parse(fileScheme)
             const { mess, newData } = prepareNewData(currentScheme, data)
 
-            if (!mess.length) {
-                currentContentBase['items'].push(newData)
-                fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
-                callback(['success'])
-            } else {
-                callback(mess)
-            }
+            currentContentBase['items'].push(newData)
+            fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
+            callback(mess.push('success'))
         })
     })
 }
@@ -85,7 +81,7 @@ exports.getList = function (data, callback) {
 }
 
 
-exports.addFile = function (data, fileData, callback) {
+exports.addFile = function (reqBody, fileData, callback) {
     fs.readFile(baseFileName, 'utf8', function (err, fileBase) {
         if (err) {
             return console.log(err);
@@ -93,8 +89,13 @@ exports.addFile = function (data, fileData, callback) {
         const currentContentBase = JSON.parse(fileBase)
 
         for (let i = 0; i < currentContentBase['items'].length; i++) {
-            if (currentContentBase['items'][i].id === data.id) {
-                currentContentBase['items'][i].files[data.type] = { path: data.id, name: fileData.originalname }
+            if (currentContentBase['items'][i].id === reqBody.id) {
+                console.log('!!!', currentContentBase['items'][i].files)
+                currentContentBase['items'][i].files[reqBody.type] = {
+                    path: reqBody.id,
+                    name: fileData.originalname,
+                    fileKey: reqBody.fileKey,
+                }
             }
         }
         fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
@@ -115,7 +116,6 @@ const prepareNewData = (scheme, data) => {
             } else {
                 newData[key] = data.id
             }
-
         }
 
         if (key === "typeExec") {
@@ -134,7 +134,7 @@ const prepareNewData = (scheme, data) => {
 
         if (key === "animationsNames") {
             if (!data.animationsNames) {
-                mess.push('not animationsNames')
+                newData.animationsNames = []
             } else if (data.animationsNames.length === 0) {
                 mess.push('not animationsNames')
             } else {
@@ -155,13 +155,20 @@ const prepareNewData = (scheme, data) => {
         if (key === "armatureName") {
             if (!data.armatureName) {
                 mess.push('not armatureName')
+                newData.armatureName = ""
             } else {
                 newData[key] = data[key]
             }
         }
 
         if (key === "files") {
-            newData.files = data.files
+            if (!data.files) {
+                newData.files = {}
+            } else {
+                newData.files = data.files
+            }
+
+
         }
     }
     return { newData, mess }
