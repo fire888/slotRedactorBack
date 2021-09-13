@@ -37,7 +37,8 @@
             "name": "scatter",
             "armatureName": "Armature02",
             "animationsNames": [
-                "scatter_on"
+                "scatter_on",
+                "scatter_stop"
             ],
             "files": {
                 "dragon-ske": {
@@ -58,40 +59,31 @@
             }
         },
         {
-            "id": "ktiy032v",
+            "id": "ktj85efw",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "wild",
-            "armatureName": "",
-            "animationsNames": [],
-            "files": {}
-        },
-        {
-            "id": "ktiy3iuv",
-            "typeExec": "dragonBones",
-            "typeView": "slot-item",
-            "name": "01",
-            "armatureName": "",
-            "animationsNames": [],
-            "files": {}
-        },
-        {
-            "id": "ktiy64ll",
-            "typeExec": "dragonBones",
-            "typeView": "slot-item",
-            "name": "02",
-            "armatureName": "",
-            "animationsNames": [],
-            "files": {}
-        },
-        {
-            "id": "ktiy6l75",
-            "typeExec": "dragonBones",
-            "typeView": "slot-item",
-            "name": "03",
-            "armatureName": "",
-            "animationsNames": [],
-            "files": {}
+            "name": "w",
+            "armatureName": "wild_arm",
+            "animationsNames": [
+                "wild_normal_big"
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "ktj85efw",
+                    "name": "wild_ske.json",
+                    "fileKey": "dragon-ske_ktj85efw"
+                },
+                "dragon-tex": {
+                    "path": "ktj85efw",
+                    "name": "wild_tex.json",
+                    "fileKey": "dragon-tex_ktj85efw"
+                },
+                "dragon-img": {
+                    "path": "ktj85efw",
+                    "name": "wild_tex.png",
+                    "fileKey": "dragon-img_ktj85efw"
+                }
+            }
         }
     ]
 }
