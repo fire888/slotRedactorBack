@@ -9,7 +9,8 @@
             "animationsNames": [
                 "sun_idle",
                 "sun_show",
-                "sun_basic"
+                "sun_basic",
+                ""
             ],
             "files": {
                 "dragon-ske": {
@@ -62,6 +63,12 @@
             "typeView": "slot-item",
             "name": "book",
             "armatureName": "Armature02",
+            "animationsNames": [
+                null,
+                null,
+                null,
+                null
+            ],
             "files": {
                 "dragon-ske": {
                     "path": "files/ktkjt50m",
@@ -79,6 +86,108 @@
                     "fileKey": "dragon-img_ktkjt50m"
                 }
             }
+        },
+        {
+            "id": "ktklf2d4",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "sun2",
+            "armatureName": "sun_arm",
+            "animationsNames": [
+                null,
+                null,
+                null,
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/ktklf2d4",
+                    "name": "sun_ske.json",
+                    "fileKey": "dragon-ske_ktklf2d4"
+                },
+                "dragon-tex": {
+                    "path": "files/ktklf2d4",
+                    "name": "sun_tex.json",
+                    "fileKey": "dragon-tex_ktklf2d4"
+                },
+                "dragon-img": {
+                    "path": "files/ktklf2d4",
+                    "name": "sun_tex.png",
+                    "fileKey": "dragon-img_ktklf2d4"
+                }
+            }
+        },
+        {
+            "id": "ktklm9pm",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "aaa",
+            "armatureName": "",
+            "animationsNames": [
+                "",
+                null,
+                null,
+                "bbbbb"
+            ],
+            "files": {}
+        },
+        {
+            "id": "ktklpeuv",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "bbbb",
+            "armatureName": "",
+            "files": {}
+        },
+        {
+            "id": "ktkm4kzn",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "aaa",
+            "armatureName": "",
+            "animationsNames": [
+                "aaa",
+                "bbb",
+                null,
+                null
+            ],
+            "files": {}
+        },
+        {
+            "id": "ktkmbb02",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "mmmm",
+            "armatureName": "mmm",
+            "animationsNames": [
+                "jjjjjjjjjjj",
+                "jjjjj",
+                "jjjjj",
+                "jjjj"
+            ],
+            "files": {}
+        },
+        {
+            "id": "ktkmlb4u",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "mmm",
+            "armatureName": "ghgg",
+            "files": {}
+        },
+        {
+            "id": "ktkmrjcy",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "zzz",
+            "armatureName": "zzzzz",
+            "animationsNames": [
+                "zzzzzzzz",
+                "zzzzzzzzz",
+                null,
+                "zzzzzzz"
+            ],
+            "files": {}
         }
     ]
 }

@@ -22,7 +22,8 @@ exports.createItem = function (data, callback) {
 
             currentContentBase['items'].push(newData)
             fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
-            callback(mess.push('success'))
+            mess.push('saved')
+            callback(mess)
         })
     })
 }
@@ -37,7 +38,7 @@ exports.removeFromBase = function (data, callback) {
 
         currentContentBase['items'] = currentContentBase['items'].filter(item => item.id !== data.id)
         fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
-        callback()
+        callback(['removed'])
     })
 }
 
@@ -100,8 +101,9 @@ exports.addFile = function (reqBody, fileData, path, callback) {
                 }
             }
         }
+        
         fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
-        callback(['success'])
+        callback([fileData.originalname + 'loaded'])
     })
 }
 

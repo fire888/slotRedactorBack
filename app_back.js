@@ -67,8 +67,8 @@ app.post('/api/add-item', (req, res) => {
 
 app.post('/api/remove-item', (req, res) => {
     removeFiles(req.body.id)
-    dragonBonesBaseApi.removeFromBase(req.body, () => {
-        res.json({})
+    dragonBonesBaseApi.removeFromBase(req.body, mess => {
+        res.json({ mess })
     })
 })
 
