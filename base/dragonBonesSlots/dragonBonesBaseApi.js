@@ -55,17 +55,18 @@ exports.editItem = function (data, callback) {
             const currentScheme = JSON.parse(fileScheme)
             const { mess, newData } = prepareNewData(currentScheme, data)
 
-            if (!mess.length) {
-                for (let i = 0; i < currentContentBase['items'].length; i++) {
-                    if (currentContentBase['items'][i].id === data.id) {
-                        currentContentBase['items'][i] = newData
-                    }
+            for (let i = 0; i < currentContentBase['items'].length; i++) {
+                if (currentContentBase['items'][i].id === data.id) {
+                    currentContentBase['items'][i] = newData
                 }
-                fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
-                callback(['success'])
-            } else {
-                callback(mess)
             }
+            fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4), err => {
+                if (err) {
+                    console.log(err)                            
+                }
+                mess.push('saved')
+                callback(mess) 
+            })
         })
     })
 }
@@ -135,8 +136,9 @@ const prepareNewData = (scheme, data) => {
 
         if (key === "animationsNames") {
             if (!data.animationsNames) {
-                newData.animationsNames = []
+                newData.animationsNames = [null, null, null, null]
             } else if (data.animationsNames.length === 0) {
+                newData.animationsNames = [null, null, null, null]
                 mess.push('not animationsNames')
             } else {
                 let isHasAnimations = false
@@ -168,8 +170,6 @@ const prepareNewData = (scheme, data) => {
             } else {
                 newData.files = data.files
             }
-
-
         }
     }
     return { newData, mess }

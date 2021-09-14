@@ -1,3 +1,84 @@
 {
-    "items": []
+    "items": [
+        {
+            "id": "ktkht7tw",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "www",
+            "armatureName": "sun_arm",
+            "animationsNames": [
+                "sun_idle",
+                "sun_show",
+                "sun_basic"
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/ktkht7tw",
+                    "name": "sun_ske.json",
+                    "fileKey": "dragon-ske_ktkht7tw"
+                },
+                "dragon-tex": {
+                    "path": "files/ktkht7tw",
+                    "name": "sun_tex.json",
+                    "fileKey": "dragon-tex_ktkht7tw"
+                },
+                "dragon-img": {
+                    "path": "files/ktkht7tw",
+                    "name": "sun_tex.png",
+                    "fileKey": "dragon-img_ktkht7tw"
+                }
+            }
+        },
+        {
+            "id": "ktkjnr5d",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "wild",
+            "armatureName": "wild_arm",
+            "animationsNames": [
+                "wild_normal_big"
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/ktkjnr5d",
+                    "name": "wild_ske.json",
+                    "fileKey": "dragon-ske_ktkjnr5d"
+                },
+                "dragon-tex": {
+                    "path": "files/ktkjnr5d",
+                    "name": "wild_tex.json",
+                    "fileKey": "dragon-tex_ktkjnr5d"
+                },
+                "dragon-img": {
+                    "path": "files/ktkjnr5d",
+                    "name": "wild_tex.png",
+                    "fileKey": "dragon-img_ktkjnr5d"
+                }
+            }
+        },
+        {
+            "id": "ktkjt50m",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "book",
+            "armatureName": "Armature02",
+            "files": {
+                "dragon-ske": {
+                    "path": "files/ktkjt50m",
+                    "name": "scatter_ske.json",
+                    "fileKey": "dragon-ske_ktkjt50m"
+                },
+                "dragon-tex": {
+                    "path": "files/ktkjt50m",
+                    "name": "scatter_tex.json",
+                    "fileKey": "dragon-tex_ktkjt50m"
+                },
+                "dragon-img": {
+                    "path": "files/ktkjt50m",
+                    "name": "scatter_tex.png",
+                    "fileKey": "dragon-img_ktkjt50m"
+                }
+            }
+        }
+    ]
 }
