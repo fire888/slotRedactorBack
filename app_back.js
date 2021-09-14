@@ -8,14 +8,21 @@ var fs = require('fs');
 
 /** saver files *****************************/
 
+const FILES_DIR = 'uploads/files'
+
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
 
-        const dir = `uploads/${req.body.id}`
+        const dir = `${FILES_DIR}/${req.body.id}`
         fs.exists(dir, exist => {
             if (!exist) {
-                fs.mkdir(dir, error => cb(error, dir))
-                return cb(null, dir)
+                fs.mkdir(dir, error => {
+                    if (error) {
+                        console.log(error)
+                    } else {
+                        cb(null, dir)
+                    }
+                })
             } else {
                 return cb(null, dir)
             }
@@ -25,8 +32,16 @@ const storage = multer.diskStorage({
         cb(null, file.originalname)
     }
 })
+
 const upload = multer({ storage });
 
+const removeFiles = (id) => {
+    fs.rmdirSync(`${FILES_DIR}/${id}`, { recursive: true }, err => {
+        if (err) {
+            console.log(err)
+        }
+    });
+}
 
 
 
@@ -51,6 +66,7 @@ app.post('/api/add-item', (req, res) => {
 
 
 app.post('/api/remove-item', (req, res) => {
+    removeFiles(req.body.id)
     dragonBonesBaseApi.removeFromBase(req.body, () => {
         res.json({})
     })
@@ -72,7 +88,7 @@ app.post('/api/get-list', (req, res) => {
 
 
 app.post("/api/upload-file", upload.single("file"), (req, res) => {
-    dragonBonesBaseApi.addFile(req.body, req.file, mess => {
+    dragonBonesBaseApi.addFile(req.body, req.file, 'files/', mess => {
         res.json({ mess });
     })
 });
@@ -80,8 +96,8 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 
 /** start  ******************************************/
 
-//var IP = '192.168.0.101' // work
-var IP = '192.168.10.2' // home
+var IP = '192.168.0.101' // work
+// var IP = '192.168.10.2' // home
 var PORT = 3010
 app.listen(PORT, IP)
 console.log("listen: " + IP + ":" + PORT)

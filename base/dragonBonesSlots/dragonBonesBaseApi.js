@@ -1,4 +1,5 @@
 var fs = require('fs');
+var FILES_DIR = require('../../app_back')
 
 var baseFileName = './base/dragonBonesSlots/base.json'
 var baseScheme = './base/dragonBonesSlots/scheme.json'
@@ -81,7 +82,7 @@ exports.getList = function (data, callback) {
 }
 
 
-exports.addFile = function (reqBody, fileData, callback) {
+exports.addFile = function (reqBody, fileData, path, callback) {
     fs.readFile(baseFileName, 'utf8', function (err, fileBase) {
         if (err) {
             return console.log(err);
@@ -92,12 +93,10 @@ exports.addFile = function (reqBody, fileData, callback) {
             if (currentContentBase['items'][i].id === reqBody.id) {
 
                 currentContentBase['items'][i].files[reqBody.type] = {
-                    path: reqBody.id,
+                    path: path + reqBody.id,
                     name: fileData.originalname,
                     fileKey: reqBody.fileKey,
                 }
-
-                console.log('!!!', currentContentBase['items'][i].files)
             }
         }
         fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
