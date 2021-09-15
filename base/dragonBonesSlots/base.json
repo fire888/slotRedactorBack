@@ -58,136 +58,162 @@
             }
         },
         {
-            "id": "ktkjt50m",
+            "id": "ktlazkel",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "book",
-            "armatureName": "Armature02",
+            "name": "ball",
+            "armatureName": "ball_Armature",
             "animationsNames": [
-                null,
+                "ball_cycle",
                 null,
                 null,
                 null
             ],
             "files": {
                 "dragon-ske": {
-                    "path": "files/ktkjt50m",
-                    "name": "scatter_ske.json",
-                    "fileKey": "dragon-ske_ktkjt50m"
+                    "path": "files/ktlazkel",
+                    "name": "sunball_ske.json",
+                    "fileKey": "dragon-ske_ktlazkel"
                 },
                 "dragon-tex": {
-                    "path": "files/ktkjt50m",
-                    "name": "scatter_tex.json",
-                    "fileKey": "dragon-tex_ktkjt50m"
+                    "path": "files/ktlazkel",
+                    "name": "sunball_tex.json",
+                    "fileKey": "dragon-tex_ktlazkel"
                 },
                 "dragon-img": {
-                    "path": "files/ktkjt50m",
-                    "name": "scatter_tex.png",
-                    "fileKey": "dragon-img_ktkjt50m"
+                    "path": "files/ktlazkel",
+                    "name": "sunball_tex.png",
+                    "fileKey": "dragon-img_ktlazkel"
                 }
             }
         },
         {
-            "id": "ktklf2d4",
+            "id": "ktlb3tpi",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "sun2",
-            "armatureName": "sun_arm",
+            "name": "ball2",
+            "armatureName": "ball_Armature",
             "animationsNames": [
+                "ball_stop",
                 null,
+                null,
+                null
+            ],
+            "files": {}
+        },
+        {
+            "id": "ktlb74k5",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "ball3",
+            "armatureName": "ball_Armature",
+            "files": {
+                "dragon-ske": {
+                    "path": "files/ktlb74k5",
+                    "name": "sunball_ske.json",
+                    "fileKey": "dragon-ske_ktlb74k5"
+                },
+                "dragon-tex": {
+                    "path": "files/ktlb74k5",
+                    "name": "sunball_tex.json",
+                    "fileKey": "dragon-tex_ktlb74k5"
+                },
+                "dragon-img": {
+                    "path": "files/ktlb74k5",
+                    "name": "sunball_tex.png",
+                    "fileKey": "dragon-img_ktlb74k5"
+                }
+            }
+        },
+        {
+            "id": "ktlss4zc",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "sova1",
+            "armatureName": "owl_arm",
+            "animationsNames": [
+                "owl_anim",
                 null,
                 null,
                 null
             ],
             "files": {
                 "dragon-ske": {
-                    "path": "files/ktklf2d4",
-                    "name": "sun_ske.json",
-                    "fileKey": "dragon-ske_ktklf2d4"
+                    "path": "files/ktlss4zc",
+                    "name": "owl_ske.json",
+                    "fileKey": "dragon-ske_ktlss4zc"
                 },
                 "dragon-tex": {
-                    "path": "files/ktklf2d4",
-                    "name": "sun_tex.json",
-                    "fileKey": "dragon-tex_ktklf2d4"
+                    "path": "files/ktlss4zc",
+                    "name": "owl_tex.json",
+                    "fileKey": "dragon-tex_ktlss4zc"
                 },
                 "dragon-img": {
-                    "path": "files/ktklf2d4",
-                    "name": "sun_tex.png",
-                    "fileKey": "dragon-img_ktklf2d4"
+                    "path": "files/ktlss4zc",
+                    "name": "owl_tex.png",
+                    "fileKey": "dragon-img_ktlss4zc"
                 }
             }
         },
         {
-            "id": "ktklm9pm",
+            "id": "ktlstayf",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "aaa",
-            "armatureName": "",
+            "name": "sova2",
+            "armatureName": "owl_arm",
             "animationsNames": [
-                "",
+                "owl_anim",
                 null,
-                null,
-                "bbbbb"
-            ],
-            "files": {}
-        },
-        {
-            "id": "ktklpeuv",
-            "typeExec": "dragonBones",
-            "typeView": "slot-item",
-            "name": "bbbb",
-            "armatureName": "",
-            "files": {}
-        },
-        {
-            "id": "ktkm4kzn",
-            "typeExec": "dragonBones",
-            "typeView": "slot-item",
-            "name": "aaa",
-            "armatureName": "",
-            "animationsNames": [
-                "aaa",
-                "bbb",
                 null,
                 null
             ],
-            "files": {}
+            "files": {
+                "dragon-ske": {
+                    "path": "files/ktlstayf",
+                    "name": "owl_ske.json",
+                    "fileKey": "dragon-ske_ktlstayf"
+                },
+                "dragon-tex": {
+                    "path": "files/ktlstayf",
+                    "name": "owl_tex.json",
+                    "fileKey": "dragon-tex_ktlstayf"
+                },
+                "dragon-img": {
+                    "path": "files/ktlstayf",
+                    "name": "owl_tex.png",
+                    "fileKey": "dragon-img_ktlstayf"
+                }
+            }
         },
         {
-            "id": "ktkmbb02",
+            "id": "ktlsxm6h",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "mmmm",
-            "armatureName": "mmm",
+            "name": "sova3",
+            "armatureName": "owl_arm",
             "animationsNames": [
-                "jjjjjjjjjjj",
-                "jjjjj",
-                "jjjjj",
-                "jjjj"
-            ],
-            "files": {}
-        },
-        {
-            "id": "ktkmlb4u",
-            "typeExec": "dragonBones",
-            "typeView": "slot-item",
-            "name": "mmm",
-            "armatureName": "ghgg",
-            "files": {}
-        },
-        {
-            "id": "ktkmrjcy",
-            "typeExec": "dragonBones",
-            "typeView": "slot-item",
-            "name": "zzz",
-            "armatureName": "zzzzz",
-            "animationsNames": [
-                "zzzzzzzz",
-                "zzzzzzzzz",
+                "owl_anim",
                 null,
-                "zzzzzzz"
+                null,
+                null
             ],
-            "files": {}
+            "files": {
+                "dragon-ske": {
+                    "path": "files/ktlsxm6h",
+                    "name": "owl_ske.json",
+                    "fileKey": "dragon-ske_ktlsxm6h"
+                },
+                "dragon-tex": {
+                    "path": "files/ktlsxm6h",
+                    "name": "owl_tex.json",
+                    "fileKey": "dragon-tex_ktlsxm6h"
+                },
+                "dragon-img": {
+                    "path": "files/ktlsxm6h",
+                    "name": "owl_tex.png",
+                    "fileKey": "dragon-img_ktlsxm6h"
+                }
+            }
         }
     ]
 }
