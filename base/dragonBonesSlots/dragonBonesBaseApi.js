@@ -87,6 +87,7 @@ exports.getList = function (data, callback) {
 exports.addFile = function (reqBody, fileData, path, callback) {
     fs.readFile(baseFileName, 'utf8', function (err, fileBase) {
         if (err) {
+            callback(['wrong'])
             return console.log(err);
         }
         const currentContentBase = JSON.parse(fileBase)
@@ -103,7 +104,7 @@ exports.addFile = function (reqBody, fileData, path, callback) {
         }
         
         fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
-        callback([fileData.originalname + 'loaded'])
+        callback(['loaded', fileData.originalname])
     })
 }
 
