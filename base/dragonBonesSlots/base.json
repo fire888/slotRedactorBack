@@ -1,121 +1,370 @@
 {
     "items": [
         {
-            "id": "ktkht7tw",
+            "id": "kto44t6y",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "www",
-            "armatureName": "sun_arm",
+            "name": "book_skatter_01",
+            "armatureName": "Armature",
             "animationsNames": [
-                "sun_idle",
-                "sun_show",
-                "sun_basic",
-                ""
+                "animtion0",
+                null,
+                null,
+                null
             ],
             "files": {
                 "dragon-ske": {
-                    "path": "files/ktkht7tw",
-                    "name": "sun_ske.json",
-                    "fileKey": "dragon-ske_ktkht7tw"
+                    "path": "files/kto44t6y",
+                    "name": "scatter_ske.json",
+                    "fileKey": "dragon-ske_kto44t6y"
                 },
                 "dragon-tex": {
-                    "path": "files/ktkht7tw",
-                    "name": "sun_tex.json",
-                    "fileKey": "dragon-tex_ktkht7tw"
+                    "path": "files/kto44t6y",
+                    "name": "scatter_tex.json",
+                    "fileKey": "dragon-tex_kto44t6y"
                 },
                 "dragon-img": {
-                    "path": "files/ktkht7tw",
-                    "name": "sun_tex.png",
-                    "fileKey": "dragon-img_ktkht7tw"
+                    "path": "files/kto44t6y",
+                    "name": "scatter_tex.png",
+                    "fileKey": "dragon-img_kto44t6y"
                 }
             }
         },
         {
-            "id": "ktkjnr5d",
+            "id": "kto4gaex",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "wild",
+            "name": "book_skatter_02",
+            "armatureName": "Armature",
+            "animationsNames": [
+                "animtion0",
+                null,
+                null,
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/kto4gaex",
+                    "name": "scatter2_ske.json",
+                    "fileKey": "dragon-ske_kto4gaex"
+                },
+                "dragon-tex": {
+                    "path": "files/kto4gaex",
+                    "name": "scatter2_tex.json",
+                    "fileKey": "dragon-tex_kto4gaex"
+                },
+                "dragon-img": {
+                    "path": "files/kto4gaex",
+                    "name": "scatter2_tex.png",
+                    "fileKey": "dragon-img_kto4gaex"
+                }
+            }
+        },
+        {
+            "id": "kto4r2aq",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "book_skatter_03",
+            "armatureName": "Armature",
+            "animationsNames": [
+                "animtion0",
+                null,
+                null,
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/kto4r2aq",
+                    "name": "scatter_ske.json",
+                    "fileKey": "dragon-ske_kto4r2aq"
+                },
+                "dragon-tex": {
+                    "path": "files/kto4r2aq",
+                    "name": "scatter_tex.json",
+                    "fileKey": "dragon-tex_kto4r2aq"
+                },
+                "dragon-img": {
+                    "path": "files/kto4r2aq",
+                    "name": "scatter_tex.png",
+                    "fileKey": "dragon-img_kto4r2aq"
+                }
+            }
+        },
+        {
+            "id": "kto4x48w",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "booh_skatter_04",
+            "armatureName": "Armature",
+            "animationsNames": [
+                "scatter_stop",
+                "scatter_on",
+                null,
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/kto4x48w",
+                    "name": "scatter_ske.json",
+                    "fileKey": "dragon-ske_kto4x48w"
+                },
+                "dragon-tex": {
+                    "path": "files/kto4x48w",
+                    "name": "scatter_tex.json",
+                    "fileKey": "dragon-tex_kto4x48w"
+                },
+                "dragon-img": {
+                    "path": "files/kto4x48w",
+                    "name": "scatter_tex.png",
+                    "fileKey": "dragon-img_kto4x48w"
+                }
+            }
+        },
+        {
+            "id": "kto54fep",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "wizard_wild_01_EFFECTS",
             "armatureName": "wild_arm",
             "animationsNames": [
-                "wild_normal_big"
+                "wild_normal_small",
+                "wild_normal_big",
+                "wild_freespin_small",
+                "wild_freespin_big"
             ],
             "files": {
                 "dragon-ske": {
-                    "path": "files/ktkjnr5d",
+                    "path": "files/kto54fep",
                     "name": "wild_ske.json",
-                    "fileKey": "dragon-ske_ktkjnr5d"
+                    "fileKey": "dragon-ske_kto54fep"
                 },
                 "dragon-tex": {
-                    "path": "files/ktkjnr5d",
+                    "path": "files/kto54fep",
                     "name": "wild_tex.json",
-                    "fileKey": "dragon-tex_ktkjnr5d"
+                    "fileKey": "dragon-tex_kto54fep"
                 },
                 "dragon-img": {
-                    "path": "files/ktkjnr5d",
+                    "path": "files/kto54fep",
                     "name": "wild_tex.png",
-                    "fileKey": "dragon-img_ktkjnr5d"
+                    "fileKey": "dragon-img_kto54fep"
                 }
             }
         },
         {
-            "id": "ktlazkel",
+            "id": "kto5c9uy",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "ball",
+            "name": "wizard_wild_02",
+            "armatureName": "wild_arm",
+            "animationsNames": [
+                "wild_normal_small",
+                "wild_normal_big",
+                "wild_freespin_small",
+                "wild_freespin_big"
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/kto5c9uy",
+                    "name": "wild_ske.json",
+                    "fileKey": "dragon-ske_kto5c9uy"
+                },
+                "dragon-tex": {
+                    "path": "files/kto5c9uy",
+                    "name": "wild_tex.json",
+                    "fileKey": "dragon-tex_kto5c9uy"
+                },
+                "dragon-img": {
+                    "path": "files/kto5c9uy",
+                    "name": "wild_tex.png",
+                    "fileKey": "dragon-img_kto5c9uy"
+                }
+            }
+        },
+        {
+            "id": "kto5gm1l",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "sphere_bonus_01",
+            "armatureName": "sun_arm",
+            "animationsNames": [
+                "sun_basic",
+                null,
+                null,
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/kto5gm1l",
+                    "name": "sun_ske.json",
+                    "fileKey": "dragon-ske_kto5gm1l"
+                },
+                "dragon-tex": {
+                    "path": "files/kto5gm1l",
+                    "name": "sun_tex.json",
+                    "fileKey": "dragon-tex_kto5gm1l"
+                },
+                "dragon-img": {
+                    "path": "files/kto5gm1l",
+                    "name": "sun_tex.png",
+                    "fileKey": "dragon-img_kto5gm1l"
+                }
+            }
+        },
+        {
+            "id": "kto5r9aa",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "sphere_bonus_02",
+            "armatureName": "sun_arm",
+            "animationsNames": [
+                "sun_basic",
+                "sun_show",
+                null,
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/kto5r9aa",
+                    "name": "sun_ske.json",
+                    "fileKey": "dragon-ske_kto5r9aa"
+                },
+                "dragon-tex": {
+                    "path": "files/kto5r9aa",
+                    "name": "sun_tex.json",
+                    "fileKey": "dragon-tex_kto5r9aa"
+                },
+                "dragon-img": {
+                    "path": "files/kto5r9aa",
+                    "name": "sun_tex.png",
+                    "fileKey": "dragon-img_kto5r9aa"
+                }
+            }
+        },
+        {
+            "id": "kto5vy75",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "sphere_bonus_03",
+            "armatureName": "sun_arm",
+            "animationsNames": [
+                "sun_basic",
+                "sun_show",
+                "sun_idle",
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/kto5vy75",
+                    "name": "sun_ske.json",
+                    "fileKey": "dragon-ske_kto5vy75"
+                },
+                "dragon-tex": {
+                    "path": "files/kto5vy75",
+                    "name": "sun_tex.json",
+                    "fileKey": "dragon-tex_kto5vy75"
+                },
+                "dragon-img": {
+                    "path": "files/kto5vy75",
+                    "name": "sun_tex.png",
+                    "fileKey": "dragon-img_kto5vy75"
+                }
+            }
+        },
+        {
+            "id": "kto69cea",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "sphere_bonus_04",
             "armatureName": "ball_Armature",
             "animationsNames": [
+                "ball_stop",
+                "ball_chill",
                 "ball_cycle",
-                null,
-                null,
                 null
             ],
             "files": {
                 "dragon-ske": {
-                    "path": "files/ktlazkel",
+                    "path": "files/kto69cea",
                     "name": "sunball_ske.json",
-                    "fileKey": "dragon-ske_ktlazkel"
+                    "fileKey": "dragon-ske_kto69cea"
                 },
                 "dragon-tex": {
-                    "path": "files/ktlazkel",
+                    "path": "files/kto69cea",
                     "name": "sunball_tex.json",
-                    "fileKey": "dragon-tex_ktlazkel"
+                    "fileKey": "dragon-tex_kto69cea"
                 },
                 "dragon-img": {
-                    "path": "files/ktlazkel",
+                    "path": "files/kto69cea",
                     "name": "sunball_tex.png",
-                    "fileKey": "dragon-img_ktlazkel"
+                    "fileKey": "dragon-img_kto69cea"
                 }
             }
         },
         {
-            "id": "ktlb74k5",
+            "id": "kto6h2c9",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "ball3",
+            "name": "free_intro",
+            "armatureName": "popup_freespins_arm",
+            "animationsNames": [
+                "pfs_cycle",
+                "pfs_hide",
+                "pfs_show",
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/kto6h2c9",
+                    "name": "popup_freespin_01_ske.json",
+                    "fileKey": "dragon-ske_kto6h2c9"
+                },
+                "dragon-tex": {
+                    "path": "files/kto6h2c9",
+                    "name": "popup_freespin_01_tex.json",
+                    "fileKey": "dragon-tex_kto6h2c9"
+                },
+                "dragon-img": {
+                    "path": "files/kto6h2c9",
+                    "name": "popup_freespin_01_tex.png",
+                    "fileKey": "dragon-img_kto6h2c9"
+                }
+            }
+        },
+        {
+            "id": "kto6lr59",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "sphere_bonus_04",
             "armatureName": "ball_Armature",
+            "animationsNames": [
+                "ball_chill",
+                "ball_cycle",
+                "ball_stop",
+                null
+            ],
             "files": {
                 "dragon-ske": {
-                    "path": "files/ktlb74k5",
+                    "path": "files/kto6lr59",
                     "name": "sunball_ske.json",
-                    "fileKey": "dragon-ske_ktlb74k5"
+                    "fileKey": "dragon-ske_kto6lr59"
                 },
                 "dragon-tex": {
-                    "path": "files/ktlb74k5",
+                    "path": "files/kto6lr59",
                     "name": "sunball_tex.json",
-                    "fileKey": "dragon-tex_ktlb74k5"
+                    "fileKey": "dragon-tex_kto6lr59"
                 },
                 "dragon-img": {
-                    "path": "files/ktlb74k5",
+                    "path": "files/kto6lr59",
                     "name": "sunball_tex.png",
-                    "fileKey": "dragon-img_ktlb74k5"
+                    "fileKey": "dragon-img_kto6lr59"
                 }
             }
         },
         {
-            "id": "ktlss4zc",
+            "id": "kto6r916",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "sova1",
+            "name": "owl_jackpot_01",
             "armatureName": "owl_arm",
             "animationsNames": [
                 "owl_anim",
@@ -125,73 +374,49 @@
             ],
             "files": {
                 "dragon-ske": {
-                    "path": "files/ktlss4zc",
+                    "path": "files/kto6r916",
                     "name": "owl_ske.json",
-                    "fileKey": "dragon-ske_ktlss4zc"
+                    "fileKey": "dragon-ske_kto6r916"
                 },
                 "dragon-tex": {
-                    "path": "files/ktlss4zc",
+                    "path": "files/kto6r916",
                     "name": "owl_tex.json",
-                    "fileKey": "dragon-tex_ktlss4zc"
+                    "fileKey": "dragon-tex_kto6r916"
                 },
                 "dragon-img": {
-                    "path": "files/ktlss4zc",
+                    "path": "files/kto6r916",
                     "name": "owl_tex.png",
-                    "fileKey": "dragon-img_ktlss4zc"
+                    "fileKey": "dragon-img_kto6r916"
                 }
             }
         },
         {
-            "id": "ktlstayf",
+            "id": "kto6uhmq",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "sova2",
-            "armatureName": "owl_arm",
+            "name": "sphere_bonus_05",
+            "armatureName": "ball_Armature",
             "animationsNames": [
-                "owl_anim",
-                null,
-                null,
+                "ball_chill",
+                "ball_cycle",
+                "ball_stop",
                 null
             ],
             "files": {
                 "dragon-ske": {
-                    "path": "files/ktlstayf",
-                    "name": "owl_ske.json",
-                    "fileKey": "dragon-ske_ktlstayf"
+                    "path": "files/kto6uhmq",
+                    "name": "sunball_ske.json",
+                    "fileKey": "dragon-ske_kto6uhmq"
                 },
                 "dragon-tex": {
-                    "path": "files/ktlstayf",
-                    "name": "owl_tex.json",
-                    "fileKey": "dragon-tex_ktlstayf"
+                    "path": "files/kto6uhmq",
+                    "name": "sunball_tex.json",
+                    "fileKey": "dragon-tex_kto6uhmq"
                 },
                 "dragon-img": {
-                    "path": "files/ktlstayf",
-                    "name": "owl_tex.png",
-                    "fileKey": "dragon-img_ktlstayf"
-                }
-            }
-        },
-        {
-            "id": "ktmqc3xq",
-            "typeExec": "dragonBones",
-            "typeView": "slot-item",
-            "name": "sova5",
-            "armatureName": "owl_arm",
-            "files": {
-                "dragon-ske": {
-                    "path": "files/ktmqc3xq",
-                    "name": "owl_ske.json",
-                    "fileKey": "dragon-ske_ktmqc3xq"
-                },
-                "dragon-tex": {
-                    "path": "files/ktmqc3xq",
-                    "name": "owl_tex.json",
-                    "fileKey": "dragon-tex_ktmqc3xq"
-                },
-                "dragon-img": {
-                    "path": "files/ktmqc3xq",
-                    "name": "owl_tex.png",
-                    "fileKey": "dragon-img_ktmqc3xq"
+                    "path": "files/kto6uhmq",
+                    "name": "sunball_tex.png",
+                    "fileKey": "dragon-img_kto6uhmq"
                 }
             }
         }
