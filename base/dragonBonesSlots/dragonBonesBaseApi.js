@@ -1,5 +1,4 @@
 var fs = require('fs');
-var FILES_DIR = require('../../app_back')
 
 var baseFileName = './base/dragonBonesSlots/base.json'
 var baseScheme = './base/dragonBonesSlots/scheme.json'
@@ -18,7 +17,7 @@ exports.createItem = function (data, callback) {
             }
             const currentContentBase = JSON.parse(fileBase)
             const currentScheme = JSON.parse(fileScheme)
-            const { mess, newData } = prepareNewData(currentScheme, data)
+            const { mess, newData } = prepareBaseObjectFromFront(currentScheme, data, null)
 
             currentContentBase['items'].push(newData)
             fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
@@ -54,10 +53,13 @@ exports.editItem = function (data, callback) {
             }
             const currentContentBase = JSON.parse(fileBase)
             const currentScheme = JSON.parse(fileScheme)
-            const { mess, newData } = prepareNewData(currentScheme, data)
 
+            const messages = []
             for (let i = 0; i < currentContentBase['items'].length; i++) {
                 if (currentContentBase['items'][i].id === data.id) {
+                    const itemBaseData = currentContentBase['items'][i]
+                    const { mess, newData } = prepareBaseObjectFromFront(currentScheme, data, itemBaseData)
+                    messages.push(...mess)
                     currentContentBase['items'][i] = newData
                 }
             }
@@ -65,9 +67,9 @@ exports.editItem = function (data, callback) {
                 if (err) {
                     console.log(err)                            
                 }
-                mess.push('saved')
-                callback(mess) 
             })
+            messages.push('saved')
+            callback(messages) 
         })
     })
 }
@@ -110,7 +112,7 @@ exports.addFile = function (reqBody, fileData, path, callback) {
 
 
 
-const prepareNewData = (scheme, data) => {
+const prepareBaseObjectFromFront = (scheme, data, itemBaseData) => {
     const newData = {}
     const mess = []
 
@@ -124,21 +126,32 @@ const prepareNewData = (scheme, data) => {
         }
 
         if (key === "typeExec") {
+            if (!data.typeExec) {
+                mess.push('no typeExec')
+            }
             newData[key] = scheme[key]
         }
 
         if (key === "typeView") {
+            if (!data.typeView) {
+                mess.push('no typeView')
+            }
             newData[key] = scheme[key]
         }
 
         if (key === "name") {
-            if (!data.name) mess.push('not name')
-            else newData[key] = data[key]
+            if (!data.name) {
+                mess.push('not name')
+                newData[key] = ''
+            } else {
+                newData[key] = data[key]
+            }   
         }
 
 
         if (key === "animationsNames") {
             if (!data.animationsNames) {
+                mess.push('not animationsNames')
                 newData.animationsNames = [null, null, null, null]
             } else if (data.animationsNames.length === 0) {
                 newData.animationsNames = [null, null, null, null]
@@ -153,6 +166,7 @@ const prepareNewData = (scheme, data) => {
                 if (isHasAnimations) {
                     newData[key] = data[key]
                 } else {
+                    newData[key] = [null, null, null, null]
                     mess.push('not animationsNames')
                 }
             }
@@ -167,11 +181,13 @@ const prepareNewData = (scheme, data) => {
             }
         }
 
+        /** files not saved here. only read from baseSavedObjet or create new empty object */
         if (key === "files") {
-            if (!data.files) {
-                newData.files = {}
+            if (itemBaseData && itemBaseData.files) {
+                newData.files = itemBaseData.files
             } else {
-                newData.files = data.files
+                mess.push('no files key')
+                newData.files = {}
             }
         }
     }

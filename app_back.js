@@ -66,10 +66,14 @@ app.post('/api/add-item', (req, res) => {
 
 
 app.post('/api/remove-item', (req, res) => {
-    removeFiles(req.body.id)
-    dragonBonesBaseApi.removeFromBase(req.body, mess => {
-        res.json({ mess })
-    })
+    try {
+        removeFiles(req.body.id)
+        dragonBonesBaseApi.removeFromBase(req.body, mess => {
+            res.json({ mess })
+        })
+    } catch {
+        console.log('not delete')
+    }
 })
 
 
@@ -96,8 +100,8 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 
 /** start  ******************************************/
 
-var IP = '192.168.0.101' // work
-//var IP = '192.168.10.3' // home
+//var IP = '192.168.0.101' // work
+var IP = '192.168.10.3' // home
 var PORT = 3010
 app.listen(PORT, IP)
 console.log("listen: " + IP + ":" + PORT)
