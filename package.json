@@ -5,7 +5,7 @@
   "author": "www.otrisovano.ru",
   "main": "machine.js",
   "scripts": {
-    "start": "node app_back.js"
+    "start": "node pixiredactor_back.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

@@ -791,6 +791,66 @@
                     "fileKey": "dragon-img_ktq8nr8n"
                 }
             }
+        },
+        {
+            "id": "ktrp4aul",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "bbb",
+            "armatureName": "sun_arm",
+            "animationsNames": [
+                null,
+                null,
+                null,
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/ktrp4aul",
+                    "name": "sun_ske.json",
+                    "fileKey": "dragon-ske_ktrp4aul"
+                },
+                "dragon-tex": {
+                    "path": "files/ktrp4aul",
+                    "name": "sun_tex.json",
+                    "fileKey": "dragon-tex_ktrp4aul"
+                },
+                "dragon-img": {
+                    "path": "files/ktrp4aul",
+                    "name": "sun_tex.png",
+                    "fileKey": "dragon-img_ktrp4aul"
+                }
+            }
+        },
+        {
+            "id": "ktrp8bn2",
+            "typeExec": "dragonBones",
+            "typeView": "slot-item",
+            "name": "n",
+            "armatureName": "sun_arm",
+            "animationsNames": [
+                null,
+                null,
+                null,
+                null
+            ],
+            "files": {
+                "dragon-ske": {
+                    "path": "files/ktrp8bn2",
+                    "name": "sun_ske.json",
+                    "fileKey": "dragon-ske_ktrp8bn2"
+                },
+                "dragon-tex": {
+                    "path": "files/ktrp8bn2",
+                    "name": "sun_tex.json",
+                    "fileKey": "dragon-tex_ktrp8bn2"
+                },
+                "dragon-img": {
+                    "path": "files/ktrp8bn2",
+                    "name": "sun_tex.png",
+                    "fileKey": "dragon-img_ktrp8bn2"
+                }
+            }
         }
     ]
 }

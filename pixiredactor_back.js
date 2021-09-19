@@ -1,7 +1,7 @@
 var express = require("express");
 var dragonBonesBaseApi = require("./base/dragonBonesSlots/dragonBonesBaseApi")
 var bodyParser = require('body-parser')
-var cors = require('cors')
+//var cors = require('cors')
 const multer = require("multer");
 var fs = require('fs');
 
@@ -52,7 +52,7 @@ var app = express();
 var http = require('http').Server(app);
 app.use(express.static('uploads'))
 app.use(bodyParser.json())
-app.use(cors({ origin: 'http://192.168.10.2:9000' }/*{ origin: ['http://192.168.0.101:9000'] }*/));
+//app.use(cors());
 
 
 
@@ -101,10 +101,12 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 /** start  ******************************************/
 
 //var IP = '192.168.0.101' // work
-var IP = '192.168.10.3' // home
-var PORT = 3010
-app.listen(PORT, IP)
-console.log("listen: " + IP + ":" + PORT)
+//var IP = '192.168.10.3' // home
+var PORT = 3100
+//app.listen(PORT, IP)
+//console.log("listen: " + IP + ":" + PORT)
+app.listen(PORT)
+console.log("listen: localhost:" + PORT)
 
 
 
