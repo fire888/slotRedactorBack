@@ -104,13 +104,10 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 var IP = '192.168.0.101' // work
 //var IP = '192.168.10.3' // home
 var PORT = 3005
-//app.listen(PORT, IP)
-//console.log("listen: " + IP + ":" + PORT)
 
 
-
-app.listen(PORT)
-console.log("listen: localhost:" + PORT)
+//app.listen(PORT, IP); console.log("listen: " + IP + ":" + PORT)
+app.listen(PORT); console.log("listen: localhost:" + PORT)
 
 
 
