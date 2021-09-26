@@ -1,14 +1,14 @@
 var express = require("express");
-var dragonBonesBaseApi = require("./base/dragonBonesSlots/dragonBonesBaseApi")
+var dragonBonesBaseApi = require("./src/dragonBonesBaseApi")
 var bodyParser = require('body-parser')
-//var cors = require('cors')
+var cors = require('cors')
 const multer = require("multer");
 var fs = require('fs');
 
 
 /** saver files *****************************/
 
-const FILES_DIR = 'uploads/files'
+const FILES_DIR = 'www/files'
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -50,9 +50,9 @@ const removeFiles = (id) => {
 
 var app = express();
 var http = require('http').Server(app);
-app.use(express.static('uploads'))
+app.use(express.static('www'))
 app.use(bodyParser.json())
-//app.use(cors());
+app.use(cors());
 
 
 
@@ -100,13 +100,13 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 
 /** start  ******************************************/
 
-//var IP = '192.168.0.101' // work
+var IP = '192.168.0.101' // work
 //var IP = '192.168.10.3' // home
-var PORT = 3100
-//app.listen(PORT, IP)
-//console.log("listen: " + IP + ":" + PORT)
-app.listen(PORT)
-console.log("listen: localhost:" + PORT)
+var PORT = 3005
+app.listen(PORT, IP)
+console.log("listen: " + IP + ":" + PORT)
+//app.listen(PORT)
+//console.log("listen: localhost:" + PORT)
 
 
 
