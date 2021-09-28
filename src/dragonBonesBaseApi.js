@@ -76,6 +76,18 @@ exports.editItem = function (data, callback) {
 }
 
 
+exports.getItem = function (data, callback) {
+    fs.readFile(baseFileName, 'utf8', function (err, fileBase) {
+        if (err) {
+            return console.log(err);
+        }
+        const currentContentBase = JSON.parse(fileBase)
+        const item = currentContentBase.items.filter(item => item.id === data.id)[0]
+        callback(item)
+    })
+}
+
+
 exports.getList = function (data, callback) {
     fs.readFile(baseFileName, 'utf8', function (err, fileBase) {
         if (err) {

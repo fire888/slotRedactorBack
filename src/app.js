@@ -69,18 +69,26 @@ app.post('/api/add-item', (req, res) => {
 app.post('/api/remove-item', (req, res) => {
     try {
         removeFiles(req.body.id)
-        dragonBonesBaseApi.removeFromBase(req.body, mess => {
-            res.json({ mess })
-        })
     } catch {
         console.log('not delete')
     }
+    dragonBonesBaseApi.removeFromBase(req.body, mess => {
+        res.json({ mess })
+    })
 })
 
 
 app.post('/api/edit-item', (req, res) => {
     dragonBonesBaseApi.editItem(req.body, mess => {
         res.json({ mess })
+    })
+})
+
+
+
+app.post('/api/get-item', (req, res) => {
+    dragonBonesBaseApi.getItem(req.body, item => {
+        res.json({ item })
     })
 })
 
@@ -102,22 +110,22 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 app.post("/api/remove-files", (req, res) => {
     try {
         removeFiles(req.body.id)
-        res.json({ mess: ['files removed'] })
     } catch {
-        console.log('not delete')
+        //console.log('not delete')
     }
+    res.json({ mess: ['files removed'] })
 })
 
 
 /** start  ******************************************/
 
-var IP = '192.168.0.101' // work
+//var IP = '192.168.0.101' // work
 //var IP = '192.168.10.3' // home
 var PORT = 3005
 
 
 //app.listen(PORT, IP); console.log("listen: " + IP + ":" + PORT)
-app.listen(PORT); console.log("listen: localhost:" + PORT)
+app.listen(PORT);console.log("listen: localhost:" + PORT)
 
 
 
