@@ -99,6 +99,16 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 });
 
 
+app.post("/api/remove-files", (req, res) => {
+    try {
+        removeFiles(req.body.id)
+        res.json({ mess: ['files removed'] })
+    } catch {
+        console.log('not delete')
+    }
+})
+
+
 /** start  ******************************************/
 
 var IP = '192.168.0.101' // work
