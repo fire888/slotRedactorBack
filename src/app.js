@@ -1,9 +1,11 @@
 var express = require("express");
-var dragonBonesBaseApi = require("./dragonBonesBaseApi")
 var bodyParser = require('body-parser')
 var cors = require('cors')
 const multer = require("multer");
 var fs = require('fs');
+
+
+var baseApiDragonBones = require("./baseApiDragonBones")
 
 
 /** saver files *****************************/
@@ -60,7 +62,7 @@ app.use(cors());
 /** routers **************************************/
 
 app.post('/api/add-item', (req, res) => {
-    dragonBonesBaseApi.createItem(req.body, mess => {
+    baseApiDragonBones.createItem(req.body, mess => {
         res.json({ mess })
     })
 })
@@ -72,14 +74,14 @@ app.post('/api/remove-item', (req, res) => {
     } catch {
         console.log('not delete')
     }
-    dragonBonesBaseApi.removeFromBase(req.body, mess => {
+    baseApiDragonBones.removeFromBase(req.body, mess => {
         res.json({ mess })
     })
 })
 
 
 app.post('/api/edit-item', (req, res) => {
-    dragonBonesBaseApi.editItem(req.body, mess => {
+    baseApiDragonBones.editItem(req.body, mess => {
         res.json({ mess })
     })
 })
@@ -87,21 +89,21 @@ app.post('/api/edit-item', (req, res) => {
 
 
 app.post('/api/get-item', (req, res) => {
-    dragonBonesBaseApi.getItem(req.body, item => {
+    baseApiDragonBones.getItem(req.body, item => {
         res.json({ item })
     })
 })
 
 
 app.post('/api/get-list', (req, res) => {
-    dragonBonesBaseApi.getList(req.body, list => {
+    baseApiDragonBones.getList(req.body, list => {
         res.json({ list })
     })
 })
 
 
 app.post("/api/upload-file", upload.single("file"), (req, res) => {
-    dragonBonesBaseApi.addFile(req.body, req.file, 'files/', mess => {
+    baseApiDragonBones.addFile(req.body, req.file, 'files/', mess => {
         res.json({ mess });
     })
 });
@@ -115,6 +117,14 @@ app.post("/api/remove-files", (req, res) => {
     }
     res.json({ mess: ['files removed'] })
 })
+
+
+/** sets api ****************************************/
+
+app.post("/api/create-set", (req, res) => {
+
+})
+
 
 
 /** start  ******************************************/
