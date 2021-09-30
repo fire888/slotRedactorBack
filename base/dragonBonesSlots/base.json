@@ -705,17 +705,17 @@
             "files": {
                 "dragon-ske": {
                     "path": "files/ku5a91it",
-                    "name": "sunball_ske.json",
+                    "name": "wild03_ske.json",
                     "fileKey": "dragon-ske_ku5a91it"
                 },
                 "dragon-tex": {
                     "path": "files/ku5a91it",
-                    "name": "sunball_tex.json",
+                    "name": "wild03_tex.json",
                     "fileKey": "dragon-tex_ku5a91it"
                 },
                 "dragon-img": {
                     "path": "files/ku5a91it",
-                    "name": "sunball_tex.png",
+                    "name": "wild03_tex.png",
                     "fileKey": "dragon-img_ku5a91it"
                 }
             }

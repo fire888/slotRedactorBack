@@ -6,6 +6,7 @@ var fs = require('fs');
 
 
 var baseApiDragonBones = require("./baseApiDragonBones")
+var baseApiSets = require('./baseApiSets')
 
 
 /** saver files *****************************/
@@ -121,8 +122,10 @@ app.post("/api/remove-files", (req, res) => {
 
 /** sets api ****************************************/
 
-app.post("/api/create-set", (req, res) => {
-
+app.post("/api/get-sets-list", (req, res) => {
+    baseApiSets.getList(req.body, list => {
+        res.json({ list })
+    })
 })
 
 
