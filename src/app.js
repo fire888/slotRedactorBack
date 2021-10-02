@@ -1,6 +1,5 @@
 var express = require("express");
 var bodyParser = require('body-parser')
-var cors = require('cors')
 const multer = require("multer");
 var fs = require('fs');
 
@@ -53,10 +52,17 @@ const removeFiles = (id) => {
 
 var app = express();
 var http = require('http').Server(app);
+app.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Headers', 'accept, authorization, content-type, x-requested-with');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,HEAD,PUT,PATCH,POST,DELETE');
+    res.setHeader('Access-Control-Allow-Origin', req.header('origin'));
+    next();
+});
+
 app.use(express.static('www'))
 app.use('/files', express.static('assets/files'))
 app.use(bodyParser.json())
-app.use(cors());
+
 
 
 

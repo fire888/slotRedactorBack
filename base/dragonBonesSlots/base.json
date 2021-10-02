@@ -631,36 +631,6 @@
             }
         },
         {
-            "id": "ku446i7n",
-            "typeExec": "dragonBones",
-            "typeView": "slot-item",
-            "name": "aaaaaa",
-            "armatureName": "owl_arm",
-            "animationsNames": [
-                null,
-                null,
-                null,
-                null
-            ],
-            "files": {
-                "dragon-ske": {
-                    "path": "files/ku446i7n",
-                    "name": "wild03_ske.json",
-                    "fileKey": "dragon-ske_ku446i7n"
-                },
-                "dragon-tex": {
-                    "path": "files/ku446i7n",
-                    "name": "wild03_tex.json",
-                    "fileKey": "dragon-tex_ku446i7n"
-                },
-                "dragon-img": {
-                    "path": "files/ku446i7n",
-                    "name": "wild03_tex.png",
-                    "fileKey": "dragon-img_ku446i7n"
-                }
-            }
-        },
-        {
             "id": "ku4o1ci3",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
