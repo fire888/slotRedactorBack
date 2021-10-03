@@ -53,9 +53,9 @@ const removeFiles = (id) => {
 var app = express();
 var http = require('http').Server(app);
 app.use(function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Headers', 'accept, authorization, content-type, x-requested-with');
-    res.setHeader('Access-Control-Allow-Methods', 'GET,HEAD,PUT,PATCH,POST,DELETE');
-    res.setHeader('Access-Control-Allow-Origin', req.header('origin'));
+    // res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    // res.setHeader('Access-Control-Allow-Methods', 'GET,HEAD,PUT,PATCH,POST,DELETE');
+    // res.setHeader('Access-Control-Allow-Origin', req.header('origin'));
     next();
 });
 
@@ -138,13 +138,13 @@ app.post("/api/get-sets-list", (req, res) => {
 
 /** start  ******************************************/
 
-//var IP = '192.168.0.101' // work
+var IP = '192.168.0.101' // work
 //var IP = '192.168.10.3' // home
 var PORT = 3005
 
 
-//app.listen(PORT, IP); console.log("listen: " + IP + ":" + PORT)
-app.listen(PORT);console.log("listen: localhost:" + PORT)
+app.listen(PORT, IP); console.log("listen: " + IP + ":" + PORT)
+//app.listen(PORT);console.log("listen: localhost:" + PORT)
 
 
 

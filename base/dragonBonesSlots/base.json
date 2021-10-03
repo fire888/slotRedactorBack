@@ -45,17 +45,17 @@
             "files": {
                 "dragon-ske": {
                     "path": "files/kto4gaex",
-                    "name": "scatter2_ske.json",
+                    "name": "sun_ske.json",
                     "fileKey": "dragon-ske_kto4gaex"
                 },
                 "dragon-tex": {
                     "path": "files/kto4gaex",
-                    "name": "scatter2_tex.json",
+                    "name": "sun_tex.json",
                     "fileKey": "dragon-tex_kto4gaex"
                 },
                 "dragon-img": {
                     "path": "files/kto4gaex",
-                    "name": "scatter2_tex.png",
+                    "name": "sun_tex.png",
                     "fileKey": "dragon-img_kto4gaex"
                 }
             }
@@ -124,7 +124,7 @@
             "id": "kto54fep",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "wizard_wild_01_EFFECTS",
+            "name": "oooonmnmnm",
             "armatureName": "wild_arm",
             "animationsNames": [
                 "wild_normal_small",
@@ -154,7 +154,7 @@
             "id": "kto5c9uy",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "wizard_wild_02",
+            "name": "wizard_wild_02kjkkjk",
             "armatureName": "wild_arm",
             "animationsNames": [
                 "wild_normal_small",
@@ -184,7 +184,7 @@
             "id": "kto5gm1l",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "sphere_bonus_01",
+            "name": "sphere_bonus_0ghghghgh1bnbnbfgfgfgf",
             "armatureName": "sun_arm",
             "animationsNames": [
                 "sun_basic",
@@ -304,7 +304,7 @@
             "id": "kto6h2c9",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "free_intro",
+            "name": "free",
             "armatureName": "popup_freespins_arm",
             "animationsNames": [
                 "pfs_cycle",
@@ -364,7 +364,7 @@
             "id": "kto6uhmq",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "sphere_bonus_05",
+            "name": "sphere_bonu",
             "armatureName": "ball_Armature",
             "animationsNames": [
                 "ball_chill",
@@ -375,17 +375,17 @@
             "files": {
                 "dragon-ske": {
                     "path": "files/kto6uhmq",
-                    "name": "sunball_ske.json",
+                    "name": "wild_ske.json",
                     "fileKey": "dragon-ske_kto6uhmq"
                 },
                 "dragon-tex": {
                     "path": "files/kto6uhmq",
-                    "name": "sunball_tex.json",
+                    "name": "wild_tex.json",
                     "fileKey": "dragon-tex_kto6uhmq"
                 },
                 "dragon-img": {
                     "path": "files/kto6uhmq",
-                    "name": "sunball_tex.png",
+                    "name": "wild_tex.png",
                     "fileKey": "dragon-img_kto6uhmq"
                 }
             }
@@ -424,7 +424,7 @@
             "id": "ktsmmb7p",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "eagles_sun",
+            "name": "owl",
             "armatureName": "",
             "animationsNames": [
                 null,
@@ -435,17 +435,17 @@
             "files": {
                 "dragon-ske": {
                     "path": "files/ktsmmb7p",
-                    "name": "wild03_ske.json",
+                    "name": "owl_ske.json",
                     "fileKey": "dragon-ske_ktsmmb7p"
                 },
                 "dragon-tex": {
                     "path": "files/ktsmmb7p",
-                    "name": "wild03_tex.json",
+                    "name": "owl_tex.json",
                     "fileKey": "dragon-tex_ktsmmb7p"
                 },
                 "dragon-img": {
                     "path": "files/ktsmmb7p",
-                    "name": "wild03_tex.png",
+                    "name": "owl_tex.png",
                     "fileKey": "dragon-img_ktsmmb7p"
                 }
             }
@@ -454,7 +454,7 @@
             "id": "ktu4razt",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": "back_OWL_0.2",
+            "name": "back_OWL_0.2kukjkjkghghghg",
             "armatureName": "bowl_arm",
             "animationsNames": [
                 "owl_still",
@@ -484,7 +484,7 @@
             "id": "ktv96je5",
             "typeExec": "dragonBones",
             "typeView": "slot-item",
-            "name": " WILD v2.0",
+            "name": " ghghgh",
             "armatureName": "wild_arm",
             "animationsNames": [
                 "wild_freespin_big",
@@ -555,17 +555,17 @@
             "files": {
                 "dragon-ske": {
                     "path": "files/ktvat2vu",
-                    "name": "scatter04_ske.json",
+                    "name": "wild_ske.json",
                     "fileKey": "dragon-ske_ktvat2vu"
                 },
                 "dragon-tex": {
                     "path": "files/ktvat2vu",
-                    "name": "scatter04_tex.json",
+                    "name": "wild_tex.json",
                     "fileKey": "dragon-tex_ktvat2vu"
                 },
                 "dragon-img": {
                     "path": "files/ktvat2vu",
-                    "name": "scatter04_tex.png",
+                    "name": "wild_tex.png",
                     "fileKey": "dragon-img_ktvat2vu"
                 }
             }
@@ -615,17 +615,17 @@
             "files": {
                 "dragon-ske": {
                     "path": "files/ku2fjjym",
-                    "name": "wild03_ske.json",
+                    "name": "sun_ske.json",
                     "fileKey": "dragon-ske_ku2fjjym"
                 },
                 "dragon-tex": {
                     "path": "files/ku2fjjym",
-                    "name": "wild03_tex.json",
+                    "name": "sun_tex.json",
                     "fileKey": "dragon-tex_ku2fjjym"
                 },
                 "dragon-img": {
                     "path": "files/ku2fjjym",
-                    "name": "wild03_tex.png",
+                    "name": "sun_tex.png",
                     "fileKey": "dragon-img_ku2fjjym"
                 }
             }
@@ -645,17 +645,17 @@
             "files": {
                 "dragon-ske": {
                     "path": "files/ku4o1ci3",
-                    "name": "wild03_ske.json",
+                    "name": "wild_ske.json",
                     "fileKey": "dragon-ske_ku4o1ci3"
                 },
                 "dragon-tex": {
                     "path": "files/ku4o1ci3",
-                    "name": "wild03_tex.json",
+                    "name": "wild_tex.json",
                     "fileKey": "dragon-tex_ku4o1ci3"
                 },
                 "dragon-img": {
                     "path": "files/ku4o1ci3",
-                    "name": "wild03_tex.png",
+                    "name": "wild_tex.png",
                     "fileKey": "dragon-img_ku4o1ci3"
                 }
             }
@@ -675,17 +675,17 @@
             "files": {
                 "dragon-ske": {
                     "path": "files/ku5a91it",
-                    "name": "wild03_ske.json",
+                    "name": "sunball_ske.json",
                     "fileKey": "dragon-ske_ku5a91it"
                 },
                 "dragon-tex": {
                     "path": "files/ku5a91it",
-                    "name": "wild03_tex.json",
+                    "name": "sunball_tex.json",
                     "fileKey": "dragon-tex_ku5a91it"
                 },
                 "dragon-img": {
                     "path": "files/ku5a91it",
-                    "name": "wild03_tex.png",
+                    "name": "sunball_tex.png",
                     "fileKey": "dragon-img_ku5a91it"
                 }
             }
