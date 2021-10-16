@@ -1,21 +1,12 @@
 var fs = require('fs');
-
 var baseFileName = './base/dragonBonesSlots/base.json'
 
 
-const currentScheme  = {
-    "id": "dfdcvdffdcvvbfg",
-    "typeExec": "dragonBones",
-    "typeView": "slot-item",
-    "name": "scatter",
-    "armatureName": "armature",
-    "animationsNames": ["down", "up", "win"],
-    "files": {
-        "dragon-ske": {},
-        "dragon-tex": {},
-        "dragon-img": {}
-    }
-}
+
+
+
+
+
 
 
 
