@@ -1,0 +1,26 @@
+{
+    "id": "ku2rvedm",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[ready4test] scroll",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ku2rvedm",
+            "name": "scroll_ske.json",
+            "fileKey": "dragon-ske_ku2rvedm"
+        },
+        "dragon-tex": {
+            "path": "files/ku2rvedm",
+            "name": "scroll_tex.json",
+            "fileKey": "dragon-tex_ku2rvedm"
+        },
+        "dragon-img": {
+            "path": "files/ku2rvedm",
+            "name": "scroll_tex.png",
+            "fileKey": "dragon-img_ku2rvedm"
+        }
+    },
+    "sounds-animations": {}
+}

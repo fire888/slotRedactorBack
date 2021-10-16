@@ -1,0 +1,26 @@
+{
+    "id": "ku3vycpz",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[actual] column roll front",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ku3vycpz",
+            "name": "roll_front_ske.json",
+            "fileKey": "dragon-ske_ku3vycpz"
+        },
+        "dragon-tex": {
+            "path": "files/ku3vycpz",
+            "name": "roll_front_tex.json",
+            "fileKey": "dragon-tex_ku3vycpz"
+        },
+        "dragon-img": {
+            "path": "files/ku3vycpz",
+            "name": "roll_front_tex.png",
+            "fileKey": "dragon-img_ku3vycpz"
+        }
+    },
+    "sounds-animations": {}
+}

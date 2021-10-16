@@ -1,0 +1,26 @@
+{
+    "id": "kto5c9uy",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "wizard_wild_02",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kto5c9uy",
+            "name": "wild_ske.json",
+            "fileKey": "dragon-ske_kto5c9uy"
+        },
+        "dragon-tex": {
+            "path": "files/kto5c9uy",
+            "name": "wild_tex.json",
+            "fileKey": "dragon-tex_kto5c9uy"
+        },
+        "dragon-img": {
+            "path": "files/kto5c9uy",
+            "name": "wild_tex.png",
+            "fileKey": "dragon-img_kto5c9uy"
+        }
+    },
+    "sounds-animations": {}
+}

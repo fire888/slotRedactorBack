@@ -1,0 +1,26 @@
+{
+    "id": "ku2nsovd",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[actual] wild",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ku2nsovd",
+            "name": "wild03_ske.json",
+            "fileKey": "dragon-ske_ku2nsovd"
+        },
+        "dragon-tex": {
+            "path": "files/ku2nsovd",
+            "name": "wild03_tex.json",
+            "fileKey": "dragon-tex_ku2nsovd"
+        },
+        "dragon-img": {
+            "path": "files/ku2nsovd",
+            "name": "wild03_tex.png",
+            "fileKey": "dragon-img_ku2nsovd"
+        }
+    },
+    "sounds-animations": {}
+}

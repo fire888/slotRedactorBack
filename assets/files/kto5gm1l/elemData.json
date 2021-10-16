@@ -1,0 +1,26 @@
+{
+    "id": "kto5gm1l",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "sphere_bonus_01",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kto5gm1l",
+            "name": "sun_ske.json",
+            "fileKey": "dragon-ske_kto5gm1l"
+        },
+        "dragon-tex": {
+            "path": "files/kto5gm1l",
+            "name": "sun_tex.json",
+            "fileKey": "dragon-tex_kto5gm1l"
+        },
+        "dragon-img": {
+            "path": "files/kto5gm1l",
+            "name": "sun_tex.png",
+            "fileKey": "dragon-img_kto5gm1l"
+        }
+    },
+    "sounds-animations": {}
+}

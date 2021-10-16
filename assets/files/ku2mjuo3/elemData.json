@@ -1,0 +1,26 @@
+{
+    "id": "ku2mjuo3",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "Scatter 3.0 (final)",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ku2mjuo3",
+            "name": "scatter_ske.json",
+            "fileKey": "dragon-ske_ku2mjuo3"
+        },
+        "dragon-tex": {
+            "path": "files/ku2mjuo3",
+            "name": "scatter_tex.json",
+            "fileKey": "dragon-tex_ku2mjuo3"
+        },
+        "dragon-img": {
+            "path": "files/ku2mjuo3",
+            "name": "scatter_tex.png",
+            "fileKey": "dragon-img_ku2mjuo3"
+        }
+    },
+    "sounds-animations": {}
+}

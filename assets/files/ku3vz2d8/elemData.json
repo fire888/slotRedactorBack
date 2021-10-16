@@ -1,0 +1,26 @@
+{
+    "id": "ku3vz2d8",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[actual] column roll back",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-img": {
+            "path": "files/ku3vz2d8",
+            "name": "roll_back_tex.png",
+            "fileKey": "dragon-img_ku3vz2d8"
+        },
+        "dragon-ske": {
+            "path": "files/ku3vz2d8",
+            "name": "roll_back_ske.json",
+            "fileKey": "dragon-ske_ku3vz2d8"
+        },
+        "dragon-tex": {
+            "path": "files/ku3vz2d8",
+            "name": "roll_back_tex.json",
+            "fileKey": "dragon-tex_ku3vz2d8"
+        }
+    },
+    "sounds-animations": {}
+}

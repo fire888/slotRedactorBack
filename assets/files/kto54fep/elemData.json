@@ -1,0 +1,26 @@
+{
+    "id": "kto54fep",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "wizard_wild_01_EFFECTS",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kto54fep",
+            "name": "wild_ske.json",
+            "fileKey": "dragon-ske_kto54fep"
+        },
+        "dragon-tex": {
+            "path": "files/kto54fep",
+            "name": "wild_tex.json",
+            "fileKey": "dragon-tex_kto54fep"
+        },
+        "dragon-img": {
+            "path": "files/kto54fep",
+            "name": "wild_tex.png",
+            "fileKey": "dragon-img_kto54fep"
+        }
+    },
+    "sounds-animations": {}
+}

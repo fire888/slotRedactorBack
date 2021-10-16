@@ -1,0 +1,26 @@
+{
+    "id": "ktv96je5",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": " WILD v2.0",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ktv96je5",
+            "name": "wild03_ske.json",
+            "fileKey": "dragon-ske_ktv96je5"
+        },
+        "dragon-tex": {
+            "path": "files/ktv96je5",
+            "name": "wild03_tex.json",
+            "fileKey": "dragon-tex_ktv96je5"
+        },
+        "dragon-img": {
+            "path": "files/ktv96je5",
+            "name": "wild03_tex.png",
+            "fileKey": "dragon-img_ktv96je5"
+        }
+    },
+    "sounds-animations": {}
+}

@@ -1,0 +1,26 @@
+{
+    "id": "ktvat2vu",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "back_BALL_v0.1",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ktvat2vu",
+            "name": "back_ball_ske.json",
+            "fileKey": "dragon-ske_ktvat2vu"
+        },
+        "dragon-tex": {
+            "path": "files/ktvat2vu",
+            "name": "back_ball_tex.json",
+            "fileKey": "dragon-tex_ktvat2vu"
+        },
+        "dragon-img": {
+            "path": "files/ktvat2vu",
+            "name": "back_ball_tex.png",
+            "fileKey": "dragon-img_ktvat2vu"
+        }
+    },
+    "sounds-animations": {}
+}

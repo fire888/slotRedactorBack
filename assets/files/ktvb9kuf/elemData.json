@@ -1,0 +1,26 @@
+{
+    "id": "ktvb9kuf",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[actual] OWL_JACKPOT v2",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ktvb9kuf",
+            "name": "owl_ske.json",
+            "fileKey": "dragon-ske_ktvb9kuf"
+        },
+        "dragon-tex": {
+            "path": "files/ktvb9kuf",
+            "name": "owl_tex.json",
+            "fileKey": "dragon-tex_ktvb9kuf"
+        },
+        "dragon-img": {
+            "path": "files/ktvb9kuf",
+            "name": "owl_tex.png",
+            "fileKey": "dragon-img_ktvb9kuf"
+        }
+    },
+    "sounds-animations": {}
+}

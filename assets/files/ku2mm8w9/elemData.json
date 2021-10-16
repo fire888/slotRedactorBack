@@ -1,0 +1,26 @@
+{
+    "id": "ku2mm8w9",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[actual] scatter05",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ku2mm8w9",
+            "name": "scatter05_ske.json",
+            "fileKey": "dragon-ske_ku2mm8w9"
+        },
+        "dragon-tex": {
+            "path": "files/ku2mm8w9",
+            "name": "scatter05_tex.json",
+            "fileKey": "dragon-tex_ku2mm8w9"
+        },
+        "dragon-img": {
+            "path": "files/ku2mm8w9",
+            "name": "scatter05_tex.png",
+            "fileKey": "dragon-img_ku2mm8w9"
+        }
+    },
+    "sounds-animations": {}
+}

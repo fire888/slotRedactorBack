@@ -1,0 +1,26 @@
+{
+    "id": "ku3spy0p",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[antual] free spin popup",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ku3spy0p",
+            "name": "popup_freespin_02_ske.json",
+            "fileKey": "dragon-ske_ku3spy0p"
+        },
+        "dragon-tex": {
+            "path": "files/ku3spy0p",
+            "name": "popup_freespin_02_tex.json",
+            "fileKey": "dragon-tex_ku3spy0p"
+        },
+        "dragon-img": {
+            "path": "files/ku3spy0p",
+            "name": "popup_freespin_02_tex.png",
+            "fileKey": "dragon-img_ku3spy0p"
+        }
+    },
+    "sounds-animations": {}
+}

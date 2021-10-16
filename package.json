@@ -5,7 +5,8 @@
   "author": "www.otrisovano.ru",
   "main": "machine.js",
   "scripts": {
-    "start": "node pixiredactor_back.js"
+    "start": "node pixiredactor.js",
+    "startCron": "node srcCrons/changeOldBaseToNew.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

@@ -1,0 +1,26 @@
+{
+    "id": "ku3ryx9t",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[update] potion",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ku3ryx9t",
+            "name": "potion_ske.json",
+            "fileKey": "dragon-ske_ku3ryx9t"
+        },
+        "dragon-tex": {
+            "path": "files/ku3ryx9t",
+            "name": "potion_tex.json",
+            "fileKey": "dragon-tex_ku3ryx9t"
+        },
+        "dragon-img": {
+            "path": "files/ku3ryx9t",
+            "name": "potion_tex.png",
+            "fileKey": "dragon-img_ku3ryx9t"
+        }
+    },
+    "sounds-animations": {}
+}

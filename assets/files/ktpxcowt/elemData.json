@@ -1,0 +1,26 @@
+{
+    "id": "ktpxcowt",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "test-test",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ktpxcowt",
+            "name": "sun_ske.json",
+            "fileKey": "dragon-ske_ktpxcowt"
+        },
+        "dragon-tex": {
+            "path": "files/ktpxcowt",
+            "name": "sun_tex.json",
+            "fileKey": "dragon-tex_ktpxcowt"
+        },
+        "dragon-img": {
+            "path": "files/ktpxcowt",
+            "name": "sun_tex.png",
+            "fileKey": "dragon-img_ktpxcowt"
+        }
+    },
+    "sounds-animations": {}
+}

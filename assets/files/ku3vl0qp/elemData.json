@@ -1,0 +1,26 @@
+{
+    "id": "ku3vl0qp",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[actual] tiny jackpot border",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-img": {
+            "path": "files/ku3vl0qp",
+            "name": "jackpot_brdr_tex.png",
+            "fileKey": "dragon-img_ku3vl0qp"
+        },
+        "dragon-ske": {
+            "path": "files/ku3vl0qp",
+            "name": "jackpot_brdr_ske.json",
+            "fileKey": "dragon-ske_ku3vl0qp"
+        },
+        "dragon-tex": {
+            "path": "files/ku3vl0qp",
+            "name": "jackpot_brdr_tex.json",
+            "fileKey": "dragon-tex_ku3vl0qp"
+        }
+    },
+    "sounds-animations": {}
+}

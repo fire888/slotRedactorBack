@@ -1,4 +1,4 @@
-export const SYMBOL_SCHEME = {
+exports.SYMBOL_SCHEME = {
     "id": "dfdcvdffdcvvbfg",
     "typeExec": "dragonBones",
     "typeView": "slot-item",
@@ -21,18 +21,32 @@ export const SYMBOL_SCHEME = {
         }
     },
     "sounds-animations": {
-        'win': 'sound1',
-        'win2': 'sound2',
     },
 }
 
-export const TYPES_EXEC = [
+exports.TYPES_EXEC = [
     'dragonBones',
     'spine',
 ]
 
-export const TYPES_VIEWS = [
+exports.TYPES_VIEWS = [
     'background',
     'slot-item',
     'element',
 ]
+
+/**
+ {
+    "items": [
+        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
+        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
+        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
+        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
+        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
+        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
+        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
+        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
+        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
+    ]
+}
+ */

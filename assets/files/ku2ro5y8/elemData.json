@@ -1,0 +1,26 @@
+{
+    "id": "ku2ro5y8",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[ready4test] PNDLM",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-img": {
+            "path": "files/ku2ro5y8",
+            "name": "pndlm_tex.png",
+            "fileKey": "dragon-img_ku2ro5y8"
+        },
+        "dragon-tex": {
+            "path": "files/ku2ro5y8",
+            "name": "pndlm_tex.json",
+            "fileKey": "dragon-tex_ku2ro5y8"
+        },
+        "dragon-ske": {
+            "path": "files/ku2ro5y8",
+            "name": "pndlm_ske.json",
+            "fileKey": "dragon-ske_ku2ro5y8"
+        }
+    },
+    "sounds-animations": {}
+}

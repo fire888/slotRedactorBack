@@ -1,0 +1,26 @@
+{
+    "id": "kto6h2c9",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "free_intro",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kto6h2c9",
+            "name": "popup_freespin_01_ske.json",
+            "fileKey": "dragon-ske_kto6h2c9"
+        },
+        "dragon-tex": {
+            "path": "files/kto6h2c9",
+            "name": "popup_freespin_01_tex.json",
+            "fileKey": "dragon-tex_kto6h2c9"
+        },
+        "dragon-img": {
+            "path": "files/kto6h2c9",
+            "name": "popup_freespin_01_tex.png",
+            "fileKey": "dragon-img_kto6h2c9"
+        }
+    },
+    "sounds-animations": {}
+}

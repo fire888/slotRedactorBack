@@ -1,0 +1,26 @@
+{
+    "id": "ku2r0q94",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "[ready4test] CUP v1 ",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ku2r0q94",
+            "name": "cup_ske.json",
+            "fileKey": "dragon-ske_ku2r0q94"
+        },
+        "dragon-tex": {
+            "path": "files/ku2r0q94",
+            "name": "cup_tex.json",
+            "fileKey": "dragon-tex_ku2r0q94"
+        },
+        "dragon-img": {
+            "path": "files/ku2r0q94",
+            "name": "cup_tex.png",
+            "fileKey": "dragon-img_ku2r0q94"
+        }
+    },
+    "sounds-animations": {}
+}

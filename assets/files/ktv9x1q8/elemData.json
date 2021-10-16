@@ -1,0 +1,26 @@
+{
+    "id": "ktv9x1q8",
+    "typeExec": "dragonBones",
+    "typeView": "slot-item",
+    "name": "Scatter 2.0 (final)",
+    "gameTag": "none",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/ktv9x1q8",
+            "name": "scatter_ske.json",
+            "fileKey": "dragon-ske_ktv9x1q8"
+        },
+        "dragon-tex": {
+            "path": "files/ktv9x1q8",
+            "name": "scatter_tex.json",
+            "fileKey": "dragon-tex_ktv9x1q8"
+        },
+        "dragon-img": {
+            "path": "files/ktv9x1q8",
+            "name": "scatter_tex.png",
+            "fileKey": "dragon-img_ktv9x1q8"
+        }
+    },
+    "sounds-animations": {}
+}
