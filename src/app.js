@@ -53,9 +53,13 @@ const removeFiles = (id) => {
 var app = express();
 var http = require('http').Server(app);
 app.use(function (req, res, next) {
-    // res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-    // res.setHeader('Access-Control-Allow-Methods', 'GET,HEAD,PUT,PATCH,POST,DELETE');
-    // res.setHeader('Access-Control-Allow-Origin', req.header('origin'));
+    app.use(function (req, res, next) {
+        res.setHeader('Access-Control-Allow-Origin', 'http://192.168.10.2:9000');
+        res.setHeader('Access-Control-Allow-Credentials', 'true');
+        res.setHeader('Access-Control-Allow-Headers', 'Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken');
+        res.setHeader('Access-Control-Allow-Methods', 'GET, HEAD, PUT, PATCH, POST, DELETE');
+        next();
+    });
     next();
 });
 
