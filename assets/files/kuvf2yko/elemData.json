@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kuvf2yko",
+            "name": "scroll_ske.json",
+            "fileKey": "dragon-ske_kuvf2yko"
+        },
+        "dragon-tex": {
+            "path": "files/kuvf2yko",
+            "name": "scroll_tex.json",
+            "fileKey": "dragon-tex_kuvf2yko"
+        },
+        "dragon-img": {
+            "path": "files/kuvf2yko",
+            "name": "scroll_tex.png",
+            "fileKey": "dragon-img_kuvf2yko"
+        }
+    },
+    "sounds-animations": {}
+}

@@ -25,34 +25,10 @@
             "name": "sphere_bonus_04"
         },
         {
-            "id": "kto6h2c9",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "free_intro"
-        },
-        {
             "id": "kto6lr59",
             "typeView": "slot-item",
             "gameTag": "eagles",
             "name": "sphere_bonus_04"
-        },
-        {
-            "id": "kto6uhmq",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "sphere_bonus_05"
-        },
-        {
-            "id": "ktpxcowt",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "test-test"
-        },
-        {
-            "id": "ktsmmb7p",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "eagles_sun"
         },
         {
             "id": "ktu4razt",
@@ -167,6 +143,30 @@
             "typeView": "slot-item",
             "gameTag": "none",
             "name": "kitten"
+        },
+        {
+            "id": "kuvave7q",
+            "name": "kitten",
+            "gameTag": "eagles",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kuveti0f",
+            "name": "kitten",
+            "gameTag": "cleo",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kuvf3y6n",
+            "name": "l;l;l;l",
+            "gameTag": "spells",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kuvfcaqg",
+            "name": "mmmm",
+            "gameTag": "spells",
+            "typeView": "slot-item"
         }
     ]
 }

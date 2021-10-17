@@ -1,0 +1,20 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-ske": {},
+        "spine-tex": {},
+        "spine-img": {},
+        "dragon-ske": {},
+        "dragon-tex": {},
+        "dragon-img": {},
+        "img-static": {},
+        "img-blur": {},
+        "sounds": {
+            "sound1": {},
+            "sound2": {},
+            "sound3": {}
+        }
+    },
+    "sounds-animations": {}
+}

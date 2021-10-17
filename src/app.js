@@ -4,11 +4,8 @@ const multer = require("multer");
 var fs = require('fs');
 
 
-//var baseApiDragonBones = require("./baseApiDragonBones")
-//var baseApiSets = require('./baseApiSets')
-
-
 var apiBaseFull = require("./apiBaseFull")
+var apiBaseItem = require("./apiBaseItem")
 
 /** saver files *****************************/
 
@@ -69,7 +66,9 @@ app.use(bodyParser.json())
 
 app.post('/api/add-item', (req, res) => {
     apiBaseFull.createItem(req.body, mess => {
-        res.json({ mess })
+        apiBaseItem.createItem(req.body, mess2 => {
+            res.json({ mess: [...mess, ...mess2] })
+        })
     })
 })
 
@@ -95,21 +94,22 @@ app.post('/api/get-list', (req, res) => {
 })
 
 
+/** edit item files data *********************************/
+
+app.post('/api/get-item-data', (req, res) => {
+    apiBaseItem.getItem(req.body, item => {
+        res.json({ item })
+    })
+})
 
 
-// app.post('/api/get-item', (req, res) => {
-//     baseApiDragonBones.getItem(req.body, item => {
-//         res.json({ item })
-//     })
-// })
+app.post("/api/upload-file", upload.single("file"), (req, res) => {
+     apiBaseItem.addFile(req.body, req.file, 'files/', mess => {
+         res.json({ mess });
+     })
+});
 
-//
-//
-// app.post("/api/upload-file", upload.single("file"), (req, res) => {
-//     baseApiDragonBones.addFile(req.body, req.file, 'files/', mess => {
-//         res.json({ mess });
-//     })
-// });
+
 //
 //
 // app.post("/api/remove-files", (req, res) => {
@@ -119,15 +119,6 @@ app.post('/api/get-list', (req, res) => {
 //         //console.log('not delete')
 //     }
 //     res.json({ mess: ['files removed'] })
-// })
-
-//
-// /** sets api ****************************************/
-//
-// app.post("/api/get-sets-list", (req, res) => {
-//     baseApiSets.getList(req.body, list => {
-//         res.json({ list })
-//     })
 // })
 
 

@@ -4,17 +4,17 @@
     "files": {
         "dragon-ske": {
             "path": "files/ktpxcowt",
-            "name": "sun_ske.json",
+            "name": "scroll_ske.json",
             "fileKey": "dragon-ske_ktpxcowt"
         },
         "dragon-tex": {
             "path": "files/ktpxcowt",
-            "name": "sun_tex.json",
+            "name": "scroll_tex.json",
             "fileKey": "dragon-tex_ktpxcowt"
         },
         "dragon-img": {
             "path": "files/ktpxcowt",
-            "name": "sun_tex.png",
+            "name": "scroll_tex.png",
             "fileKey": "dragon-img_ktpxcowt"
         }
     },
