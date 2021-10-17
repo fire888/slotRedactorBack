@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kto44t6y",
+            "name": "wild03_ske.json",
+            "fileKey": "dragon-ske_kto44t6y"
+        },
+        "dragon-tex": {
+            "path": "files/kto44t6y",
+            "name": "wild03_tex.json",
+            "fileKey": "dragon-tex_kto44t6y"
+        },
+        "dragon-img": {
+            "path": "files/kto44t6y",
+            "name": "wild03_tex.png",
+            "fileKey": "dragon-img_kto44t6y"
+        }
+    },
+    "sounds-animations": {}
+}

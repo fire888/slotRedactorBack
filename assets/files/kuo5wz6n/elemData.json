@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kuo5wz6n",
+            "name": "fs_small_border_ske.json",
+            "fileKey": "dragon-ske_kuo5wz6n"
+        },
+        "dragon-tex": {
+            "path": "files/kuo5wz6n",
+            "name": "fs_small_border_tex.json",
+            "fileKey": "dragon-tex_kuo5wz6n"
+        },
+        "dragon-img": {
+            "path": "files/kuo5wz6n",
+            "name": "fs_small_border_tex.png",
+            "fileKey": "dragon-img_kuo5wz6n"
+        }
+    },
+    "sounds-animations": {}
+}

@@ -4,17 +4,17 @@
     "files": {
         "dragon-ske": {
             "path": "files/ku3vycpz",
-            "name": "back_ball_ske.json",
+            "name": "roll_front_ske.json",
             "fileKey": "dragon-ske_ku3vycpz"
         },
         "dragon-tex": {
             "path": "files/ku3vycpz",
-            "name": "back_ball_tex.json",
+            "name": "roll_front_tex.json",
             "fileKey": "dragon-tex_ku3vycpz"
         },
         "dragon-img": {
             "path": "files/ku3vycpz",
-            "name": "back_ball_tex.png",
+            "name": "roll_front_tex.png",
             "fileKey": "dragon-img_ku3vycpz"
         }
     },
