@@ -1,9 +1,5 @@
 {
-    "id": "kto5r9aa",
     "typeExec": "dragonBones",
-    "typeView": "slot-item",
-    "name": "sphere_bonus_02",
-    "gameTag": "none",
     "symbolNumber": 0,
     "files": {
         "dragon-ske": {

@@ -1,9 +1,5 @@
 {
-    "id": "ktpxcowt",
     "typeExec": "dragonBones",
-    "typeView": "slot-item",
-    "name": "test-test",
-    "gameTag": "none",
     "symbolNumber": 0,
     "files": {
         "dragon-ske": {

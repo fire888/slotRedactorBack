@@ -1,9 +1,5 @@
 {
-    "id": "kto6h2c9",
     "typeExec": "dragonBones",
-    "typeView": "slot-item",
-    "name": "free_intro",
-    "gameTag": "none",
     "symbolNumber": 0,
     "files": {
         "dragon-ske": {

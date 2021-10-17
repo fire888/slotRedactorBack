@@ -1,9 +1,5 @@
 {
-    "id": "ku3ryx9t",
     "typeExec": "dragonBones",
-    "typeView": "slot-item",
-    "name": "[update] potion",
-    "gameTag": "none",
     "symbolNumber": 0,
     "files": {
         "dragon-ske": {

@@ -1,9 +1,5 @@
 {
-    "id": "kto54fep",
     "typeExec": "dragonBones",
-    "typeView": "slot-item",
-    "name": "wizard_wild_01_EFFECTS",
-    "gameTag": "none",
     "symbolNumber": 0,
     "files": {
         "dragon-ske": {

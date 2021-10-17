@@ -1,9 +1,5 @@
 {
-    "id": "ku3txn97",
     "typeExec": "dragonBones",
-    "typeView": "slot-item",
-    "name": "[test] bonus_game_popup",
-    "gameTag": "none",
     "symbolNumber": 0,
     "files": {
         "dragon-ske": {

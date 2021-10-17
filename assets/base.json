@@ -1,184 +1,214 @@
 {
     "items": [
         {
-            "id": "kto4x48w",
-            "gameTag": "none",
-            "typeView": "slot-item"
-        },
-        {
             "id": "kto54fep",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "wizard_wild_01_EFFECTS"
         },
         {
             "id": "kto5c9uy",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "wizard_wild_02"
         },
         {
             "id": "kto5gm1l",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "sphere_bonus_01"
         },
         {
             "id": "kto5r9aa",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "sphere_bonus_02"
         },
         {
             "id": "kto5vy75",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "cleo",
+            "name": "sphere_bonus_03"
         },
         {
             "id": "kto69cea",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "sphere_bonus_04"
         },
         {
             "id": "kto6h2c9",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "free_intro"
         },
         {
             "id": "kto6lr59",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "sphere_bonus_04"
         },
         {
             "id": "kto6uhmq",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "sphere_bonus_05"
         },
         {
             "id": "ktpxcowt",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "test-test"
         },
         {
             "id": "ktsmmb7p",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "eagles_sun"
         },
         {
             "id": "ktu4razt",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "back_OWL_0.2"
         },
         {
             "id": "ktv96je5",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": " WILD v2.0"
         },
         {
             "id": "ktv9x1q8",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "Scatter 2.0 (final)"
         },
         {
             "id": "ktvat2vu",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "back_BALL_v0.1"
         },
         {
             "id": "ktvb9kuf",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[actual] OWL_JACKPOT v2"
         },
         {
             "id": "ku2mjuo3",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "Scatter 3.0 (final)"
         },
         {
             "id": "ku2mm8w9",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[actual] scatter05"
         },
         {
             "id": "ku2nsovd",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[actual] wild"
         },
         {
             "id": "ku2r0q94",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[ready4test] CUP v1 "
         },
         {
             "id": "ku2ro5y8",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[ready4test] PNDLM"
         },
         {
             "id": "ku2rvedm",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[ready4test] scroll"
         },
         {
             "id": "ku3ryx9t",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[update] potion"
         },
         {
             "id": "ku3spy0p",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[antual] free spin popup"
         },
         {
             "id": "ku3txn97",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[test] bonus_game_popup"
         },
         {
             "id": "ku3u79x4",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[test] back_BALL_v2"
         },
         {
             "id": "ku3uf22k",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[test] back_OWL"
         },
         {
             "id": "ku3vl0qp",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[actual] tiny jackpot border"
         },
         {
             "id": "ku3vycpz",
             "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "name": "[actual] column roll front"
         },
         {
             "id": "ku3vz2d8",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "[actual] column roll back"
         },
         {
             "id": "ku3xa693",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "[test] win_border"
         },
         {
             "id": "ku5agzj7",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "[test] Bonus_Light"
         },
         {
             "id": "ku5lii9r",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "[preview] bonuslightning"
         },
         {
             "id": "ku89xfdi",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "eagle_clouds"
         },
         {
             "id": "kucq0wew",
-            "gameTag": "none",
-            "typeView": "slot-item"
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "[eagle] FreeSpins Win Animation"
         }
     ]
 }

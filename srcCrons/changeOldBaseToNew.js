@@ -1,6 +1,5 @@
 var fs = require('fs');
 var baseFileName = './base/dragonBonesSlots/base.json'
-var newBase = './base/base.json'
 var CONSTANTS = require("../src/constants")
 
 
@@ -46,8 +45,8 @@ const saveBase = () => {
                 return;
             }
 
-            const { id, gameTag, typeView } = currentContentBase[index]
-            arr.push({ "id": id, "gameTag": gameTag || "none", "typeView": typeView })
+            const { id, gameTag, typeView, name } = currentContentBase[index]
+            arr.push({ "id": id, "gameTag": gameTag || "none", "typeView": typeView, 'name': name })
 
             setTimeout(() => { iterate(++index) }, 30)
         }
@@ -69,11 +68,15 @@ const saveAsNew = data => {
         Object.assign(newEmptyObject, data)
         delete newEmptyObject.animationsNames
         delete newEmptyObject.armatureName
+        delete newEmptyObject.name
+        delete newEmptyObject.id
+        delete newEmptyObject.typeView
+        delete newEmptyObject.gameTag
 
         const json = JSON.stringify(newEmptyObject, null, 4)
-        fs.writeFile(`assets/files/${newEmptyObject.id}/elemData.json`, json, 'utf8', () => {
+        fs.writeFile(`assets/files/${data.id}/elemData.json`, json, 'utf8', () => {
             setTimeout(() => {
-                console.log('done', newEmptyObject.id)
+                console.log('done', newEmptyObject)
                 resolve()
             }, 500)
         });

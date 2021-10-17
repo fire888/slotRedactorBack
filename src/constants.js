@@ -35,18 +35,8 @@ exports.TYPES_VIEWS = [
     'element',
 ]
 
-/**
- {
-    "items": [
-        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
-        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
-        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
-        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
-        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
-        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
-        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
-        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
-        { "id": "ghfhfh", "gameTag": "spells", "type": "slot-item" },
-    ]
+exports.DEFAUIL_FIELDS_FULL_BASE = {
+    'id': null,
+    'gameTag': 'none',
+    'typeView': 'slot-item'
 }
- */
