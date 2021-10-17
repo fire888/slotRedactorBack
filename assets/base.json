@@ -1,22 +1,10 @@
 {
     "items": [
         {
-            "id": "kto54fep",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "wizard_wild_01_EFFECTS"
-        },
-        {
             "id": "kto5c9uy",
             "typeView": "slot-item",
-            "gameTag": "eagles",
+            "gameTag": "cleo",
             "name": "wizard_wild_02"
-        },
-        {
-            "id": "kto5gm1l",
-            "typeView": "slot-item",
-            "gameTag": "eagles",
-            "name": "sphere_bonus_01"
         },
         {
             "id": "kto5r9aa",
@@ -38,8 +26,8 @@
         },
         {
             "id": "kto6h2c9",
-            "gameTag": "none",
             "typeView": "slot-item",
+            "gameTag": "spells",
             "name": "free_intro"
         },
         {
@@ -69,7 +57,7 @@
         {
             "id": "ktu4razt",
             "typeView": "slot-item",
-            "gameTag": "spells",
+            "gameTag": "cleo",
             "name": "back_OWL_0.2"
         },
         {
@@ -157,58 +145,28 @@
             "name": "[test] back_BALL_v2"
         },
         {
-            "id": "ku3uf22k",
-            "gameTag": "none",
-            "typeView": "slot-item",
-            "name": "[test] back_OWL"
-        },
-        {
             "id": "ku3vl0qp",
-            "gameTag": "none",
             "typeView": "slot-item",
+            "gameTag": "cleo",
             "name": "[actual] tiny jackpot border"
         },
         {
             "id": "ku3vycpz",
-            "gameTag": "none",
             "typeView": "slot-item",
+            "gameTag": "spells",
             "name": "[actual] column roll front"
         },
         {
             "id": "ku3vz2d8",
             "typeView": "slot-item",
-            "gameTag": "eagles",
+            "gameTag": "spells",
             "name": "[actual] column roll back"
         },
         {
-            "id": "ku3xa693",
+            "id": "kuva1vwe",
             "typeView": "slot-item",
-            "gameTag": "eagles",
-            "name": "[test] win_border"
-        },
-        {
-            "id": "ku5agzj7",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "[test] Bonus_Light"
-        },
-        {
-            "id": "ku5lii9r",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "[preview] bonuslightning"
-        },
-        {
-            "id": "ku89xfdi",
-            "typeView": "slot-item",
-            "gameTag": "eagles",
-            "name": "eagle_clouds"
-        },
-        {
-            "id": "kucq0wew",
-            "typeView": "slot-item",
-            "gameTag": "eagles",
-            "name": "[eagle] FreeSpins Win Animation"
+            "gameTag": "none",
+            "name": "kitten"
         }
     ]
 }
