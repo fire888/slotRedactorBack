@@ -2,6 +2,7 @@ var express = require("express");
 var bodyParser = require('body-parser')
 const multer = require("multer");
 var fs = require('fs');
+const cors = require('cors');
 
 
 var apiBaseFull = require("./apiBaseFull")
@@ -50,15 +51,19 @@ const removeFiles = (id) => {
 
 
 var app = express();
-var http = require('http').Server(app);
-app.use(function (req, res, next) {
-    next();
-});
+
+var corsOptions = {
+    origin: 'http://localhost:9000',
+    optionsSuccessStatus: 200,
+}
+
+app.use(cors(corsOptions));
+
 
 app.use(express.static('www'))
 app.use('/files', express.static('assets/files'))
 app.use(bodyParser.json())
-
+var http = require('http').Server(app);
 
 
 
@@ -125,13 +130,13 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 
 /** start  ******************************************/
 
-//var IP = '192.168.0.101' // work
+var IP = '192.168.0.101' // work
 //var IP = '192.168.10.3' // home
 var PORT = 3005
 
 
-//app.listen(PORT, IP); console.log("listen: " + IP + ":" + PORT)
-app.listen(PORT);console.log("listen: localhost:" + PORT)
+app.listen(PORT, IP); console.log("listen: " + IP + ":" + PORT)
+//app.listen(PORT);console.log("listen: localhost:" + PORT)
 
 
 
