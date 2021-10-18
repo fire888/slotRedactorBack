@@ -1,49 +1,17 @@
-var express = require("express");
-var bodyParser = require('body-parser')
-const multer = require("multer");
-var fs = require('fs');
+const express = require("express");
+const bodyParser = require('body-parser')
+//const multer = require("multer");
+const fs = require('fs');
 const cors = require('cors');
 
 
-var apiBaseFull = require("./apiBaseFull")
-var apiBaseItem = require("./apiBaseItem")
+/** bases **************************************** */
 
-/** saver files *****************************/
+const apiBaseFull = require("./apiBaseFull")
+const apiBaseItem = require("./apiBaseItem")
+const apiBaseGameTags = require("./apiGamesTags")
 
-const FILES_DIR = 'assets/files'
-
-const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-
-        const dir = `${FILES_DIR}/${req.body.id}`
-        fs.exists(dir, exist => {
-            if (!exist) {
-                fs.mkdir(dir, error => {
-                    if (error) {
-                        console.log(error)
-                    } else {
-                        cb(null, dir)
-                    }
-                })
-            } else {
-                return cb(null, dir)
-            }
-        })
-    },
-    filename: function (req, file, cb) {
-        cb(null, file.originalname)
-    }
-})
-
-const upload = multer({ storage });
-
-const removeFiles = (id) => {
-    fs.rmdirSync(`${FILES_DIR}/${id}`, { recursive: true }, err => {
-        if (err) {
-            console.log(err)
-        }
-    });
-}
+const saverAssets = require('./saverAssets')
 
 
 
@@ -99,7 +67,7 @@ app.post('/api/get-list', (req, res) => {
 })
 
 
-/** edit item files data *********************************/
+/** edit item data *********************************/
 
 app.post('/api/get-item-data', (req, res) => {
     apiBaseItem.getItem(req.body, item => {
@@ -108,11 +76,24 @@ app.post('/api/get-item-data', (req, res) => {
 })
 
 
-app.post("/api/upload-file", upload.single("file"), (req, res) => {
+app.post("/api/upload-file", saverAssets.upload.single("file"), (req, res) => {
      apiBaseItem.addFile(req.body, req.file, 'files/', mess => {
          res.json({ mess });
      })
 });
+
+
+
+/** gameTags ***************************************/
+
+
+app.post('/api/get-games-tags', (req, res) => {
+    apiBaseGameTags.getList(req.body, list => {
+        res.json({ list })
+    })
+})
+
+
 
 
 //
@@ -130,13 +111,13 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 
 /** start  ******************************************/
 
-var IP = '192.168.0.101' // work
+//var IP = '192.168.0.101' // work
 //var IP = '192.168.10.3' // home
 var PORT = 3005
 
 
-app.listen(PORT, IP); console.log("listen: " + IP + ":" + PORT)
-//app.listen(PORT);console.log("listen: localhost:" + PORT)
+//app.listen(PORT, IP); console.log("listen: " + IP + ":" + PORT)
+app.listen(PORT);console.log("listen: localhost:" + PORT)
 
 
 
