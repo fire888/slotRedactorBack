@@ -32,11 +32,33 @@ exports.getItem = function (data, callback) {
     })
 }
 
+/** TODO: renameToDragonBones */
 exports.addFile = function (reqBody, fileData, path, callback) {
     openAndCloseBase(reqBody.id, function (baseContent) {
         return new Promise(resolve => {
 
             baseContent.files[reqBody.type] = {
+                path: path + reqBody.id,
+                name: fileData.originalname,
+                fileKey: reqBody.fileKey,
+            }
+
+            resolve([baseContent, () => {
+                callback(['loaded'])
+            }])
+        })
+    })
+}
+
+exports.addImage = function (reqBody, fileData, path, callback) {
+    openAndCloseBase(reqBody.id, function (baseContent) {
+        return new Promise(resolve => {
+
+            if (!baseContent.images) {
+                baseContent.images = {}
+            }
+
+            baseContent.images[reqBody.type] = {
                 path: path + reqBody.id,
                 name: fileData.originalname,
                 fileKey: reqBody.fileKey,

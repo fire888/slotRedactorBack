@@ -115,6 +115,13 @@ app.post("/api/upload-file", upload.single("file"), (req, res) => {
 });
 
 
+app.post("/api/upload-image", upload.single("file"), (req, res) => {
+    apiBaseItem.addFile(req.body, req.file, 'files/', mess => {
+        res.json({ mess });
+    })
+});
+
+
 //
 //
 // app.post("/api/remove-files", (req, res) => {
