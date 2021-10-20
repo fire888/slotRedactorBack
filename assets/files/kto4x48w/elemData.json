@@ -4,17 +4,17 @@
     "files": {
         "dragon-ske": {
             "path": "files/kto4x48w",
-            "name": "scatter_ske.json",
+            "name": "back_owl_ske.json",
             "fileKey": "dragon-ske_kto4x48w"
         },
         "dragon-tex": {
             "path": "files/kto4x48w",
-            "name": "scatter_tex.json",
+            "name": "back_owl_tex.json",
             "fileKey": "dragon-tex_kto4x48w"
         },
         "dragon-img": {
             "path": "files/kto4x48w",
-            "name": "scatter_tex.png",
+            "name": "back_owl_tex.png",
             "fileKey": "dragon-img_kto4x48w"
         }
     },
