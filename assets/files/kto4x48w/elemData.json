@@ -4,29 +4,29 @@
     "files": {
         "dragon-ske": {
             "path": "files/kto4x48w",
-            "name": "back_owl_ske.json",
+            "name": "scatter04_ske.json",
             "fileKey": "dragon-ske_kto4x48w"
         },
         "dragon-tex": {
             "path": "files/kto4x48w",
-            "name": "back_owl_tex.json",
+            "name": "scatter04_tex.json",
             "fileKey": "dragon-tex_kto4x48w"
         },
         "dragon-img": {
             "path": "files/kto4x48w",
-            "name": "back_owl_tex.png",
+            "name": "scatter04_tex.png",
             "fileKey": "dragon-img_kto4x48w"
         }
     },
     "sounds-animations": {},
     "image-static": {
         "path": "files/kto4x48w",
-        "name": "qi-sheng-luo-rm2-0001.jpg",
+        "name": "se-young-lee-render00.jpg",
         "fileKey": "image-static_kto4x48w"
     },
     "image-blur": {
         "path": "files/kto4x48w",
-        "name": "xxx01.jpg",
+        "name": "Untitled-1.jpg",
         "fileKey": "image-blur_kto4x48w"
     }
 }

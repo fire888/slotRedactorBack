@@ -77,7 +77,6 @@ app.post('/api/get-item-data', (req, res) => {
 
 
 app.post("/api/upload-file", saverAssets.upload.single("file"), (req, res) => {
-    console.log('/api/upload-file')
      apiBaseItem.addFile(req.body, req.file, 'files/', mess => {
          res.json({ mess });
      })
@@ -86,7 +85,6 @@ app.post("/api/upload-file", saverAssets.upload.single("file"), (req, res) => {
 
 
 app.post("/api/upload-image", saverAssets.upload.single("file"), (req, res) => {
-    console.log('/api/upload-image')
     apiBaseItem.addImage(req.body, req.file, 'files/', mess => {
         res.json({ mess });
     })
