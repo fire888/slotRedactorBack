@@ -18,5 +18,15 @@
             "fileKey": "dragon-img_kto4x48w"
         }
     },
-    "sounds-animations": {}
+    "sounds-animations": {},
+    "image-static": {
+        "path": "files/kto4x48w",
+        "name": "qi-sheng-luo-rm2-0001.jpg",
+        "fileKey": "image-static_kto4x48w"
+    },
+    "image-blur": {
+        "path": "files/kto4x48w",
+        "name": "xxx01.jpg",
+        "fileKey": "image-blur_kto4x48w"
+    }
 }

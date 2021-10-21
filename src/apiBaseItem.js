@@ -34,6 +34,7 @@ exports.getItem = function (data, callback) {
 
 /** TODO: renameToDragonBones */
 exports.addFile = function (reqBody, fileData, path, callback) {
+    console.log('add file')
     openAndCloseBase(reqBody.id, function (baseContent) {
         return new Promise(resolve => {
 
@@ -51,14 +52,11 @@ exports.addFile = function (reqBody, fileData, path, callback) {
 }
 
 exports.addImage = function (reqBody, fileData, path, callback) {
+    console.log('add image')
     openAndCloseBase(reqBody.id, function (baseContent) {
         return new Promise(resolve => {
 
-            if (!baseContent.images) {
-                baseContent.images = {}
-            }
-
-            baseContent.images[reqBody.type] = {
+            baseContent[reqBody.type] = {
                 path: path + reqBody.id,
                 name: fileData.originalname,
                 fileKey: reqBody.fileKey,
