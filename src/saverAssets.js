@@ -8,7 +8,6 @@ const FILES_DIR = 'assets/files'
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-
         const dir = `${FILES_DIR}/${req.body.id}`
         fs.exists(dir, exist => {
             if (!exist) {
@@ -24,6 +23,7 @@ const storage = multer.diskStorage({
             }
         })
     },
+
     filename: function (req, file, cb) {
         cb(null, file.originalname)
     }
@@ -31,10 +31,13 @@ const storage = multer.diskStorage({
 
 exports.upload = multer({ storage });
 
-const removeFiles = (id) => {
-    fs.rmdirSync(`${FILES_DIR}/${id}`, { recursive: true }, err => {
-        if (err) {
-            console.log(err)
-        }
-    });
+exports.removeFiles = (id, callback) => {
+    fs.rmSync(`${FILES_DIR}/${id}`, { recursive: true, force: true })
+    callback()
+    //fs.rmdirSync(`${FILES_DIR}/${id}`, { recursive: true }, err => {
+    //     if (err) {
+    //         console.log(err)
+    //     }
+    //     callback()
+    // });
 }

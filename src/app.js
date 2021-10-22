@@ -24,7 +24,6 @@ var corsOptions = {
     origin: 'http://localhost:9000',
     optionsSuccessStatus: 200,
 }
-
 app.use(cors(corsOptions));
 
 
@@ -48,7 +47,10 @@ app.post('/api/add-item', (req, res) => {
 
 app.post('/api/remove-item', (req, res) => {
     apiBaseFull.removeFromBase(req.body, mess => {
-        res.json({ mess })
+        //saverAssets.removeFiles(req.body.id, () => {
+        //    console.log('removed dir')
+            res.json({ mess })
+        //})
     })
 })
 
