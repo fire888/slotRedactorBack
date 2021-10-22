@@ -227,6 +227,30 @@
             "typeView": "slot-item",
             "gameTag": "eagles",
             "name": "[eagle] FreeSpins Win Small Border"
+        },
+        {
+            "id": "kv2dz948",
+            "name": "aaa",
+            "gameTag": "aztecs",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv2e4dxk",
+            "name": "bbbb",
+            "gameTag": "aztecs",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv2efau8",
+            "name": "nnnnnnnn",
+            "gameTag": "aztecs",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv2ejvvk",
+            "name": "mmmm",
+            "gameTag": "aztecs",
+            "typeView": "slot-item"
         }
     ]
 }

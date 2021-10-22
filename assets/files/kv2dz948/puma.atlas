@@ -1,0 +1,55 @@
+
+puma.png
+size: 1346,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Frame
+  rotate: false
+  xy: 2, 2
+  size: 384, 324
+  orig: 384, 324
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 388, 21
+  size: 364, 305
+  orig: 364, 305
+  offset: 0, 0
+  index: -1
+blik2
+  rotate: false
+  xy: 1244, 187
+  size: 100, 139
+  orig: 100, 139
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 1001, 67
+  size: 241, 259
+  orig: 241, 259
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 754, 30
+  size: 131, 29
+  orig: 131, 29
+  offset: 0, 0
+  index: -1
+head_t
+  rotate: false
+  xy: 754, 61
+  size: 245, 265
+  orig: 245, 265
+  offset: 0, 0
+  index: -1
+str2
+  rotate: false
+  xy: 1244, 135
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

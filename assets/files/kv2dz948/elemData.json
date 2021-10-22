@@ -1,0 +1,27 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kv2dz948",
+            "name": "trefa.atlas",
+            "fileKey": "spine-atlas_kv2dz948"
+        },
+        "spine-ske": {
+            "path": "files/kv2dz948",
+            "name": "trefa.json",
+            "fileKey": "spine-ske_kv2dz948"
+        },
+        "spine-img": {
+            "path": "files/kv2dz948",
+            "name": "trefa.png",
+            "fileKey": "spine-img_kv2dz948"
+        },
+        "image-blur": {
+            "path": "files/kv2dz948",
+            "name": "superWin03.png",
+            "fileKey": "image-blur_kv2dz948"
+        }
+    },
+    "sounds-animations": {}
+}

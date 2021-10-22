@@ -1,0 +1,34 @@
+
+pika.png
+size: 1341,569
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blik
+  rotate: false
+  xy: 1240, 160
+  size: 95, 407
+  orig: 200, 568
+  offset: 56, 61
+  index: -1
+frame
+  rotate: false
+  xy: 634, 25
+  size: 604, 542
+  orig: 846, 700
+  offset: 122, 77
+  index: -1
+stone
+  rotate: false
+  xy: 2, 2
+  size: 630, 565
+  orig: 846, 700
+  offset: 110, 65
+  index: -1
+str2
+  rotate: false
+  xy: 1240, 59
+  size: 99, 99
+  orig: 100, 99
+  offset: 1, 0
+  index: -1

@@ -34,7 +34,6 @@ exports.getItem = function (data, callback) {
 
 
 exports.addFile = function (reqBody, fileData, path, callback) {
-    console.log('add file')
     openAndCloseBase(reqBody.id, function (baseContent) {
         return new Promise(resolve => {
 

@@ -1,0 +1,17 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "image-blur": {
+            "path": "files/kv2ejvvk",
+            "name": "superWin02.png",
+            "fileKey": "image-blur_kv2ejvvk"
+        },
+        "image-static": {
+            "path": "files/kv2ejvvk",
+            "name": "superWin03.png",
+            "fileKey": "image-static_kv2ejvvk"
+        }
+    },
+    "sounds-animations": {}
+}
