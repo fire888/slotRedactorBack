@@ -1,0 +1,370 @@
+
+wild.png
+size: 541,1009
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 354
+  size: 377, 320
+  orig: 379, 350
+  offset: 1, 29
+  index: -1
+blik
+  rotate: false
+  xy: 392, 803
+  size: 44, 204
+  orig: 100, 284
+  offset: 30, 30
+  index: -1
+eagle_head_3
+  rotate: false
+  xy: 2, 53
+  size: 322, 299
+  orig: 390, 340
+  offset: 34, 41
+  index: -1
+eyes
+  rotate: true
+  xy: 438, 825
+  size: 182, 45
+  orig: 182, 45
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 2, 676
+  size: 388, 331
+  orig: 407, 335
+  offset: 9, 2
+  index: -1
+frame_under_light
+  rotate: true
+  xy: 326, 2
+  size: 249, 213
+  orig: 407, 335
+  offset: 79, 60
+  index: -1
+shining
+  rotate: false
+  xy: 326, 254
+  size: 41, 34
+  orig: 50, 38
+  offset: 4, 2
+  index: -1
+shining_effect/frame_shining_00
+  rotate: true
+  xy: 392, 706
+  size: 46, 40
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_01
+  rotate: false
+  xy: 476, 706
+  size: 46, 40
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_02
+  rotate: true
+  xy: 434, 679
+  size: 46, 40
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_03
+  rotate: false
+  xy: 485, 916
+  size: 47, 40
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_04
+  rotate: false
+  xy: 485, 874
+  size: 47, 40
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_05
+  rotate: false
+  xy: 485, 832
+  size: 47, 40
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_06
+  rotate: false
+  xy: 485, 790
+  size: 47, 40
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_07
+  rotate: true
+  xy: 438, 776
+  size: 47, 40
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_08
+  rotate: true
+  xy: 392, 754
+  size: 47, 40
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_09
+  rotate: false
+  xy: 480, 748
+  size: 47, 40
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_10
+  rotate: true
+  xy: 434, 727
+  size: 47, 40
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_11
+  rotate: true
+  xy: 429, 582
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_12
+  rotate: true
+  xy: 381, 567
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_13
+  rotate: false
+  xy: 470, 581
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_14
+  rotate: true
+  xy: 422, 533
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_15
+  rotate: true
+  xy: 381, 518
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_16
+  rotate: false
+  xy: 463, 540
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_17
+  rotate: false
+  xy: 463, 499
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_18
+  rotate: true
+  xy: 422, 484
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_19
+  rotate: true
+  xy: 381, 469
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_20
+  rotate: false
+  xy: 463, 458
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_21
+  rotate: true
+  xy: 422, 435
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_22
+  rotate: true
+  xy: 381, 420
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_23
+  rotate: false
+  xy: 463, 417
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_24
+  rotate: true
+  xy: 422, 386
+  size: 47, 39
+  orig: 50, 50
+  offset: 1, 5
+  index: -1
+shining_effect/frame_shining_25
+  rotate: true
+  xy: 381, 372
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_26
+  rotate: false
+  xy: 463, 376
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_27
+  rotate: true
+  xy: 422, 338
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_28
+  rotate: true
+  xy: 381, 324
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_29
+  rotate: false
+  xy: 463, 335
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_30
+  rotate: true
+  xy: 422, 290
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_31
+  rotate: false
+  xy: 463, 294
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_32
+  rotate: false
+  xy: 463, 253
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_33
+  rotate: false
+  xy: 326, 313
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_34
+  rotate: false
+  xy: 369, 272
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_35
+  rotate: true
+  xy: 2, 5
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_36
+  rotate: true
+  xy: 43, 5
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_37
+  rotate: true
+  xy: 84, 5
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_38
+  rotate: true
+  xy: 125, 5
+  size: 46, 39
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_39
+  rotate: true
+  xy: 392, 658
+  size: 46, 40
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_40
+  rotate: false
+  xy: 476, 664
+  size: 46, 40
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_41
+  rotate: true
+  xy: 434, 631
+  size: 46, 40
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_42
+  rotate: false
+  xy: 476, 622
+  size: 46, 40
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+shining_effect/frame_shining_43
+  rotate: false
+  xy: 381, 616
+  size: 46, 40
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+str2
+  rotate: true
+  xy: 485, 958
+  size: 49, 50
+  orig: 50, 50
+  offset: 1, 0
+  index: -1

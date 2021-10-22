@@ -16,17 +16,32 @@
             "path": "files/kto4x48w",
             "name": "scatter04_tex.png",
             "fileKey": "dragon-img_kto4x48w"
+        },
+        "spine-atlas": {
+            "path": "files/kto4x48w",
+            "name": "wild.atlas",
+            "fileKey": "spine-atlas_kto4x48w"
+        },
+        "spine-ske": {
+            "path": "files/kto4x48w",
+            "name": "wild.json",
+            "fileKey": "spine-ske_kto4x48w"
+        },
+        "spine-img": {
+            "path": "files/kto4x48w",
+            "name": "wild.png",
+            "fileKey": "spine-img_kto4x48w"
+        },
+        "image-static": {
+            "path": "files/kto4x48w",
+            "name": "item00_anim05_fr00.png",
+            "fileKey": "image-static_kto4x48w"
+        },
+        "image-blur": {
+            "path": "files/kto4x48w",
+            "name": "item05_anim05_fr00.png",
+            "fileKey": "image-blur_kto4x48w"
         }
     },
-    "sounds-animations": {},
-    "image-static": {
-        "path": "files/kto4x48w",
-        "name": "se-young-lee-render00.jpg",
-        "fileKey": "image-static_kto4x48w"
-    },
-    "image-blur": {
-        "path": "files/kto4x48w",
-        "name": "Untitled-1.jpg",
-        "fileKey": "image-blur_kto4x48w"
-    }
+    "sounds-animations": {}
 }

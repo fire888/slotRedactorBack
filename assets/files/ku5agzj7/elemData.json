@@ -16,6 +16,16 @@
             "path": "files/ku5agzj7",
             "name": "bonus_lightning_tex.png",
             "fileKey": "dragon-img_ku5agzj7"
+        },
+        "image-static": {
+            "path": "files/ku5agzj7",
+            "name": "item01_anim05_fr00.png",
+            "fileKey": "image-static_ku5agzj7"
+        },
+        "image-blur": {
+            "path": "files/ku5agzj7",
+            "name": "item05_anim05_fr00.png",
+            "fileKey": "image-blur_ku5agzj7"
         }
     },
     "sounds-animations": {}

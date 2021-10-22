@@ -84,13 +84,6 @@ app.post("/api/upload-file", saverAssets.upload.single("file"), (req, res) => {
 
 
 
-app.post("/api/upload-image", saverAssets.upload.single("file"), (req, res) => {
-    apiBaseItem.addImage(req.body, req.file, 'files/', mess => {
-        res.json({ mess });
-    })
-});
-
-
 /** gameTags ***************************************/
 
 
@@ -100,19 +93,6 @@ app.post('/api/get-games-tags', (req, res) => {
     })
 })
 
-
-
-
-//
-//
-// app.post("/api/remove-files", (req, res) => {
-//     try {
-//         removeFiles(req.body.id)
-//     } catch {
-//         //console.log('not delete')
-//     }
-//     res.json({ mess: ['files removed'] })
-// })
 
 
 
