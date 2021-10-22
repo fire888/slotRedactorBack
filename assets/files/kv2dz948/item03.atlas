@@ -1,0 +1,68 @@
+item03.png
+size:1663,399
+filter:Linear,Linear
+Hue_Saturation
+bounds:2,84,313,275
+offsets:8,2,328,285
+rotate:90
+Layer 10
+bounds:1200,38,104,81
+rotate:90
+Layer 11
+bounds:1606,244,52,52
+Layer 12
+bounds:400,116,26,54
+rotate:90
+Layer 13
+bounds:261,17,104,65
+Layer 14
+bounds:1606,298,99,55
+rotate:90
+Layer 15
+bounds:400,94,21,20
+Layer 16
+bounds:2,2,80,129
+rotate:90
+Layer 17
+bounds:456,96,23,30
+rotate:90
+Layer 18
+bounds:133,4,126,78
+Layer 19
+bounds:569,2,121,140
+Layer 2
+bounds:692,8,120,134
+Layer 3
+bounds:1283,29,144,145
+Layer 4
+bounds:814,7,135,102
+rotate:90
+Layer 5
+bounds:918,4,138,95
+rotate:90
+Layer 6
+bounds:279,94,119,48
+Layer 8
+bounds:1015,9,133,93
+rotate:90
+Layer 9
+bounds:456,121,55,21
+effects/smoke_1
+bounds:367,7,200,85
+effects/smoke_2
+bounds:1202,176,200,221
+effects/snow
+bounds:599,144,313,253
+offsets:0,3,326,271
+effects/snow2
+bounds:279,144,318,253
+offsets:0,14,318,271
+effects/stone
+bounds:1404,197,200,200
+line
+bounds:914,144,286,253
+under_smoke_1
+bounds:1110,42,100,88
+rotate:90
+under_smoke_2
+bounds:1429,3,200,192

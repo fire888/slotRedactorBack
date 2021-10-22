@@ -1,0 +1,17 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "image-static": {
+            "path": "files/kv2o6wyt",
+            "name": "azEffectColumn.png",
+            "fileKey": "image-static_kv2o6wyt"
+        },
+        "image-blur": {
+            "path": "files/kv2o6wyt",
+            "name": "back-symbol-free-game.png",
+            "fileKey": "image-blur_kv2o6wyt"
+        }
+    },
+    "sounds-animations": {}
+}

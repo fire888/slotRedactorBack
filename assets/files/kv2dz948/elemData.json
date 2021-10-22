@@ -4,23 +4,28 @@
     "files": {
         "spine-atlas": {
             "path": "files/kv2dz948",
-            "name": "trefa.atlas",
+            "name": "item01.atlas",
             "fileKey": "spine-atlas_kv2dz948"
         },
         "spine-ske": {
             "path": "files/kv2dz948",
-            "name": "trefa.json",
+            "name": "item01.json",
             "fileKey": "spine-ske_kv2dz948"
         },
         "spine-img": {
             "path": "files/kv2dz948",
-            "name": "trefa.png",
+            "name": "item01.png",
             "fileKey": "spine-img_kv2dz948"
         },
         "image-blur": {
             "path": "files/kv2dz948",
-            "name": "superWin03.png",
+            "name": "az_logo_100.png",
             "fileKey": "image-blur_kv2dz948"
+        },
+        "image-static": {
+            "path": "files/kv2dz948",
+            "name": "slide03.png",
+            "fileKey": "image-static_kv2dz948"
         }
     },
     "sounds-animations": {}

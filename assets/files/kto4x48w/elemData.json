@@ -19,12 +19,12 @@
         },
         "spine-atlas": {
             "path": "files/kto4x48w",
-            "name": "deer.atlas",
+            "name": "wild.atlas",
             "fileKey": "spine-atlas_kto4x48w"
         },
         "spine-ske": {
             "path": "files/kto4x48w",
-            "name": "deer.json",
+            "name": "wild.json",
             "fileKey": "spine-ske_kto4x48w"
         },
         "spine-img": {
