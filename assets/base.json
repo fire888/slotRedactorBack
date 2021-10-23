@@ -19,12 +19,6 @@
             "name": "book_skatter_03"
         },
         {
-            "id": "kto4x48w",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "booh_skatter_04"
-        },
-        {
             "id": "kto54fep",
             "gameTag": "none",
             "typeView": "slot-item",
@@ -71,12 +65,6 @@
             "gameTag": "none",
             "typeView": "slot-item",
             "name": "sphere_bonus_04"
-        },
-        {
-            "id": "kto6uhmq",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "sphere_bonus_05"
         },
         {
             "id": "ktpxcowt",
@@ -203,24 +191,6 @@
             "typeView": "slot-item",
             "gameTag": "spells",
             "name": "[actual] column roll back"
-        },
-        {
-            "id": "ku3xa693",
-            "typeView": "slot-item",
-            "gameTag": "spells",
-            "name": "[test] win_border"
-        },
-        {
-            "id": "kucq0wew",
-            "typeView": "slot-item",
-            "gameTag": "eagles",
-            "name": "[eagle] FreeSpins Win Animation"
-        },
-        {
-            "id": "kuo5wz6n",
-            "typeView": "slot-item",
-            "gameTag": "eagles",
-            "name": "[eagle] FreeSpins Win Small Border"
         },
         {
             "id": "kv2ktdmf",

@@ -47,10 +47,9 @@ app.post('/api/add-item', (req, res) => {
 
 app.post('/api/remove-item', (req, res) => {
     apiBaseFull.removeFromBase(req.body, mess => {
-        //saverAssets.removeFiles(req.body.id, () => {
-        //    console.log('removed dir')
+        saverAssets.removeFolderItem(req.body.id, () => {
             res.json({ mess })
-        //})
+        })
     })
 })
 

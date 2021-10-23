@@ -1,5 +1,7 @@
 const multer = require("multer");
 const fs = require('fs');
+var rimraf = require("rimraf");
+
 
 /** saver files **************************** */
 
@@ -31,13 +33,8 @@ const storage = multer.diskStorage({
 
 exports.upload = multer({ storage });
 
-exports.removeFiles = (id, callback) => {
-    fs.rmSync(`${FILES_DIR}/${id}`, { recursive: true, force: true })
-    callback()
-    //fs.rmdirSync(`${FILES_DIR}/${id}`, { recursive: true }, err => {
-    //     if (err) {
-    //         console.log(err)
-    //     }
-    //     callback()
-    // });
+exports.removeFolderItem = (id, callback) => {
+    rimraf(`${FILES_DIR}/${id}`, function () { 
+        callback()
+     });
 }
