@@ -51,6 +51,20 @@ exports.addFile = function (reqBody, fileData, path, callback) {
 }
 
 
+exports.removeFile = function (reqBody, callback) {
+    openAndCloseBase(reqBody.id, function (baseContent) {
+        return new Promise(resolve => {
+            delete baseContent.files[reqBody.type]
+
+            resolve([baseContent, () => {
+                callback('fileType removed from base')
+            }])
+        })
+
+    })
+}
+
+
 
 
 /** helper ***********************************************/

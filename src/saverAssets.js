@@ -38,3 +38,10 @@ exports.removeFolderItem = (id, callback) => {
         callback()
      });
 }
+
+exports.removeFile = (path, callback) => {
+    fs.unlink(path, function () {
+        callback()
+    });
+}
+

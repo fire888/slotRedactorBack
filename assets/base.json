@@ -197,6 +197,12 @@
             "name": "00",
             "gameTag": "pyramid_NY",
             "typeView": "slot-item"
+        },
+        {
+            "id": "kv5gjjd1",
+            "name": "aaaaa",
+            "gameTag": "aztecs",
+            "typeView": "slot-item"
         }
     ]
 }
