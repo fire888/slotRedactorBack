@@ -77,11 +77,28 @@ app.post('/api/get-item-data', (req, res) => {
 })
 
 
-app.post("/api/upload-file", saverAssets.upload.single("file"), (req, res) => {
-     apiBaseItem.addFile(req.body, req.file, 'files/', mess => {
-         res.json({ mess });
-     })
+app.post("/api/upload-file", (req, res) => {
+    saverAssets.upload(req, res, () => {
+        apiBaseItem.addFile(req.body, req.file, 'files/', mess => {
+            res.json({ mess });
+        })
+    })
 });
+
+
+// app.post("/api/remove-file", (req, res) => {
+//         apiBaseItem.addFile(req.body, req.file, 'files/', mess => {
+//             res.json({ mess });
+//         })
+//     })
+// });
+
+
+// app.post("/api/upload-file", saverAssets.upload.single("file"), (req, res) => {
+//      apiBaseItem.addFile(req.body, req.file, 'files/', mess => {
+//          res.json({ mess });
+//      })
+// });
 
 
 

@@ -73,12 +73,6 @@
             "name": "test-test"
         },
         {
-            "id": "ktsmmb7p",
-            "gameTag": "none",
-            "typeView": "slot-item",
-            "name": "eagles_sun"
-        },
-        {
             "id": "ktu4razt",
             "typeView": "slot-item",
             "gameTag": "spells",
@@ -196,6 +190,18 @@
             "id": "kv2ktdmf",
             "name": "00",
             "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv47los1",
+            "name": "aaaaa",
+            "gameTag": "aztecs",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv4aki9b",
+            "name": "bbbbb",
+            "gameTag": "aztecs",
             "typeView": "slot-item"
         }
     ]
