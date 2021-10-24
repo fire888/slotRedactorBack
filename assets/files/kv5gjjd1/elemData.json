@@ -1,0 +1,12 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "image-static": {
+            "path": "files/kv5gjjd1",
+            "name": "bn-item06.png",
+            "fileKey": "image-static_kv5gjjd1"
+        }
+    },
+    "sounds-animations": {}
+}
