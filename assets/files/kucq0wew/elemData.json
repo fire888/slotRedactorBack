@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-img": {
+            "path": "files/kucq0wew",
+            "name": "fs_grid_tex.png",
+            "fileKey": "dragon-img_kucq0wew"
+        },
+        "dragon-ske": {
+            "path": "files/kucq0wew",
+            "name": "fs_grid_ske.json",
+            "fileKey": "dragon-ske_kucq0wew"
+        },
+        "dragon-tex": {
+            "path": "files/kucq0wew",
+            "name": "fs_grid_tex.json",
+            "fileKey": "dragon-tex_kucq0wew"
+        }
+    },
+    "sounds-animations": {}
+}

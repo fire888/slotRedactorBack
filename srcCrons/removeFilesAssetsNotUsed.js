@@ -92,7 +92,7 @@ const iterateFilesInBase = (id, filesInBase) => {
 
 const iterateDirectory = (i, arrDirectories) => {
     if (!arrDirectories[i]) {
-        console.log('done')
+        console.log('done, total: ', i )
         return;
     }
 

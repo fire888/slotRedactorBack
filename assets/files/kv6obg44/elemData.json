@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kv6obg44",
+            "name": "skatter_freespins.atlas",
+            "fileKey": "spine-atlas_kv6obg44"
+        },
+        "spine-ske": {
+            "path": "files/kv6obg44",
+            "name": "skatter_freespins.json",
+            "fileKey": "spine-ske_kv6obg44"
+        },
+        "spine-img": {
+            "path": "files/kv6obg44",
+            "name": "skatter_freespins.png",
+            "fileKey": "spine-img_kv6obg44"
+        }
+    },
+    "sounds-animations": {}
+}

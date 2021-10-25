@@ -78,9 +78,9 @@ getBaseIds(arrBaseIds => {
         }
     }
 
-    console.log('!!', arrBaseWithoutItems)
+    console.log('baseItemsWithoutDirs: ', arrBaseWithoutItems)
+    console.log('baseItems: ', arrBaseIds.length, 'dirsNotInBase: ', arrDirsNotInBase.length, 'dirs:', arrDirs.length)
 
-
-    console.log(arrBaseIds.length, arrDirsNotInBase.length, arrDirs.length)
-    //removeFolders(arrDirsNotInBase)
+    /** uncomment START-REMOVE */
+    removeFolders(arrDirsNotInBase)
 })

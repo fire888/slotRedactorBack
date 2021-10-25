@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kv6p54mn",
+            "name": "item02.atlas",
+            "fileKey": "spine-atlas_kv6p54mn"
+        },
+        "spine-ske": {
+            "path": "files/kv6p54mn",
+            "name": "item02.json",
+            "fileKey": "spine-ske_kv6p54mn"
+        },
+        "spine-img": {
+            "path": "files/kv6p54mn",
+            "name": "item02.png",
+            "fileKey": "spine-img_kv6p54mn"
+        }
+    },
+    "sounds-animations": {}
+}

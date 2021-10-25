@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kto4x48w",
+            "name": "scatter_ske.json",
+            "fileKey": "dragon-ske_kto4x48w"
+        },
+        "dragon-tex": {
+            "path": "files/kto4x48w",
+            "name": "scatter_tex.json",
+            "fileKey": "dragon-tex_kto4x48w"
+        },
+        "dragon-img": {
+            "path": "files/kto4x48w",
+            "name": "scatter_tex.png",
+            "fileKey": "dragon-img_kto4x48w"
+        }
+    },
+    "sounds-animations": {}
+}

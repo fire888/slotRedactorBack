@@ -19,6 +19,12 @@
             "name": "book_skatter_03"
         },
         {
+            "id": "kto4x48w",
+            "typeView": "none",
+            "gameTag": "none",
+            "name": "booh_skatter_04"
+        },
+        {
             "id": "kto54fep",
             "gameTag": "none",
             "typeView": "slot-item",
@@ -56,8 +62,8 @@
         },
         {
             "id": "kto6h2c9",
-            "typeView": "slot-item",
-            "gameTag": "spells",
+            "typeView": "none",
+            "gameTag": "none",
             "name": "free_intro"
         },
         {
@@ -65,6 +71,12 @@
             "gameTag": "none",
             "typeView": "slot-item",
             "name": "sphere_bonus_04"
+        },
+        {
+            "id": "kto6uhmq",
+            "typeView": "none",
+            "gameTag": "none",
+            "name": "sphere_bonus_05"
         },
         {
             "id": "ktpxcowt",
@@ -85,6 +97,12 @@
             "name": " WILD v2.0"
         },
         {
+            "id": "ktv9x1q8",
+            "gameTag": "none",
+            "typeView": "slot-item",
+            "name": "Scatter 2.0 (final)"
+        },
+        {
             "id": "ktvat2vu",
             "typeView": "slot-item",
             "gameTag": "spells",
@@ -95,6 +113,12 @@
             "typeView": "slot-item",
             "gameTag": "spells",
             "name": "[actual] OWL_JACKPOT v2"
+        },
+        {
+            "id": "ku2mjuo3",
+            "gameTag": "none",
+            "typeView": "slot-item",
+            "name": "Scatter 3.0 (final)"
         },
         {
             "id": "ku2mm8w9",
@@ -175,8 +199,98 @@
             "name": "[actual] column roll back"
         },
         {
-            "id": "kv2ktdmf",
-            "name": "00",
+            "id": "ku3xa693",
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "[test] win_border"
+        },
+        {
+            "id": "ku5agzj7",
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "[test] Bonus_Light"
+        },
+        {
+            "id": "ku89xfdi",
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "eagle_clouds"
+        },
+        {
+            "id": "kucq0wew",
+            "typeView": "slot-item",
+            "gameTag": "eagles",
+            "name": "[eagle] FreeSpins Win Animation"
+        },
+        {
+            "id": "kuxzx3ta",
+            "name": "[eagle] FreeSpins Win Small Border",
+            "gameTag": "eagles",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv2f54vv",
+            "typeView": "slot-item",
+            "gameTag": "none",
+            "name": "item01"
+        },
+        {
+            "id": "kv6obg44",
+            "name": "scatter",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv6p51ai",
+            "name": "item01",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv6p54mn",
+            "name": "item02",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv6p57ib",
+            "name": "item03",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv6p5a9o",
+            "name": "item04",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv6p5dyf",
+            "name": "item05",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv6p5hkn",
+            "name": "item06",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv6p5lvs",
+            "name": "item07",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv6p5pw8",
+            "name": "item08",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kv6p5u1c",
+            "name": "wild",
             "gameTag": "pyramid_NY",
             "typeView": "slot-item"
         }
