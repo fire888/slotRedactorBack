@@ -1,7 +1,7 @@
 var fs = require('fs');
 var baseFileName = './base/dragonBonesSlots/base.json'
 var CONSTANTS = require("../src/constants")
-
+var rimraf = require("rimraf");
 
 
 const savesItems = () => {
@@ -83,18 +83,3 @@ const saveAsNew = data => {
     })
 }
 
-
-
-
-
-
-
-
-
-
-//     const { mess, newData } = prepareBaseObjectFromFront(currentScheme, data, null)
-//
-//     currentContentBase['items'].push(newData)
-//     fs.writeFileSync(baseFileName, JSON.stringify(currentContentBase, null, 4));
-//     mess.push('saved')
-//     callback(mess)

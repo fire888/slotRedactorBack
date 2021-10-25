@@ -91,12 +91,6 @@
             "name": " WILD v2.0"
         },
         {
-            "id": "ktv9x1q8",
-            "gameTag": "none",
-            "typeView": "slot-item",
-            "name": "Scatter 2.0 (final)"
-        },
-        {
             "id": "ktvat2vu",
             "typeView": "slot-item",
             "gameTag": "spells",
@@ -107,12 +101,6 @@
             "typeView": "slot-item",
             "gameTag": "spells",
             "name": "[actual] OWL_JACKPOT v2"
-        },
-        {
-            "id": "ku2mjuo3",
-            "gameTag": "none",
-            "typeView": "slot-item",
-            "name": "Scatter 3.0 (final)"
         },
         {
             "id": "ku2mm8w9",
@@ -196,12 +184,6 @@
             "id": "kv2ktdmf",
             "name": "00",
             "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
-        },
-        {
-            "id": "kv5gjjd1",
-            "name": "aaaaa",
-            "gameTag": "aztecs",
             "typeView": "slot-item"
         }
     ]

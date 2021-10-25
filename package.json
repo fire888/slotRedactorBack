@@ -6,7 +6,8 @@
   "main": "machine.js",
   "scripts": {
     "start": "node pixiredactor.js",
-    "startCron": "node srcCrons/changeOldBaseToNew.js"
+    "startCron": "node srcCrons/changeOldBaseToNew.js",
+    "startCron3": "node srcCrons/removeFilesAssetsNotUsed.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
