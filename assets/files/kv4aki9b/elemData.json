@@ -1,0 +1,12 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "image-static": {
+            "path": "files/kv4aki9b",
+            "name": "sun_tex.png",
+            "fileKey": "image-static_kv4aki9b"
+        }
+    },
+    "sounds-animations": {}
+}

@@ -31,15 +31,16 @@ const storage = multer.diskStorage({
     }
 })
 
-exports.upload = multer({ storage });
+exports.upload = multer({ storage }).single('file');
 
 exports.removeFolderItem = (id, callback) => {
     rimraf(`${FILES_DIR}/${id}`, function () { 
         callback()
-     });
+     })
 }
 
 exports.removeFile = (path, callback) => {
+    console.log('remove.', path)
     fs.unlink(path, function () {
         callback()
     });
