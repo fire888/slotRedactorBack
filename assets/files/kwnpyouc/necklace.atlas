@@ -1,0 +1,202 @@
+
+necklace.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Star_blick
+  rotate: false
+  xy: 2, 15
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+back_medalion
+  rotate: true
+  xy: 549, 11
+  size: 240, 239
+  orig: 240, 239
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 298, 2
+  size: 249, 249
+  orig: 249, 249
+  offset: 0, 0
+  index: -1
+frame_medalion
+  rotate: false
+  xy: 298, 253
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00001
+  rotate: false
+  xy: 970, 359
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00002
+  rotate: false
+  xy: 970, 359
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00003
+  rotate: false
+  xy: 1001, 212
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00004
+  rotate: false
+  xy: 1117, 359
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00005
+  rotate: false
+  xy: 1001, 65
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00006
+  rotate: false
+  xy: 1148, 212
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00007
+  rotate: false
+  xy: 1264, 359
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00008
+  rotate: false
+  xy: 1148, 65
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00009
+  rotate: false
+  xy: 1295, 212
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00010
+  rotate: false
+  xy: 1411, 359
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00011
+  rotate: false
+  xy: 1295, 65
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00012
+  rotate: false
+  xy: 1295, 65
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00013
+  rotate: false
+  xy: 1442, 212
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00014
+  rotate: false
+  xy: 1558, 359
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00015
+  rotate: false
+  xy: 1442, 65
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00016
+  rotate: false
+  xy: 1589, 212
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00017
+  rotate: false
+  xy: 1589, 212
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00018
+  rotate: false
+  xy: 1705, 359
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00019
+  rotate: false
+  xy: 1589, 65
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+item02_anim02_fr00
+  rotate: false
+  xy: 2, 139
+  size: 294, 365
+  orig: 294, 365
+  offset: 0, 0
+  index: -1
+medalion_gold
+  rotate: true
+  xy: 790, 69
+  size: 210, 209
+  orig: 210, 209
+  offset: 0, 0
+  index: -1
+medalion_necklace
+  rotate: true
+  xy: 550, 284
+  size: 220, 217
+  orig: 220, 217
+  offset: 0, 0
+  index: -1
+medalion_shadow
+  rotate: true
+  xy: 769, 281
+  size: 223, 199
+  orig: 223, 199
+  offset: 0, 0
+  index: -1
+shadow_all
+  rotate: false
+  xy: 2, 54
+  size: 240, 83
+  orig: 240, 83
+  offset: 0, 0
+  index: -1

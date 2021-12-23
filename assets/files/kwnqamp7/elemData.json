@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-img": {
+            "path": "files/kwnqamp7",
+            "name": "lights_day_right.png",
+            "fileKey": "spine-img_kwnqamp7"
+        },
+        "spine-atlas": {
+            "path": "files/kwnqamp7",
+            "name": "lights_day_right.atlas",
+            "fileKey": "spine-atlas_kwnqamp7"
+        },
+        "spine-ske": {
+            "path": "files/kwnqamp7",
+            "name": "lights_day_right.json",
+            "fileKey": "spine-ske_kwnqamp7"
+        }
+    },
+    "sounds-animations": {}
+}

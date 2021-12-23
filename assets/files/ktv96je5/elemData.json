@@ -18,5 +18,23 @@
             "fileKey": "dragon-img_ktv96je5"
         }
     },
-    "sounds-animations": {}
+    "sounds-animations": [
+        {
+            "key": "a1",
+            "animationName": "wild_freespin_small"
+        },
+        {
+            "key": "a2",
+            "animationName": "wild_normal_big"
+        },
+        {
+            "key": "a3",
+            "animationName": "wild_freespin_big"
+        },
+        {
+            "key": "a4",
+            "animationName": "wild_freespin_small"
+        }
+    ],
+    "id": "ktv96je5"
 }

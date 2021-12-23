@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-img": {
+            "path": "files/kwf0k219",
+            "name": "back_free_ver_tex.png",
+            "fileKey": "dragon-img_kwf0k219"
+        },
+        "dragon-ske": {
+            "path": "files/kwf0k219",
+            "name": "back_free_ver_ske.json",
+            "fileKey": "dragon-ske_kwf0k219"
+        },
+        "dragon-tex": {
+            "path": "files/kwf0k219",
+            "name": "back_free_ver_tex.json",
+            "fileKey": "dragon-tex_kwf0k219"
+        }
+    },
+    "sounds-animations": {}
+}

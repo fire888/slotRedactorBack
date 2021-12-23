@@ -4,19 +4,24 @@
     "files": {
         "dragon-ske": {
             "path": "files/kto44t6y",
-            "name": "wild03_ske.json",
+            "name": "owl_ske.json",
             "fileKey": "dragon-ske_kto44t6y"
         },
         "dragon-tex": {
             "path": "files/kto44t6y",
-            "name": "wild03_tex.json",
+            "name": "owl_tex.json",
             "fileKey": "dragon-tex_kto44t6y"
         },
         "dragon-img": {
             "path": "files/kto44t6y",
-            "name": "wild03_tex.png",
+            "name": "owl_tex.png",
             "fileKey": "dragon-img_kto44t6y"
         }
     },
-    "sounds-animations": {}
+    "sounds-animations": [
+        {
+            "key": "win"
+        }
+    ],
+    "id": "kto44t6y"
 }

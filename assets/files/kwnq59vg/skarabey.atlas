@@ -1,0 +1,209 @@
+
+skarabey.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blick
+  rotate: false
+  xy: 1009, 409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Blick_02
+  rotate: false
+  xy: 2, 8
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+Star_blick
+  rotate: false
+  xy: 515, 8
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+gem_big
+  rotate: true
+  xy: 475, 3
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+gem_little
+  rotate: true
+  xy: 249, 2
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+gem_middle
+  rotate: true
+  xy: 275, 7
+  size: 17, 26
+  orig: 17, 26
+  offset: 0, 0
+  index: -1
+gold_skarabey
+  rotate: false
+  xy: 252, 288
+  size: 208, 221
+  orig: 208, 221
+  offset: 0, 0
+  index: -1
+green_down
+  rotate: false
+  xy: 249, 26
+  size: 224, 227
+  orig: 224, 227
+  offset: 0, 0
+  index: -1
+green_up
+  rotate: false
+  xy: 462, 386
+  size: 121, 123
+  orig: 121, 123
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 255
+  size: 254, 248
+  orig: 254, 248
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00006
+  rotate: false
+  xy: 462, 273
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00007
+  rotate: false
+  xy: 475, 160
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00008
+  rotate: false
+  xy: 568, 273
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00009
+  rotate: false
+  xy: 585, 398
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00010
+  rotate: false
+  xy: 475, 47
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00011
+  rotate: false
+  xy: 581, 160
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00012
+  rotate: false
+  xy: 674, 285
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00013
+  rotate: false
+  xy: 691, 398
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00014
+  rotate: false
+  xy: 581, 47
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00015
+  rotate: false
+  xy: 687, 172
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00016
+  rotate: false
+  xy: 780, 285
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00017
+  rotate: false
+  xy: 797, 398
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00018
+  rotate: false
+  xy: 687, 59
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00019
+  rotate: false
+  xy: 793, 172
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00020
+  rotate: false
+  xy: 886, 285
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00021
+  rotate: false
+  xy: 903, 398
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00022
+  rotate: false
+  xy: 793, 59
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00023
+  rotate: false
+  xy: 899, 172
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+vfx_03/gold_skarabey_00024
+  rotate: false
+  xy: 992, 285
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1

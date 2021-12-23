@@ -1,0 +1,160 @@
+
+lights_day_right.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+curbstone_l
+  rotate: false
+  xy: 2, 439
+  size: 232, 509
+  orig: 232, 509
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_00
+  rotate: true
+  xy: 236, 648
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_01
+  rotate: false
+  xy: 236, 477
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_02
+  rotate: true
+  xy: 407, 648
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_03
+  rotate: true
+  xy: 433, 175
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_04
+  rotate: false
+  xy: 538, 477
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_05
+  rotate: true
+  xy: 578, 648
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_06
+  rotate: true
+  xy: 749, 648
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_07
+  rotate: false
+  xy: 433, 4
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_08
+  rotate: true
+  xy: 604, 175
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_09
+  rotate: false
+  xy: 735, 4
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_10
+  rotate: true
+  xy: 775, 175
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_11
+  rotate: false
+  xy: 840, 477
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_12
+  rotate: true
+  xy: 946, 175
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_13
+  rotate: true
+  xy: 920, 648
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_14
+  rotate: true
+  xy: 1091, 648
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_15
+  rotate: false
+  xy: 1037, 4
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_16
+  rotate: true
+  xy: 1117, 175
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_17
+  rotate: false
+  xy: 1142, 477
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire/05/Fire_112_18
+  rotate: true
+  xy: 1288, 175
+  size: 300, 169
+  orig: 300, 169
+  offset: 0, 0
+  index: -1
+fire_light
+  rotate: false
+  xy: 1339, 35
+  size: 109, 138
+  orig: 500, 163
+  offset: 391, 8
+  index: -1
+front_bg
+  rotate: false
+  xy: 2, 2
+  size: 429, 435
+  orig: 2000, 435
+  offset: 1571, 0
+  index: -1

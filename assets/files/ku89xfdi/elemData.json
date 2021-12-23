@@ -18,5 +18,14 @@
             "fileKey": "dragon-tex_ku89xfdi"
         }
     },
-    "sounds-animations": {}
+    "sounds-animations": [
+        {
+            "key": "aaaa",
+            "animationName": "ebc_anim"
+        },
+        {
+            "key": "bbbb"
+        }
+    ],
+    "id": "ku89xfdi"
 }

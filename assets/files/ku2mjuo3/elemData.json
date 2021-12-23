@@ -18,5 +18,13 @@
             "fileKey": "dragon-img_ku2mjuo3"
         }
     },
-    "sounds-animations": {}
+    "sounds-animations": [
+        {
+            "key": "idle"
+        },
+        {
+            "key": "win"
+        }
+    ],
+    "id": "ku2mjuo3"
 }

@@ -1,0 +1,181 @@
+
+knife.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01/engine_00
+  rotate: false
+  xy: 1488, 1286
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_01
+  rotate: false
+  xy: 2, 1129
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_02
+  rotate: false
+  xy: 304, 1084
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_03
+  rotate: false
+  xy: 606, 1055
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_04
+  rotate: false
+  xy: 908, 1007
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_05
+  rotate: false
+  xy: 1210, 984
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_06
+  rotate: false
+  xy: 1512, 984
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_07
+  rotate: false
+  xy: 2, 827
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_08
+  rotate: false
+  xy: 304, 782
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_09
+  rotate: false
+  xy: 606, 753
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_10
+  rotate: false
+  xy: 908, 705
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_11
+  rotate: false
+  xy: 1210, 682
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_12
+  rotate: false
+  xy: 1512, 682
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+01/engine_13
+  rotate: false
+  xy: 2, 525
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+blik
+  rotate: true
+  xy: 319, 1386
+  size: 200, 568
+  orig: 200, 568
+  offset: 0, 0
+  index: -1
+effect
+  rotate: false
+  xy: 889, 1357
+  size: 300, 229
+  orig: 300, 229
+  offset: 0, 0
+  index: -1
+feathers
+  rotate: true
+  xy: 145, 1431
+  size: 155, 172
+  orig: 157, 176
+  offset: 2, 3
+  index: -1
+jaw_blik
+  rotate: true
+  xy: 2, 1576
+  size: 10, 39
+  orig: 502, 541
+  offset: 226, 298
+  index: -1
+knife
+  rotate: false
+  xy: 645, 374
+  size: 467, 329
+  orig: 467, 329
+  offset: 0, 0
+  index: -1
+kontur_glow
+  rotate: false
+  xy: 1191, 1309
+  size: 295, 277
+  orig: 789, 875
+  offset: 236, 290
+  index: -1
+lifs
+  rotate: false
+  xy: 1512, 195
+  size: 514, 485
+  orig: 514, 485
+  offset: 0, 0
+  index: -1
+panel
+  rotate: true
+  xy: 1114, 322
+  size: 358, 396
+  orig: 358, 399
+  offset: 0, 0
+  index: -1
+rop
+  rotate: true
+  xy: 304, 423
+  size: 328, 339
+  orig: 332, 339
+  offset: 2, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 542, 419
+  orig: 542, 419
+  offset: 0, 0
+  index: -1
+str2
+  rotate: false
+  xy: 43, 1487
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,47 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kxj7w1yt",
+            "name": "FNY_0_ske.json",
+            "fileKey": "dragon-ske_kxj7w1yt"
+        },
+        "dragon-tex": {
+            "path": "files/kxj7w1yt",
+            "name": "FNY_0_tex.json",
+            "fileKey": "dragon-tex_kxj7w1yt"
+        },
+        "dragon-img": {
+            "path": "files/kxj7w1yt",
+            "name": "FNY_0_tex.png",
+            "fileKey": "dragon-img_kxj7w1yt"
+        },
+        "image-static": {
+            "path": "files/kxj7w1yt",
+            "name": "symbolsAtlas.png",
+            "fileKey": "image-static_kxj7w1yt"
+        },
+        "image-blur": {
+            "path": "files/kxj7w1yt",
+            "name": "symbolsAtlas@0.5x.png",
+            "fileKey": "image-blur_kxj7w1yt"
+        },
+        "spine-img": {
+            "path": "files/kxj7w1yt",
+            "name": "symbolsAtlas.png",
+            "fileKey": "spine-img_kxj7w1yt"
+        }
+    },
+    "sounds-animations": [
+        {
+            "key": "win",
+            "animationName": "none"
+        },
+        {
+            "key": "eagle_clouds",
+            "animationName": "sym_0_"
+        }
+    ],
+    "id": "kxj7w1yt"
+}

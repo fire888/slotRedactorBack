@@ -1,0 +1,195 @@
+
+ring.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blick
+  rotate: false
+  xy: 855, 39
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Blick_02
+  rotate: false
+  xy: 2, 9
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+Star_blick
+  rotate: false
+  xy: 522, 26
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+big_Gem
+  rotate: false
+  xy: 689, 2
+  size: 68, 83
+  orig: 68, 83
+  offset: 0, 0
+  index: -1
+gems
+  rotate: true
+  xy: 689, 87
+  size: 167, 137
+  orig: 167, 137
+  offset: 0, 0
+  index: -1
+gold
+  rotate: true
+  xy: 522, 65
+  size: 189, 165
+  orig: 189, 165
+  offset: 0, 0
+  index: -1
+little_gems
+  rotate: false
+  xy: 828, 141
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+shadow_ring
+  rotate: false
+  xy: 249, 21
+  size: 271, 233
+  orig: 271, 233
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00009
+  rotate: false
+  xy: 759, 3
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00010
+  rotate: true
+  xy: 943, 160
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00011
+  rotate: true
+  xy: 957, 64
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00012
+  rotate: true
+  xy: 1027, 160
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00013
+  rotate: true
+  xy: 1041, 64
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00014
+  rotate: true
+  xy: 1111, 160
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00015
+  rotate: true
+  xy: 1125, 64
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00016
+  rotate: true
+  xy: 1195, 160
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00017
+  rotate: true
+  xy: 1209, 64
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00018
+  rotate: true
+  xy: 1279, 160
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00019
+  rotate: true
+  xy: 1293, 64
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00020
+  rotate: true
+  xy: 1363, 160
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00021
+  rotate: true
+  xy: 1377, 64
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00022
+  rotate: true
+  xy: 1447, 160
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00023
+  rotate: true
+  xy: 1461, 64
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00024
+  rotate: true
+  xy: 1531, 160
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00025
+  rotate: true
+  xy: 1545, 64
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00026
+  rotate: true
+  xy: 1615, 160
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+vfx_03/gold_00027
+  rotate: true
+  xy: 1629, 64
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1

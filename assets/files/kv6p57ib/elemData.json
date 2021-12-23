@@ -1,6 +1,32 @@
 {
     "typeExec": "dragonBones",
     "symbolNumber": 0,
-    "files": {},
+    "files": {
+        "spine-img": {
+            "path": "files/kv6p57ib",
+            "name": "item03.png",
+            "fileKey": "spine-img_kv6p57ib"
+        },
+        "spine-atlas": {
+            "path": "files/kv6p57ib",
+            "name": "item03.atlas",
+            "fileKey": "spine-atlas_kv6p57ib"
+        },
+        "spine-ske": {
+            "path": "files/kv6p57ib",
+            "name": "item03.json",
+            "fileKey": "spine-ske_kv6p57ib"
+        },
+        "image-static": {
+            "path": "files/kv6p57ib",
+            "name": "item03_.png",
+            "fileKey": "image-static_kv6p57ib"
+        },
+        "image-blur": {
+            "path": "files/kv6p57ib",
+            "name": "item03_b.png",
+            "fileKey": "image-blur_kv6p57ib"
+        }
+    },
     "sounds-animations": {}
 }

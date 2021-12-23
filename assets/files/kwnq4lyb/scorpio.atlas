@@ -1,0 +1,335 @@
+
+scorpio.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Star_blick
+  rotate: false
+  xy: 504, 831
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 2, 149
+  size: 245, 248
+  orig: 245, 248
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 2, 399
+  size: 249, 249
+  orig: 249, 249
+  offset: 0, 0
+  index: -1
+frame_shadow
+  rotate: true
+  xy: 249, 158
+  size: 239, 237
+  orig: 239, 237
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00001
+  rotate: false
+  xy: 2, 2
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00002
+  rotate: false
+  xy: 2, 2
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00003
+  rotate: false
+  xy: 149, 2
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00004
+  rotate: false
+  xy: 296, 11
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00005
+  rotate: false
+  xy: 443, 11
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00006
+  rotate: false
+  xy: 298, 657
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00007
+  rotate: false
+  xy: 445, 657
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00008
+  rotate: false
+  xy: 504, 870
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00009
+  rotate: false
+  xy: 475, 510
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00010
+  rotate: false
+  xy: 592, 723
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00011
+  rotate: false
+  xy: 651, 870
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00012
+  rotate: false
+  xy: 651, 870
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00013
+  rotate: false
+  xy: 622, 576
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00014
+  rotate: false
+  xy: 739, 723
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00015
+  rotate: false
+  xy: 798, 870
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00016
+  rotate: false
+  xy: 488, 278
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00017
+  rotate: false
+  xy: 488, 278
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00018
+  rotate: false
+  xy: 590, 17
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+frame_vfx/frame_00019
+  rotate: false
+  xy: 635, 278
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+item03_anim02_fr00
+  rotate: false
+  xy: 2, 650
+  size: 294, 365
+  orig: 294, 365
+  offset: 0, 0
+  index: -1
+scorpion
+  rotate: true
+  xy: 253, 424
+  size: 224, 220
+  orig: 224, 220
+  offset: 0, 0
+  index: -1
+shadow_all
+  rotate: false
+  xy: 475, 425
+  size: 240, 83
+  orig: 240, 83
+  offset: 0, 0
+  index: -1
+shadow_scorpion
+  rotate: true
+  xy: 298, 804
+  size: 211, 204
+  orig: 211, 204
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00009
+  rotate: true
+  xy: 488, 164
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00010
+  rotate: true
+  xy: 600, 164
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00011
+  rotate: true
+  xy: 712, 164
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00012
+  rotate: true
+  xy: 717, 462
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00013
+  rotate: true
+  xy: 769, 609
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00014
+  rotate: true
+  xy: 737, 50
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00015
+  rotate: true
+  xy: 782, 348
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00016
+  rotate: true
+  xy: 829, 495
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00017
+  rotate: true
+  xy: 881, 609
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00018
+  rotate: true
+  xy: 886, 756
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00019
+  rotate: true
+  xy: 945, 903
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00020
+  rotate: true
+  xy: 824, 234
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00021
+  rotate: true
+  xy: 894, 381
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00022
+  rotate: true
+  xy: 941, 495
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00023
+  rotate: true
+  xy: 993, 642
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00024
+  rotate: true
+  xy: 998, 789
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00025
+  rotate: true
+  xy: 1057, 903
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00026
+  rotate: true
+  xy: 849, 120
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00027
+  rotate: true
+  xy: 849, 6
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+vfx_scor/scorpion_00028
+  rotate: true
+  xy: 936, 267
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1

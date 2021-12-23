@@ -1,0 +1,37 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-ske": {
+            "path": "files/kx9bck8e",
+            "name": "s0_girl_ske.json",
+            "fileKey": "dragon-ske_kx9bck8e"
+        },
+        "dragon-tex": {
+            "path": "files/kx9bck8e",
+            "name": "s0_girl_tex.json",
+            "fileKey": "dragon-tex_kx9bck8e"
+        },
+        "dragon-img": {
+            "path": "files/kx9bck8e",
+            "name": "s0_girl_tex.png",
+            "fileKey": "dragon-img_kx9bck8e"
+        },
+        "spine-atlas": {
+            "path": "files/kx9bck8e",
+            "name": "knife.atlas",
+            "fileKey": "spine-atlas_kx9bck8e"
+        },
+        "spine-ske": {
+            "path": "files/kx9bck8e",
+            "name": "knife.json",
+            "fileKey": "spine-ske_kx9bck8e"
+        },
+        "spine-img": {
+            "path": "files/kx9bck8e",
+            "name": "knife.png",
+            "fileKey": "spine-img_kx9bck8e"
+        }
+    },
+    "sounds-animations": {}
+}

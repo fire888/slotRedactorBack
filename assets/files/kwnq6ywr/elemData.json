@@ -1,0 +1,47 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kwnq6ywr",
+            "name": "eye.atlas",
+            "fileKey": "spine-atlas_kwnq6ywr"
+        },
+        "spine-ske": {
+            "path": "files/kwnq6ywr",
+            "name": "eye.json",
+            "fileKey": "spine-ske_kwnq6ywr"
+        },
+        "spine-img": {
+            "path": "files/kwnq6ywr",
+            "name": "eye.png",
+            "fileKey": "spine-img_kwnq6ywr"
+        },
+        "image-blur": {
+            "path": "files/kwnq6ywr",
+            "name": "s7_blur.png",
+            "fileKey": "image-blur_kwnq6ywr"
+        },
+        "image-static": {
+            "path": "files/kwnq6ywr",
+            "name": "s7_.png",
+            "fileKey": "image-static_kwnq6ywr"
+        },
+        "dragon-img": {
+            "path": "files/kwnq6ywr",
+            "name": "s7_eye_tex.png",
+            "fileKey": "dragon-img_kwnq6ywr"
+        },
+        "dragon-ske": {
+            "path": "files/kwnq6ywr",
+            "name": "s7_eye_ske.json",
+            "fileKey": "dragon-ske_kwnq6ywr"
+        },
+        "dragon-tex": {
+            "path": "files/kwnq6ywr",
+            "name": "s7_eye_tex.json",
+            "fileKey": "dragon-tex_kwnq6ywr"
+        }
+    },
+    "sounds-animations": {}
+}

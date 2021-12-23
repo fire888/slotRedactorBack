@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-img": {
+            "path": "files/kvi37t2e",
+            "name": "popups_pyramid_2_tex.png",
+            "fileKey": "dragon-img_kvi37t2e"
+        },
+        "dragon-ske": {
+            "path": "files/kvi37t2e",
+            "name": "popups_pyramid_2_ske.json",
+            "fileKey": "dragon-ske_kvi37t2e"
+        },
+        "dragon-tex": {
+            "path": "files/kvi37t2e",
+            "name": "popups_pyramid_2_tex.json",
+            "fileKey": "dragon-tex_kvi37t2e"
+        }
+    },
+    "sounds-animations": {}
+}

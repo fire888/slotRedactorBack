@@ -1,0 +1,47 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kwnpy38k",
+            "name": "horus_fixed_layers_popoxac.atlas",
+            "fileKey": "spine-atlas_kwnpy38k"
+        },
+        "spine-ske": {
+            "path": "files/kwnpy38k",
+            "name": "horus_fixed_layers_popoxac.json",
+            "fileKey": "spine-ske_kwnpy38k"
+        },
+        "spine-img": {
+            "path": "files/kwnpy38k",
+            "name": "horus_fixed_layers_popoxac.png",
+            "fileKey": "spine-img_kwnpy38k"
+        },
+        "dragon-img": {
+            "path": "files/kwnpy38k",
+            "name": "s1_hor_tex.png",
+            "fileKey": "dragon-img_kwnpy38k"
+        },
+        "dragon-ske": {
+            "path": "files/kwnpy38k",
+            "name": "s1_hor_ske.json",
+            "fileKey": "dragon-ske_kwnpy38k"
+        },
+        "dragon-tex": {
+            "path": "files/kwnpy38k",
+            "name": "s1_hor_tex.json",
+            "fileKey": "dragon-tex_kwnpy38k"
+        },
+        "image-static": {
+            "path": "files/kwnpy38k",
+            "name": "s1hor_.png",
+            "fileKey": "image-static_kwnpy38k"
+        },
+        "image-blur": {
+            "path": "files/kwnpy38k",
+            "name": "s1hor_blur.png",
+            "fileKey": "image-blur_kwnpy38k"
+        }
+    },
+    "sounds-animations": {}
+}

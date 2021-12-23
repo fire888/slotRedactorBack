@@ -16,6 +16,21 @@
             "path": "files/ku2nsovd",
             "name": "wild03_tex.png",
             "fileKey": "dragon-img_ku2nsovd"
+        },
+        "spine-img": {
+            "path": "files/ku2nsovd",
+            "name": "wild03.png",
+            "fileKey": "spine-img_ku2nsovd"
+        },
+        "spine-atlas": {
+            "path": "files/ku2nsovd",
+            "name": "wild03.atlas",
+            "fileKey": "spine-atlas_ku2nsovd"
+        },
+        "spine-ske": {
+            "path": "files/ku2nsovd",
+            "name": "wild03.json",
+            "fileKey": "spine-ske_ku2nsovd"
         }
     },
     "sounds-animations": {}

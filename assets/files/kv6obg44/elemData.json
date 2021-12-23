@@ -2,6 +2,21 @@
     "typeExec": "dragonBones",
     "symbolNumber": 0,
     "files": {
+        "image-static": {
+            "path": "files/kv6obg44",
+            "name": "scatter_.png",
+            "fileKey": "image-static_kv6obg44"
+        },
+        "image-blur": {
+            "path": "files/kv6obg44",
+            "name": "scatter_b.png",
+            "fileKey": "image-blur_kv6obg44"
+        },
+        "spine-img": {
+            "path": "files/kv6obg44",
+            "name": "skatter_freespins.png",
+            "fileKey": "spine-img_kv6obg44"
+        },
         "spine-atlas": {
             "path": "files/kv6obg44",
             "name": "skatter_freespins.atlas",
@@ -11,11 +26,6 @@
             "path": "files/kv6obg44",
             "name": "skatter_freespins.json",
             "fileKey": "spine-ske_kv6obg44"
-        },
-        "spine-img": {
-            "path": "files/kv6obg44",
-            "name": "skatter_freespins.png",
-            "fileKey": "spine-img_kv6obg44"
         }
     },
     "sounds-animations": {}

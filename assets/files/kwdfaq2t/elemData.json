@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-img": {
+            "path": "files/kwdfaq2t",
+            "name": "back_frame_tex.png",
+            "fileKey": "dragon-img_kwdfaq2t"
+        },
+        "dragon-ske": {
+            "path": "files/kwdfaq2t",
+            "name": "back_frame_ske.json",
+            "fileKey": "dragon-ske_kwdfaq2t"
+        },
+        "dragon-tex": {
+            "path": "files/kwdfaq2t",
+            "name": "back_frame_tex.json",
+            "fileKey": "dragon-tex_kwdfaq2t"
+        }
+    },
+    "sounds-animations": {}
+}

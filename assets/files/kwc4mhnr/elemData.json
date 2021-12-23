@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-tex": {
+            "path": "files/kwc4mhnr",
+            "name": "royal3_tex.json",
+            "fileKey": "dragon-tex_kwc4mhnr"
+        },
+        "dragon-img": {
+            "path": "files/kwc4mhnr",
+            "name": "royal3_tex.png",
+            "fileKey": "dragon-img_kwc4mhnr"
+        },
+        "dragon-ske": {
+            "path": "files/kwc4mhnr",
+            "name": "royal3_ske.json",
+            "fileKey": "dragon-ske_kwc4mhnr"
+        }
+    },
+    "sounds-animations": {}
+}

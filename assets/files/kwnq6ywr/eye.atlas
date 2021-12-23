@@ -1,0 +1,181 @@
+
+eye.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blick
+  rotate: false
+  xy: 388, 11
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Blick_02
+  rotate: false
+  xy: 2, 457
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+Jewels
+  rotate: false
+  xy: 967, 428
+  size: 155, 163
+  orig: 155, 163
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 2, 704
+  size: 278, 281
+  orig: 278, 281
+  offset: 0, 0
+  index: -1
+Sockets
+  rotate: true
+  xy: 2, 260
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+Star_blick
+  rotate: false
+  xy: 2, 24
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00006
+  rotate: true
+  xy: 2, 63
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00007
+  rotate: true
+  xy: 195, 260
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00008
+  rotate: true
+  xy: 249, 507
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00009
+  rotate: true
+  xy: 282, 790
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00010
+  rotate: true
+  xy: 195, 63
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00011
+  rotate: true
+  xy: 388, 310
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00012
+  rotate: true
+  xy: 442, 593
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00013
+  rotate: true
+  xy: 475, 790
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00014
+  rotate: true
+  xy: 388, 113
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00015
+  rotate: true
+  xy: 581, 396
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00016
+  rotate: true
+  xy: 635, 593
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00017
+  rotate: true
+  xy: 668, 790
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00018
+  rotate: true
+  xy: 581, 199
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00019
+  rotate: true
+  xy: 581, 2
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00020
+  rotate: true
+  xy: 774, 396
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00021
+  rotate: true
+  xy: 828, 593
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00022
+  rotate: true
+  xy: 861, 790
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00023
+  rotate: true
+  xy: 774, 199
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1
+vfx_03/Sockets_00024
+  rotate: true
+  xy: 774, 2
+  size: 195, 191
+  orig: 195, 191
+  offset: 0, 0
+  index: -1

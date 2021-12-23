@@ -16,6 +16,16 @@
             "path": "files/kto6uhmq",
             "name": "sunball_tex.png",
             "fileKey": "dragon-img_kto6uhmq"
+        },
+        "image-static": {
+            "path": "files/kto6uhmq",
+            "name": "item01_anim02_fr00.png",
+            "fileKey": "image-static_kto6uhmq"
+        },
+        "image-blur": {
+            "path": "files/kto6uhmq",
+            "name": "item01_anim01_fr00.png",
+            "fileKey": "image-blur_kto6uhmq"
         }
     },
     "sounds-animations": {}

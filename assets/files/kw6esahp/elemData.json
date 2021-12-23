@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-img": {
+            "path": "files/kw6esahp",
+            "name": "popups_candys_tex.png",
+            "fileKey": "dragon-img_kw6esahp"
+        },
+        "dragon-ske": {
+            "path": "files/kw6esahp",
+            "name": "popups_candys_ske.json",
+            "fileKey": "dragon-ske_kw6esahp"
+        },
+        "dragon-tex": {
+            "path": "files/kw6esahp",
+            "name": "popups_candys_tex.json",
+            "fileKey": "dragon-tex_kw6esahp"
+        }
+    },
+    "sounds-animations": {}
+}

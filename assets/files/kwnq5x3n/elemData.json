@@ -1,0 +1,47 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kwnq5x3n",
+            "name": "ring.atlas",
+            "fileKey": "spine-atlas_kwnq5x3n"
+        },
+        "spine-ske": {
+            "path": "files/kwnq5x3n",
+            "name": "ring.json",
+            "fileKey": "spine-ske_kwnq5x3n"
+        },
+        "spine-img": {
+            "path": "files/kwnq5x3n",
+            "name": "ring.png",
+            "fileKey": "spine-img_kwnq5x3n"
+        },
+        "dragon-img": {
+            "path": "files/kwnq5x3n",
+            "name": "s5_ring_tex.png",
+            "fileKey": "dragon-img_kwnq5x3n"
+        },
+        "dragon-ske": {
+            "path": "files/kwnq5x3n",
+            "name": "s5_ring_ske.json",
+            "fileKey": "dragon-ske_kwnq5x3n"
+        },
+        "dragon-tex": {
+            "path": "files/kwnq5x3n",
+            "name": "s5_ring_tex.json",
+            "fileKey": "dragon-tex_kwnq5x3n"
+        },
+        "image-blur": {
+            "path": "files/kwnq5x3n",
+            "name": "s5_blur.png",
+            "fileKey": "image-blur_kwnq5x3n"
+        },
+        "image-static": {
+            "path": "files/kwnq5x3n",
+            "name": "s5_.png",
+            "fileKey": "image-static_kwnq5x3n"
+        }
+    },
+    "sounds-animations": {}
+}

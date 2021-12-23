@@ -16,6 +16,16 @@
             "path": "files/kv6p51ai",
             "name": "item01.png",
             "fileKey": "spine-img_kv6p51ai"
+        },
+        "image-static": {
+            "path": "files/kv6p51ai",
+            "name": "item01_.png",
+            "fileKey": "image-static_kv6p51ai"
+        },
+        "image-blur": {
+            "path": "files/kv6p51ai",
+            "name": "item01_b.png",
+            "fileKey": "image-blur_kv6p51ai"
         }
     },
     "sounds-animations": {}

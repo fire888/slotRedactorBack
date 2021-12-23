@@ -1,0 +1,153 @@
+
+light_right_night.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fire/05/Fire_purple112_00
+  rotate: true
+  xy: 507, 205
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_01
+  rotate: true
+  xy: 507, 2
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_02
+  rotate: true
+  xy: 622, 205
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_03
+  rotate: true
+  xy: 622, 2
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_04
+  rotate: true
+  xy: 737, 205
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_05
+  rotate: true
+  xy: 737, 2
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_06
+  rotate: true
+  xy: 852, 205
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_07
+  rotate: true
+  xy: 852, 2
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_08
+  rotate: true
+  xy: 967, 205
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_09
+  rotate: true
+  xy: 967, 2
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_10
+  rotate: true
+  xy: 982, 815
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_11
+  rotate: true
+  xy: 982, 612
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_12
+  rotate: true
+  xy: 982, 409
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_13
+  rotate: true
+  xy: 1082, 206
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_14
+  rotate: true
+  xy: 1082, 3
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_15
+  rotate: true
+  xy: 1097, 815
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_16
+  rotate: true
+  xy: 1097, 612
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_17
+  rotate: true
+  xy: 1097, 409
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+Fire/05/Fire_purple112_18
+  rotate: true
+  xy: 1197, 206
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+curbstone_l
+  rotate: false
+  xy: 507, 408
+  size: 473, 608
+  orig: 473, 608
+  offset: 0, 0
+  index: -1
+front_bg
+  rotate: false
+  xy: 2, 15
+  size: 503, 1001
+  orig: 2000, 1001
+  offset: 1497, 0
+  index: -1

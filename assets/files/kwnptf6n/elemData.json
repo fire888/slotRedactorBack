@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kwnptf6n",
+            "name": "game_start.atlas",
+            "fileKey": "spine-atlas_kwnptf6n"
+        },
+        "spine-ske": {
+            "path": "files/kwnptf6n",
+            "name": "game_start.json",
+            "fileKey": "spine-ske_kwnptf6n"
+        },
+        "spine-img": {
+            "path": "files/kwnptf6n",
+            "name": "game_start.png",
+            "fileKey": "spine-img_kwnptf6n"
+        }
+    },
+    "sounds-animations": {}
+}

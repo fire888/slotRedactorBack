@@ -1,0 +1,188 @@
+
+wild03.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wild_animate/w_b_back
+  rotate: false
+  xy: 252, 513
+  size: 224, 209
+  orig: 224, 209
+  offset: 0, 0
+  index: -1
+wild_animate/w_v_back
+  rotate: false
+  xy: 694, 762
+  size: 224, 209
+  orig: 224, 209
+  offset: 0, 0
+  index: -1
+wild_animate/w_v_body
+  rotate: false
+  xy: 468, 762
+  size: 224, 237
+  orig: 224, 237
+  offset: 0, 0
+  index: -1
+wild_animate/w_b_body
+  rotate: false
+  xy: 242, 762
+  size: 224, 237
+  orig: 224, 237
+  offset: 0, 0
+  index: -1
+wild_animate/w_border_big
+  rotate: false
+  xy: 1, 1
+  size: 288, 510
+  orig: 288, 510
+  offset: 0, 0
+  index: -1
+wild_animate/w_v_coat
+  rotate: false
+  xy: 718, 513
+  size: 238, 181
+  orig: 238, 181
+  offset: 0, 0
+  index: -1
+wild_animate/w_b_coat
+  rotate: false
+  xy: 478, 513
+  size: 238, 181
+  orig: 238, 181
+  offset: 0, 0
+  index: -1
+wild_animate/w_b_coat_small
+  rotate: false
+  xy: 658, 225
+  size: 233, 132
+  orig: 252, 137
+  offset: 9, 5
+  index: -1
+wild_animate/w_v_coat_small
+  rotate: false
+  xy: 658, 359
+  size: 233, 123
+  orig: 252, 137
+  offset: 9, 5
+  index: -1
+wild_animate/w_b_neck
+  rotate: false
+  xy: 1, 762
+  size: 239, 253
+  orig: 239, 253
+  offset: 0, 0
+  index: -1
+wild_animate/w_v_neck
+  rotate: false
+  xy: 486, 1
+  size: 206, 125
+  orig: 206, 125
+  offset: 0, 0
+  index: -1
+wild_animate/w_b_eyes
+  rotate: false
+  xy: 694, 973
+  size: 92, 32
+  orig: 92, 32
+  offset: 0, 0
+  index: -1
+wild_animate/w_v_eyes
+  rotate: false
+  xy: 379, 449
+  size: 92, 32
+  orig: 92, 32
+  offset: 0, 0
+  index: -1
+wild_animate/w_v_head
+  rotate: false
+  xy: 291, 225
+  size: 191, 222
+  orig: 191, 222
+  offset: 0, 0
+  index: -1
+wild_animate/w_b_head
+  rotate: false
+  xy: 291, 1
+  size: 193, 222
+  orig: 193, 222
+  offset: 0, 0
+  index: -1
+wild_animate/w_b_card
+  rotate: false
+  xy: 920, 856
+  size: 94, 124
+  orig: 94, 124
+  offset: 0, 0
+  index: -1
+wild_animate/w_v_card
+  rotate: false
+  xy: 694, 1
+  size: 113, 140
+  orig: 113, 140
+  offset: 0, 0
+  index: -1
+wild_animate/flamewhite
+  rotate: false
+  xy: 607, 128
+  size: 83, 81
+  orig: 100, 82
+  offset: 11, 1
+  index: -1
+wild_animate/w_v_card_glow
+  rotate: false
+  xy: 484, 225
+  size: 172, 192
+  orig: 194, 192
+  offset: 3, 0
+  index: -1
+wild_animate/w_v_card_flame
+  rotate: false
+  xy: 893, 1
+  size: 125, 152
+  orig: 125, 152
+  offset: 0, 0
+  index: -1
+wild_animate/w_b_finger
+  rotate: false
+  xy: 291, 449
+  size: 86, 60
+  orig: 86, 60
+  offset: 0, 0
+  index: -1
+wild_animate/w_b_hand
+  rotate: false
+  xy: 920, 696
+  size: 97, 158
+  orig: 97, 158
+  offset: 0, 0
+  index: -1
+wild_animate/w_border_small
+  rotate: false
+  xy: 1, 513
+  size: 249, 247
+  orig: 249, 247
+  offset: 0, 0
+  index: -1
+wild_animate/w_v_eyes_glow
+  rotate: false
+  xy: 379, 483
+  size: 96, 22
+  orig: 154, 71
+  offset: 28, 23
+  index: -1
+wild_animate/cr_light
+  rotate: false
+  xy: 484, 419
+  size: 164, 83
+  orig: 164, 83
+  offset: 0, 0
+  index: -1
+wild_animate/w_x2
+  rotate: false
+  xy: 486, 128
+  size: 119, 88
+  orig: 119, 88
+  offset: 0, 0
+  index: -1

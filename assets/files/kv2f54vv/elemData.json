@@ -18,5 +18,13 @@
             "fileKey": "spine-atlas_kv2f54vv"
         }
     },
-    "sounds-animations": {}
+    "sounds-animations": [
+        {
+            "key": "sdsdsdsd"
+        },
+        {
+            "key": "sd"
+        }
+    ],
+    "id": "kv2f54vv"
 }

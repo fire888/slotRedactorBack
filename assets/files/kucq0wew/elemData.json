@@ -18,5 +18,15 @@
             "fileKey": "dragon-tex_kucq0wew"
         }
     },
-    "sounds-animations": {}
+    "sounds-animations": [
+        {
+            "key": "aaaa",
+            "animationName": "l1"
+        },
+        {
+            "key": "bbbbb",
+            "animationName": "none"
+        }
+    ],
+    "id": "kucq0wew"
 }

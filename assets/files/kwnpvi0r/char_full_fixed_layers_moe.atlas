@@ -1,0 +1,279 @@
+
+char_full_fixed_layers_moe.png
+size: 1906,491
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1080, 233
+  size: 240, 256
+  orig: 240, 256
+  offset: 0, 0
+  index: -1
+Arm L Forearm
+  rotate: false
+  xy: 1755, 297
+  size: 96, 78
+  orig: 96, 150
+  offset: 0, 0
+  index: -1
+Arm L Forearm Shadow
+  rotate: false
+  xy: 1851, 85
+  size: 53, 55
+  orig: 53, 55
+  offset: 0, 0
+  index: -1
+Arm L Upper
+  rotate: false
+  xy: 1547, 37
+  size: 112, 199
+  orig: 112, 199
+  offset: 0, 0
+  index: -1
+Arm R Forearm
+  rotate: true
+  xy: 1661, 186
+  size: 69, 190
+  orig: 71, 194
+  offset: 2, 0
+  index: -1
+Arm R Upper
+  rotate: false
+  xy: 558, 6
+  size: 151, 171
+  orig: 151, 171
+  offset: 0, 0
+  index: -1
+Back
+  rotate: false
+  xy: 2, 149
+  size: 287, 340
+  orig: 287, 340
+  offset: 0, 0
+  index: -1
+Belt shadow
+  rotate: true
+  xy: 880, 2
+  size: 185, 31
+  orig: 185, 31
+  offset: 0, 0
+  index: -1
+Belt top
+  rotate: false
+  xy: 1661, 93
+  size: 188, 91
+  orig: 188, 91
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 362, 4
+  size: 194, 158
+  orig: 199, 244
+  offset: 5, 86
+  index: -1
+Eyes
+  rotate: true
+  xy: 1247, 106
+  size: 83, 32
+  orig: 83, 32
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 1131, 23
+  size: 114, 164
+  orig: 136, 164
+  offset: 6, 0
+  index: -1
+Fingers L
+  rotate: false
+  xy: 1731, 3
+  size: 73, 80
+  orig: 137, 99
+  offset: 0, 16
+  index: -1
+Fingers L Shadow
+  rotate: true
+  xy: 1792, 377
+  size: 59, 103
+  orig: 59, 103
+  offset: 0, 0
+  index: -1
+Frame
+  rotate: true
+  xy: 686, 182
+  size: 307, 169
+  orig: 307, 169
+  offset: 0, 0
+  index: -1
+Hair
+  rotate: false
+  xy: 291, 164
+  size: 176, 325
+  orig: 176, 325
+  offset: 0, 0
+  index: -1
+Hair back
+  rotate: true
+  xy: 2, 2
+  size: 145, 187
+  orig: 145, 187
+  offset: 0, 0
+  index: -1
+Hair shadow
+  rotate: false
+  xy: 1853, 210
+  size: 48, 92
+  orig: 48, 92
+  offset: 0, 0
+  index: -1
+Hand L
+  rotate: false
+  xy: 1853, 142
+  size: 43, 66
+  orig: 43, 66
+  offset: 0, 0
+  index: -1
+Hand R
+  rotate: true
+  xy: 1853, 304
+  size: 71, 50
+  orig: 85, 59
+  offset: 14, 7
+  index: -1
+Layer 185
+  rotate: true
+  xy: 469, 179
+  size: 310, 215
+  orig: 310, 215
+  offset: 0, 0
+  index: -1
+Legs
+  rotate: false
+  xy: 191, 12
+  size: 169, 135
+  orig: 169, 135
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: false
+  xy: 1560, 257
+  size: 193, 130
+  orig: 199, 130
+  offset: 6, 0
+  index: -1
+Necklace
+  rotate: true
+  xy: 1661, 2
+  size: 81, 68
+  orig: 81, 70
+  offset: 0, 2
+  index: -1
+Scroll
+  rotate: false
+  xy: 1488, 6
+  size: 57, 230
+  orig: 57, 230
+  offset: 0, 0
+  index: -1
+Scroll Shadow
+  rotate: true
+  xy: 1080, 189
+  size: 42, 152
+  orig: 42, 152
+  offset: 0, 0
+  index: -1
+Shirt
+  rotate: false
+  xy: 857, 189
+  size: 221, 300
+  orig: 224, 305
+  offset: 3, 5
+  index: -1
+Shorts
+  rotate: false
+  xy: 1286, 28
+  size: 200, 203
+  orig: 200, 203
+  offset: 0, 0
+  index: -1
+Shorts back
+  rotate: false
+  xy: 1661, 390
+  size: 129, 46
+  orig: 129, 46
+  offset: 0, 0
+  index: -1
+blick
+  rotate: false
+  xy: 1096, 6
+  size: 33, 181
+  orig: 33, 181
+  offset: 0, 0
+  index: -1
+char_frame_fixed__moe
+  rotate: false
+  xy: 1322, 238
+  size: 236, 251
+  orig: 236, 251
+  offset: 0, 0
+  index: -1
+klipartz.com
+  rotate: false
+  xy: 913, 6
+  size: 181, 181
+  orig: 181, 181
+  offset: 0, 0
+  index: -1
+klipartz.com (3)
+  rotate: false
+  xy: 711, 13
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+klipartz.com (3) — copy
+  rotate: false
+  xy: 711, 13
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+klipartz.com (4)
+  rotate: false
+  xy: 1661, 438
+  size: 240, 51
+  orig: 280, 99
+  offset: 10, 21
+  index: -1
+klipartz.com (5)
+  rotate: true
+  xy: 1560, 389
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+puppils
+  rotate: false
+  xy: 1131, 7
+  size: 65, 14
+  orig: 65, 14
+  offset: 0, 0
+  index: -1
+star_blick2
+  rotate: false
+  xy: 1234, 191
+  size: 50, 40
+  orig: 50, 40
+  offset: 0, 0
+  index: -1
+star_blick2 - Copy
+  rotate: false
+  xy: 1234, 191
+  size: 50, 40
+  orig: 50, 40
+  offset: 0, 0
+  index: -1

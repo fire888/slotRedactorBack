@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kwnqb7qs",
+            "name": "lights_night_left.atlas",
+            "fileKey": "spine-atlas_kwnqb7qs"
+        },
+        "spine-ske": {
+            "path": "files/kwnqb7qs",
+            "name": "lights_night_left.json",
+            "fileKey": "spine-ske_kwnqb7qs"
+        },
+        "spine-img": {
+            "path": "files/kwnqb7qs",
+            "name": "lights_night_left.png",
+            "fileKey": "spine-img_kwnqb7qs"
+        }
+    },
+    "sounds-animations": {}
+}

@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-tex": {
+            "path": "files/kw511xoe",
+            "name": "freespin_girl_popup_tex.json",
+            "fileKey": "dragon-tex_kw511xoe"
+        },
+        "dragon-img": {
+            "path": "files/kw511xoe",
+            "name": "freespin_girl_popup_tex.png",
+            "fileKey": "dragon-img_kw511xoe"
+        },
+        "dragon-ske": {
+            "path": "files/kw511xoe",
+            "name": "freespin_girl_popup_ske.json",
+            "fileKey": "dragon-ske_kw511xoe"
+        }
+    },
+    "sounds-animations": {}
+}

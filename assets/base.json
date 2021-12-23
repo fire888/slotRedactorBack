@@ -75,8 +75,8 @@
         {
             "id": "kto6uhmq",
             "typeView": "none",
-            "gameTag": "none",
-            "name": "sphere_bonus_05"
+            "gameTag": "spells",
+            "name": "✖️ 💎 sphere_bonus_05"
         },
         {
             "id": "ktpxcowt",
@@ -88,7 +88,7 @@
             "id": "ktu4razt",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "back_OWL_0.2"
+            "name": "🆙✅ — 🖼️ back_OWL_0.2"
         },
         {
             "id": "ktv96je5",
@@ -106,13 +106,13 @@
             "id": "ktvat2vu",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "back_BALL_v0.1"
+            "name": "✖️back_BALL_v0.1"
         },
         {
             "id": "ktvb9kuf",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[actual] OWL_JACKPOT v2"
+            "name": "✅ — 💎 OWL_JACKPOT v2"
         },
         {
             "id": "ku2mjuo3",
@@ -124,95 +124,95 @@
             "id": "ku2mm8w9",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[actual] scatter05"
+            "name": "✅ — 💎 scatter05"
         },
         {
             "id": "ku2nsovd",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[actual] wild"
+            "name": "✅ — 💎 wild"
         },
         {
             "id": "ku2r0q94",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[ready4test] CUP v1 "
+            "name": "✅ — 💎 CUP v1 "
         },
         {
             "id": "ku2ro5y8",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[ready4test] PNDLM"
+            "name": "✅ — 💎 PNDLM"
         },
         {
             "id": "ku2rvedm",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[ready4test] scroll"
+            "name": "✅ — 💎 scroll"
         },
         {
             "id": "ku3ryx9t",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[update] potion"
+            "name": "✅ — 💎 potion"
         },
         {
             "id": "ku3spy0p",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[antual] free spin popup"
+            "name": "✅ — free spin popup"
         },
         {
             "id": "ku3txn97",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[test] bonus_game_popup"
+            "name": "✅ — bonus_game_popup"
         },
         {
             "id": "ku3u79x4",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[test] back_BALL_v2"
+            "name": "✖️back_BALL_v2"
         },
         {
             "id": "ku3uf22k",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[test] back_OWL"
+            "name": "✖️back_OWL"
         },
         {
             "id": "ku3vl0qp",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[actual] tiny jackpot border"
+            "name": "✅ — tiny jackpot border"
         },
         {
             "id": "ku3vycpz",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[actual] column roll front"
+            "name": "✅ — column roll front"
         },
         {
             "id": "ku3vz2d8",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[actual] column roll back"
+            "name": "✅ — column roll back"
         },
         {
             "id": "ku3xa693",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[test] win_border"
+            "name": "✖️win_border"
         },
         {
             "id": "ku5agzj7",
             "typeView": "slot-item",
             "gameTag": "spells",
-            "name": "[test] Bonus_Light"
+            "name": "✅ — Bonus_Light"
         },
         {
             "id": "ku89xfdi",
-            "typeView": "slot-item",
+            "typeView": "background",
             "gameTag": "eagles",
             "name": "eagle_clouds"
         },
@@ -236,62 +236,482 @@
         },
         {
             "id": "kv6obg44",
-            "name": "scatter",
+            "typeView": "slot-item",
             "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
+            "name": "✅ — 💎 scatter"
         },
         {
             "id": "kv6p51ai",
-            "name": "item01",
+            "typeView": "slot-item",
             "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
+            "name": "✅ — 💎 item01"
         },
         {
             "id": "kv6p54mn",
-            "name": "item02",
+            "typeView": "slot-item",
             "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
+            "name": "✅ — 💎 item02"
         },
         {
             "id": "kv6p57ib",
-            "name": "item03",
+            "typeView": "slot-item",
             "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
+            "name": "✅ — 💎 item03"
         },
         {
             "id": "kv6p5a9o",
-            "name": "item04",
+            "typeView": "slot-item",
             "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
+            "name": "✅ — 💎 item04"
         },
         {
             "id": "kv6p5dyf",
-            "name": "item05",
+            "typeView": "slot-item",
             "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
+            "name": "✅ — 💎 item05"
         },
         {
             "id": "kv6p5hkn",
-            "name": "item06",
+            "typeView": "slot-item",
             "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
+            "name": "✅ — 💎 item06"
         },
         {
             "id": "kv6p5lvs",
-            "name": "item07",
+            "typeView": "slot-item",
             "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
-        },
-        {
-            "id": "kv6p5pw8",
-            "name": "item08",
-            "gameTag": "pyramid_NY",
-            "typeView": "slot-item"
+            "name": "✅ — 💎 item07"
         },
         {
             "id": "kv6p5u1c",
-            "name": "wild",
+            "typeView": "slot-item",
             "gameTag": "pyramid_NY",
+            "name": "✅ — 💎 wild"
+        },
+        {
+            "id": "kv6q08bn",
+            "typeView": "slot-item",
+            "gameTag": "TEST_SYMBOL(can delete)",
+            "name": "TEST_SYMBOL(can delete)"
+        },
+        {
+            "id": "kv6qwqez",
+            "typeView": "slot-item",
+            "gameTag": "AAAAA-AA",
+            "name": "AAAAA-AA"
+        },
+        {
+            "id": "kv6qz2xa",
+            "typeView": "background",
+            "gameTag": "background",
+            "name": "ТТТТТ"
+        },
+        {
+            "id": "kv6r0rvu",
+            "typeView": "background",
+            "gameTag": "background",
+            "name": "тттттт"
+        },
+        {
+            "id": "kv9b78lz",
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "✖️win_border_squre"
+        },
+        {
+            "id": "kvcbjsb0",
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "✅ — win_border_squre_slow"
+        },
+        {
+            "id": "kvhzanqd",
+            "typeView": "slot-item",
+            "gameTag": "cleo",
+            "name": "✖️—💎 — wild"
+        },
+        {
+            "id": "kvhzczs0",
+            "typeView": "slot-item",
+            "gameTag": "cleo",
+            "name": "✖️—💎 — scatter"
+        },
+        {
+            "id": "kvi37t2e",
+            "typeView": "element",
+            "gameTag": "pyramid_NY",
+            "name": "✖️ superwin_popup"
+        },
+        {
+            "id": "kvjg5c0u",
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "🆙✅ — 💎 J"
+        },
+        {
+            "id": "kvjg5h7r",
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "🆙✅ — 💎 K"
+        },
+        {
+            "id": "kvjg5khn",
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "🆙✅ — 💎 Q"
+        },
+        {
+            "id": "kvjg5nra",
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "🆙✅ — 💎 A"
+        },
+        {
+            "id": "kvqdnckc",
+            "typeView": "slot-item",
+            "gameTag": "spells",
+            "name": "✅ — 💎 sphere_bonus_06"
+        },
+        {
+            "id": "kvqegqwb",
+            "typeView": "background",
+            "gameTag": "spells",
+            "name": "✅ — 🖼️ back_BALL_v2"
+        },
+        {
+            "id": "kvqhjdjx",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✅ —💎7 — scatter"
+        },
+        {
+            "id": "kvqhjp1q",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✅ —💎0 — seven"
+        },
+        {
+            "id": "kvqhjzlp",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✖️ —💎1 — whrst"
+        },
+        {
+            "id": "kvqhk6ch",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✖️ —💎2 — bells"
+        },
+        {
+            "id": "kvqhkqph",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✅ —💎r1 — flake"
+        },
+        {
+            "id": "kvqhkxmi",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✅ —💎r2 — ball"
+        },
+        {
+            "id": "kvqhl7r5",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✅ —💎r3 — present"
+        },
+        {
+            "id": "kvqhlg49",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✅ —💎r4 — candy"
+        },
+        {
+            "id": "kvs4kmlh",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✖️ —💎8 — party letters"
+        },
+        {
+            "id": "kvtn6tpe",
+            "typeView": "background",
+            "gameTag": "pyramid_NY",
+            "name": "✖️[temp] backs_horisontal"
+        },
+        {
+            "id": "kvwglb9k",
+            "typeView": "element",
+            "gameTag": "fruits_NY",
+            "name": "✅ — feature_game"
+        },
+        {
+            "id": "kw511xoe",
+            "typeView": "slot-item",
+            "gameTag": "pyramid_NY",
+            "name": "✅ — 🗯️ freespin intro: girl"
+        },
+        {
+            "id": "kw6bb11p",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✅ — 🖼️ — background snow"
+        },
+        {
+            "id": "kw6esahp",
+            "typeView": "slot-item",
+            "gameTag": "pyramid_NY",
+            "name": "✅ — 🖼️ superwin_popup: candies"
+        },
+        {
+            "id": "kw6f1keq",
+            "name": "✅ — superwin_candy",
+            "gameTag": "fruits_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kw6igwle",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✖️ [тестовый экземпляр] —💎7 — scatter"
+        },
+        {
+            "id": "kwai3q49",
+            "typeView": "slot-item",
+            "gameTag": "pyramid_NY",
+            "name": "✅ — 🗯️ freespin intro: fire"
+        },
+        {
+            "id": "kwascv9i",
+            "typeView": "slot-item",
+            "gameTag": "pyramid_NY",
+            "name": "✅ — 🗯️ freespin: final popup"
+        },
+        {
+            "id": "kwbv6pma",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "✅ —💎8 — party letters"
+        },
+        {
+            "id": "kwc4mhnr",
+            "typeView": "slot-item",
+            "gameTag": "cleo",
+            "name": "✖️—💎 — royals"
+        },
+        {
+            "id": "kwc4yew9",
+            "typeView": "slot-item",
+            "gameTag": "cleo",
+            "name": "✖️—💎 — bigones"
+        },
+        {
+            "id": "kwc7qd2l",
+            "typeView": "slot-item",
+            "gameTag": "pyramid_NY",
+            "name": "✅x2x3x5x7(fromVictor)"
+        },
+        {
+            "id": "kwd5w4co",
+            "typeView": "slot-item",
+            "gameTag": "pyramid_NY",
+            "name": "✅ — 🗯️ superwin_popup"
+        },
+        {
+            "id": "kwdfaq2t",
+            "name": "✅ — 🖼️ Frames",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwdhx515",
+            "typeView": "slot-item",
+            "gameTag": "pyramid_NY",
+            "name": "✅ — 🖼️ Foreground (hor)"
+        },
+        {
+            "id": "kwf0k219",
+            "name": "✅ — 🖼️ Back — Free — Vert",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwf119l7",
+            "name": "✅ — 🖼️ Back — Free — Hor",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwf2fue7",
+            "name": "✅ — 🖼️ Foreground (ver)",
+            "gameTag": "pyramid_NY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwnptf6n",
+            "name": "freeIntro",
+            "gameTag": "bookOfHorNY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwnpvi0r",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s00"
+        },
+        {
+            "id": "kwnpy38k",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s01"
+        },
+        {
+            "id": "kwnpyouc",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s01-night"
+        },
+        {
+            "id": "kwnq1hqm",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s02"
+        },
+        {
+            "id": "kwnq4lyb",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s03"
+        },
+        {
+            "id": "kwnq59vg",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s04"
+        },
+        {
+            "id": "kwnq5x3n",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s05"
+        },
+        {
+            "id": "kwnq6d7v",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s06"
+        },
+        {
+            "id": "kwnq6ywr",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s07"
+        },
+        {
+            "id": "kwnq7c50",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s08"
+        },
+        {
+            "id": "kwnq7to4",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✅ — s09"
+        },
+        {
+            "id": "kwnqa3gc",
+            "name": "fire-left-day",
+            "gameTag": "bookOfHorNY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwnqamp7",
+            "name": "fire-right-day",
+            "gameTag": "bookOfHorNY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwnqb7qs",
+            "name": "filre-left-night",
+            "gameTag": "bookOfHorNY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwnqbssz",
+            "name": "fire-right-night",
+            "gameTag": "bookOfHorNY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwqgbsrv",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "freeIntro — lazy test"
+        },
+        {
+            "id": "kwupn9xx",
+            "name": "✅ — freeIntro",
+            "gameTag": "bookOfHorNY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kwurimg4",
+            "typeView": "slot-item",
+            "gameTag": "bookOfHorNY",
+            "name": "✖️ — flame in back"
+        },
+        {
+            "id": "kwvxkoqi",
+            "name": "✅ — Frames",
+            "gameTag": "bookOfHorNY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kww5or2f",
+            "typeView": "element",
+            "gameTag": "cleo",
+            "name": "✅ — bigwins"
+        },
+        {
+            "id": "kww70fhq",
+            "typeView": "element",
+            "gameTag": "cleo",
+            "name": "✅ — AMAZING COINS"
+        },
+        {
+            "id": "kwz0xtau",
+            "name": "✅ — flame in back",
+            "gameTag": "bookOfHorNY",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kx62f7wl",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "🆙✅ —💎1 — whrst"
+        },
+        {
+            "id": "kx62fj6i",
+            "typeView": "slot-item",
+            "gameTag": "fruits_NY",
+            "name": "🆙✅ —💎2 — bells"
+        },
+        {
+            "id": "kx9bck8e",
+            "name": "3333",
+            "gameTag": "unicorn",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kxj7pok5",
+            "name": "TEST",
+            "gameTag": "none",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "kxj7w1yt",
+            "name": "TEST_2",
+            "gameTag": "none",
             "typeView": "slot-item"
         }
     ]

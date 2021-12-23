@@ -33,6 +33,20 @@ exports.getItem = function (data, callback) {
 }
 
 
+exports.changeItem = function (data, callback) {
+    openAndCloseBase(data.id, function (baseContent) {
+        return new Promise(resolve => {
+
+            baseContent = data
+
+            resolve([baseContent, () => {
+                callback(['loaded'])
+            }])
+        })
+    })
+}
+
+
 exports.addFile = function (reqBody, fileData, path, callback) {
     openAndCloseBase(reqBody.id, function (baseContent) {
         return new Promise(resolve => {

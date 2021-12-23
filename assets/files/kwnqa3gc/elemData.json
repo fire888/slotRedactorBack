@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kwnqa3gc",
+            "name": "light_day_left.atlas",
+            "fileKey": "spine-atlas_kwnqa3gc"
+        },
+        "spine-ske": {
+            "path": "files/kwnqa3gc",
+            "name": "light_day_left.json",
+            "fileKey": "spine-ske_kwnqa3gc"
+        },
+        "spine-img": {
+            "path": "files/kwnqa3gc",
+            "name": "light_day_left.png",
+            "fileKey": "spine-img_kwnqa3gc"
+        }
+    },
+    "sounds-animations": {}
+}

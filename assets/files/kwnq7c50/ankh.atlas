@@ -1,0 +1,181 @@
+
+ankh.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blick
+  rotate: false
+  xy: 1571, 43
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Blick_02
+  rotate: false
+  xy: 2, 2
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+Star_blick
+  rotate: false
+  xy: 509, 4
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+ankh
+  rotate: false
+  xy: 509, 43
+  size: 165, 204
+  orig: 165, 204
+  offset: 0, 0
+  index: -1
+jewels_ankh
+  rotate: false
+  xy: 676, 56
+  size: 128, 191
+  orig: 128, 191
+  offset: 0, 0
+  index: -1
+shadow_ankh
+  rotate: true
+  xy: 249, 20
+  size: 227, 258
+  orig: 227, 258
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00001
+  rotate: false
+  xy: 806, 41
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00002
+  rotate: false
+  xy: 891, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00003
+  rotate: false
+  xy: 891, 41
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00004
+  rotate: false
+  xy: 976, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00005
+  rotate: false
+  xy: 976, 41
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00006
+  rotate: false
+  xy: 1061, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00007
+  rotate: false
+  xy: 1061, 41
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00008
+  rotate: false
+  xy: 1146, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00009
+  rotate: false
+  xy: 1146, 41
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00010
+  rotate: false
+  xy: 1231, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00011
+  rotate: false
+  xy: 1231, 41
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00012
+  rotate: false
+  xy: 1316, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00013
+  rotate: false
+  xy: 1316, 41
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00014
+  rotate: false
+  xy: 1401, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00015
+  rotate: false
+  xy: 1401, 41
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00016
+  rotate: false
+  xy: 1486, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00017
+  rotate: false
+  xy: 1486, 41
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00018
+  rotate: false
+  xy: 1571, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+vfx_03/ankh_00019
+  rotate: false
+  xy: 806, 145
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1

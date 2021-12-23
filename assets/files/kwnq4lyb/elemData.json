@@ -1,0 +1,47 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "spine-atlas": {
+            "path": "files/kwnq4lyb",
+            "name": "scorpio.atlas",
+            "fileKey": "spine-atlas_kwnq4lyb"
+        },
+        "spine-ske": {
+            "path": "files/kwnq4lyb",
+            "name": "scorpio.json",
+            "fileKey": "spine-ske_kwnq4lyb"
+        },
+        "spine-img": {
+            "path": "files/kwnq4lyb",
+            "name": "scorpio.png",
+            "fileKey": "spine-img_kwnq4lyb"
+        },
+        "image-static": {
+            "path": "files/kwnq4lyb",
+            "name": "s3_.png",
+            "fileKey": "image-static_kwnq4lyb"
+        },
+        "image-blur": {
+            "path": "files/kwnq4lyb",
+            "name": "s3_blur.png",
+            "fileKey": "image-blur_kwnq4lyb"
+        },
+        "dragon-img": {
+            "path": "files/kwnq4lyb",
+            "name": "s3_srp_tex.png",
+            "fileKey": "dragon-img_kwnq4lyb"
+        },
+        "dragon-ske": {
+            "path": "files/kwnq4lyb",
+            "name": "s3_srp_ske.json",
+            "fileKey": "dragon-ske_kwnq4lyb"
+        },
+        "dragon-tex": {
+            "path": "files/kwnq4lyb",
+            "name": "s3_srp_tex.json",
+            "fileKey": "dragon-tex_kwnq4lyb"
+        }
+    },
+    "sounds-animations": {}
+}
