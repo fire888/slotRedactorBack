@@ -102,6 +102,12 @@ app.post('/api/get-games-tags', (req, res) => {
         res.json({ list })
     })
 })
+app.post('/api/add-game-tag', (req, res) => {
+    apiBaseGameTags.addGameTag(req.body, mess => {
+        res.json({ mess })
+    })
+})
+
 
 
 

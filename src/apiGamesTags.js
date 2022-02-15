@@ -11,6 +11,15 @@ exports.getList = function (data, callback) {
     })
 }
 
+exports.addGameTag = function (data, callback) {
+    openAndCloseBase(function (baseContent) {
+        return new Promise(resolve => {
+            baseContent.push(data.tag)
+            resolve([baseContent, callback])
+        })
+    })
+}
+
 
 
 
