@@ -1,0 +1,32 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "image-static": {
+            "path": "files/l0y17la8",
+            "name": "wild_.png",
+            "fileKey": "image-static_l0y17la8"
+        },
+        "image-blur": {
+            "path": "files/l0y17la8",
+            "name": "wild_blur.png",
+            "fileKey": "image-blur_l0y17la8"
+        },
+        "dragon-ske": {
+            "path": "files/l0y17la8",
+            "name": "wild_3_fix_ske.json",
+            "fileKey": "dragon-ske_l0y17la8"
+        },
+        "dragon-tex": {
+            "path": "files/l0y17la8",
+            "name": "wild_3_fix_tex.json",
+            "fileKey": "dragon-tex_l0y17la8"
+        },
+        "dragon-img": {
+            "path": "files/l0y17la8",
+            "name": "wild_3_fix_tex.png",
+            "fileKey": "dragon-img_l0y17la8"
+        }
+    },
+    "sounds-animations": {}
+}

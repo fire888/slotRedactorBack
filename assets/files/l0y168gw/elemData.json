@@ -1,0 +1,12 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "image-static": {
+            "path": "files/l0y168gw",
+            "name": "wild_x2.png",
+            "fileKey": "image-static_l0y168gw"
+        }
+    },
+    "sounds-animations": {}
+}

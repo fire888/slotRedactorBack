@@ -293,6 +293,102 @@
             "name": "wild",
             "gameTag": "pyramid_NY",
             "typeView": "slot-item"
+        },
+        {
+            "id": "l0xu8ytx",
+            "typeView": "slot-item",
+            "gameTag": "new",
+            "name": "cleo-big"
+        },
+        {
+            "id": "l0xubghi",
+            "typeView": "slot-item",
+            "gameTag": "new",
+            "name": "nub"
+        },
+        {
+            "id": "l0xuccd1",
+            "name": "phrn",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l0xupos6",
+            "name": "ska",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l0xvqhx1",
+            "name": "pyramid",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l0xw35fy",
+            "typeView": "slot-item",
+            "gameTag": "new",
+            "name": "J"
+        },
+        {
+            "id": "l0xw3im5",
+            "name": "Q",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l0xw4wc5",
+            "name": "К",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l0xw5nik",
+            "name": "A",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l0xw65bg",
+            "name": "10",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l0y168gw",
+            "name": "x2",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l0y16fpj",
+            "name": "x3",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l0y16og0",
+            "typeView": "slot-item",
+            "gameTag": "new",
+            "name": "x5"
+        },
+        {
+            "id": "l0y17la8",
+            "name": "cleo-symbol",
+            "gameTag": "new",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l2anrxix",
+            "name": "BOOK",
+            "gameTag": "spells",
+            "typeView": "slot-item"
+        },
+        {
+            "id": "l2aod7bj",
+            "name": "xcxcxcx",
+            "gameTag": "spells",
+            "typeView": "slot-item"
         }
     ]
 }

@@ -10,8 +10,11 @@ const cors = require('cors');
 const apiBaseFull = require("./apiBaseFull")
 const apiBaseItem = require("./apiBaseItem")
 const apiBaseGameTags = require("./apiGamesTags")
+const apiBaseProjects = require("./apiBaseProjects")
 
 const saverAssets = require('./saverAssets')
+
+
 
 
 
@@ -108,6 +111,35 @@ app.post('/api/add-game-tag', (req, res) => {
     })
 })
 
+
+
+/** projects ************************************************/
+
+
+app.post('/api/add-project', (req, res) => {
+    apiBaseProjects.createProject(req.body, mess => {
+        res.json({ mess })
+    })
+})
+
+app.post('/api/remove-project', (req, res) => {
+    apiBaseProjects.removeFromBase(req.body, mess => {
+        res.json({ mess })
+    })
+})
+
+app.post('/api/edit-project', (req, res) => {
+    apiBaseProjects.editProject (req.body, newData => {
+        res.json({ newData })
+    })
+})
+
+
+app.post('/api/get-list-projects', (req, res) => {
+    apiBaseProjects.getList(req.body, list => {
+        res.json({ list })
+    })
+})
 
 
 
