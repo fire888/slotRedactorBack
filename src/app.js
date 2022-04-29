@@ -81,7 +81,6 @@ app.post('/api/get-item-data', (req, res) => {
 
 
 app.post("/api/remove-file", (req, res) => {
-    console.log('---')
     saverAssets.removeFile(`assets/files/${ req.body.id }/${ req.body.name }`, () => {
         apiBaseItem.removeFile(req.body, mess => {
             res.json({ mess })
@@ -140,6 +139,24 @@ app.post('/api/get-list-projects', (req, res) => {
         res.json({ list })
     })
 })
+
+
+/** project properties *****************************************/
+
+app.post('/api/get-project-props', (req, res) => {
+    apiBaseProjects.getProjectProps(req.body, props => {
+        res.json({ props })
+    })
+})
+
+app.post('/api/edit-project-props', (req, res) => {
+    apiBaseProjects.editProjectProps(req.body, mess => {
+        res.json({ mess })
+    })
+})
+
+
+/** ************************************************************/
 
 
 

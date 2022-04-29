@@ -1,1 +1,49 @@
-[]
+[
+    {
+        "id": "id_layer_2002",
+        "name": "layer-7"
+    },
+    {
+        "id": "id_layer_31682",
+        "name": "layer-9",
+        "type": "slotMachine"
+    },
+    {
+        "id": "id_layer_93493",
+        "name": "layer-6"
+    },
+    {
+        "id": "id_layer_49078",
+        "name": "layer-12",
+        "type": "element"
+    },
+    {
+        "id": "id_layer_90169",
+        "name": "layer-10",
+        "type": "slotMachine"
+    },
+    {
+        "id": "id_layer_58148",
+        "name": "layer-9",
+        "type": "slotMachine"
+    },
+    {
+        "id": "id_layer_83247",
+        "name": "layer-11",
+        "type": "slotMachine"
+    },
+    {
+        "id": "id_layer_32812",
+        "name": "layer-8"
+    },
+    {
+        "id": "id_layer_55545",
+        "name": "layer-10",
+        "type": "slotMachine"
+    },
+    {
+        "id": "id_layer_96294",
+        "name": "layer-9",
+        "type": "slotMachine"
+    }
+]

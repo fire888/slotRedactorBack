@@ -83,6 +83,27 @@ exports.getList = function (data, callback) {
 
 
 
+/** single project properties ***************************/
+
+exports.getProjectProps = function (data, callback) {
+    openAndCloseGameView(data.id, function (baseContent) {
+        return new Promise(resolve => {
+            callback(baseContent)
+            resolve([baseContent, () => {}])
+        })
+    })
+}
+
+exports.editProjectProps = function (data, callback) {
+    openAndCloseGameView(data.id, function (baseContent) {
+        return new Promise(resolve => {
+            resolve([data.layers, () => {
+                callback('success')
+            }])
+        })
+    })
+}
+
 
 
 
@@ -99,6 +120,26 @@ const openAndCloseBase = callBack => {
             .then(([newContent, onComplete]) => {
 
                 fs.writeFile(baseFileName, JSON.stringify(newContent, null, 4), 'utf8', () => {
+                    onComplete('savedSuccess')
+                })
+            })
+    })
+}
+
+
+
+const openAndCloseGameView = (id, callBack) => {
+    const fileName = `assets/gamesViews/${id}.json`
+
+    fs.readFile(fileName, 'utf8', function (err, fileBase) {
+        if (err) {
+            return console.log(err);
+        }
+
+        callBack(JSON.parse(fileBase))
+            .then(([newContent, onComplete]) => {
+
+                fs.writeFile(fileName, JSON.stringify(newContent, null, 4), 'utf8', () => {
                     onComplete('savedSuccess')
                 })
             })
