@@ -1,28 +1,22 @@
 var fs = require('fs');
-var pathToFiles = 'assets/gamesViews/'
+var pathToFiles = 'assets/Layers/'
 var baseFileName = 'assets/baseViewsProjects.json'
 
 
 
 
 
-exports.createProject = function (data, callback) {
+exports.createGame = function (data, callback) {
     openAndCloseBase(function (baseContent) {
         return new Promise(resolve => {
-
-            const { id, name } = data
-            baseContent.push({ id, name })
-
-            const json = JSON.stringify([], null, 4)
-            fs.writeFile(`${pathToFiles}${data.id}.json`, json, 'utf8', () => {
-                resolve([baseContent, callback])
-            })
+            baseContent.push(data)
+            resolve([baseContent, callback])
         })
     })
 }
 
 
-exports.removeFromBase = function (data, callback) {
+exports.removeGame = function (data, callback) {
     openAndCloseBase( function (baseContent) {
         return new Promise(resolve => {
 
@@ -30,39 +24,21 @@ exports.removeFromBase = function (data, callback) {
                 baseContent = baseContent.filter(item => item.id !== data.id)
                 resolve([baseContent, callback])
             }
-
-            fs.stat(`${pathToFiles}${data.id}.json`, function (err, stats) {
-                if (err) {
-                    removeFromBase()
-                    return;
-                }
-
-                fs.unlink(`${pathToFiles}${data.id}.json`,function(err){
-                    if (err) {
-                        removeFromBase()
-                        return;
-                    }
-                    removeFromBase()
-                });
-            });
-
+            removeFromBase()
         })
-
     })
 }
 
 
-exports.editProject = function (data, callback) {
+exports.editGame = function (data, callback) {
     openAndCloseBase(function (baseContent) {
         return new Promise(resolve => {
-
-            const { id, name } = data
 
             let changedItem = null
 
             for (let i = 0; i < baseContent.length; i++) {
-                if (baseContent[i].id === id) {
-                    baseContent[i] = { id, name }
+                if (baseContent[i].id === data.id) {
+                    baseContent[i] = data
                 }
             }
 
@@ -72,7 +48,7 @@ exports.editProject = function (data, callback) {
 }
 
 
-exports.getList = function (data, callback) {
+exports.getGames = function (data, callback) {
     openAndCloseBase(function (baseContent) {
         return new Promise(resolve => {
             callback(baseContent)
@@ -83,10 +59,28 @@ exports.getList = function (data, callback) {
 
 
 
-/** single project properties ***************************/
 
-exports.getProjectProps = function (data, callback) {
-    openAndCloseGameView(data.id, function (baseContent) {
+/** layers ******************************************/
+
+exports.addNewLayersList = function (data, callback) {
+    let json = JSON.stringify([], null, 4)
+    fs.writeFile(`${pathToFiles}${data.id}.json`, json, 'utf8', () => {
+        if (data.layers) {
+            openAndCloseScreenLayers(data.id, function (baseContent) {
+                return new Promise(resolve => {
+                    resolve([data.layers, () => {
+                        callback('success')
+                    }])
+                })
+            })
+        } else {
+            callback()
+        }
+    })
+}
+
+exports.getLayers = function (data, callback) {
+    openAndCloseScreenLayers(data.id, function (baseContent) {
         return new Promise(resolve => {
             callback(baseContent)
             resolve([baseContent, () => {}])
@@ -94,8 +88,9 @@ exports.getProjectProps = function (data, callback) {
     })
 }
 
-exports.editProjectProps = function (data, callback) {
-    openAndCloseGameView(data.id, function (baseContent) {
+
+exports.editLayers = function (data, callback) {
+    openAndCloseScreenLayers(data.id, function (baseContent) {
         return new Promise(resolve => {
             resolve([data.layers, () => {
                 callback('success')
@@ -103,6 +98,23 @@ exports.editProjectProps = function (data, callback) {
         })
     })
 }
+
+exports.removeLayers = function (data, callback) {
+    fs.stat(`${pathToFiles}${data.id}.json`, function (err, stats) {
+        if (err) {
+            console.log('not found file ', `${pathToFiles}${data.id}.json`)
+            callback()
+        }
+        fs.unlink(`${pathToFiles}${data.id}.json`,function(err){
+            if (err) {
+                return;
+            }
+            callback('removesuccess')
+        });
+    });
+}
+
+
 
 
 
@@ -128,8 +140,8 @@ const openAndCloseBase = callBack => {
 
 
 
-const openAndCloseGameView = (id, callBack) => {
-    const fileName = `assets/gamesViews/${id}.json`
+const openAndCloseScreenLayers = (id, callBack) => {
+    const fileName = `${pathToFiles}${id}.json`
 
     fs.readFile(fileName, 'utf8', function (err, fileBase) {
         if (err) {

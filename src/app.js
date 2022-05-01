@@ -10,7 +10,7 @@ const cors = require('cors');
 const apiBaseFull = require("./apiBaseFull")
 const apiBaseItem = require("./apiBaseItem")
 const apiBaseGameTags = require("./apiGamesTags")
-const apiBaseProjects = require("./apiBaseProjects")
+const apiBaseGames = require("./apiBaseGames")
 
 const saverAssets = require('./saverAssets')
 
@@ -115,48 +115,61 @@ app.post('/api/add-game-tag', (req, res) => {
 /** projects ************************************************/
 
 
-app.post('/api/add-project', (req, res) => {
-    apiBaseProjects.createProject(req.body, mess => {
+app.post('/api/add-game', (req, res) => {
+    apiBaseGames.createGame(req.body, mess => {
         res.json({ mess })
     })
 })
 
-app.post('/api/remove-project', (req, res) => {
-    apiBaseProjects.removeFromBase(req.body, mess => {
+app.post('/api/remove-game', (req, res) => {
+    apiBaseGames.removeGame(req.body, mess => {
         res.json({ mess })
     })
 })
 
-app.post('/api/edit-project', (req, res) => {
-    apiBaseProjects.editProject (req.body, newData => {
+app.post('/api/edit-game', (req, res) => {
+    apiBaseGames.editGame(req.body, newData => {
         res.json({ newData })
     })
 })
 
 
-app.post('/api/get-list-projects', (req, res) => {
-    apiBaseProjects.getList(req.body, list => {
+app.post('/api/get-games', (req, res) => {
+    apiBaseGames.getGames(req.body, list => {
         res.json({ list })
     })
 })
 
 
-/** project properties *****************************************/
+/** layers  ************************************************************/
 
-app.post('/api/get-project-props', (req, res) => {
-    apiBaseProjects.getProjectProps(req.body, props => {
+
+app.post('/api/add-new-layers-list', (req, res) => {
+    apiBaseGames.addNewLayersList(req.body, props => {
         res.json({ props })
     })
 })
 
-app.post('/api/edit-project-props', (req, res) => {
-    apiBaseProjects.editProjectProps(req.body, mess => {
-        res.json({ mess })
+app.post('/api/get-layers', (req, res) => {
+    apiBaseGames.getLayers(req.body, props => {
+        res.json({ props })
     })
 })
 
 
-/** ************************************************************/
+app.post('/api/edit-layers', (req, res) => {
+    apiBaseGames.editLayers(req.body, mess => {
+        res.json({ mess })
+    })
+})
+
+app.post('/api/remove-layers', (req, res) => {
+    apiBaseGames.removeLayers(req.body, props => {
+        res.json({ props })
+    })
+})
+
+
 
 
 
