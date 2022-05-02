@@ -1,0 +1,32 @@
+[
+    {
+        "id": "id_layer_47799",
+        "name": "yuyuyuuyuuu",
+        "type": "slotMachine",
+        "properties": {
+            "columnsNum": "1",
+            "rowsNum": "8",
+            "horDivider": 0,
+            "vertDivider": "4",
+            "offsetTop": null,
+            "offsetBottom": null,
+            "offsetLeft": null,
+            "offsetRight": null
+        }
+    },
+    {
+        "id": "id_layer_84603",
+        "name": "aaaa",
+        "type": "slotMachine",
+        "properties": {
+            "columnsNum": "3",
+            "rowsNum": "8",
+            "horDivider": 0,
+            "vertDivider": "4",
+            "offsetTop": null,
+            "offsetBottom": null,
+            "offsetLeft": null,
+            "offsetRight": null
+        }
+    }
+]

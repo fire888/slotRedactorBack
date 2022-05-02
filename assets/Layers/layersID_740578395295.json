@@ -1,0 +1,17 @@
+[
+    {
+        "id": "id_layer_41107",
+        "name": "8888",
+        "type": "slotMachine",
+        "properties": {
+            "columnsNum": "6666",
+            "rowsNum": "666",
+            "horDivider": 0,
+            "vertDivider": "4",
+            "offsetTop": null,
+            "offsetBottom": null,
+            "offsetLeft": null,
+            "offsetRight": null
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": "id_layer_58760",
+        "name": "jkjkjkjk",
+        "type": "slotMachine",
+        "properties": {
+            "columnsNum": "uuuuu",
+            "rowsNum": "uuuu",
+            "horDivider": 0,
+            "vertDivider": "4",
+            "offsetTop": null,
+            "offsetBottom": null,
+            "offsetLeft": null,
+            "offsetRight": null
+        }
+    },
+    {
+        "id": "id_layer_35618",
+        "name": "77777-2",
+        "type": "slotMachine",
+        "properties": {
+            "columnsNum": "4",
+            "rowsNum": "4",
+            "horDivider": 0,
+            "vertDivider": "4",
+            "offsetTop": null,
+            "offsetBottom": null,
+            "offsetLeft": null,
+            "offsetRight": null
+        }
+    },
+    {
+        "id": "id_layer_31516",
+        "name": "8888",
+        "type": "slotMachine",
+        "properties": {
+            "columnsNum": "555",
+            "rowsNum": "5555",
+            "horDivider": 0,
+            "vertDivider": "4",
+            "offsetTop": null,
+            "offsetBottom": null,
+            "offsetLeft": null,
+            "offsetRight": null
+        }
+    }
+]
