@@ -24,7 +24,7 @@ const saverAssets = require('./saverAssets')
 var app = express();
 
 var corsOptions = {
-    origin: 'http://localhost:9000',
+    origin: ['http://localhost:9000', 'http://localhost:9001'],
     optionsSuccessStatus: 200,
 }
 app.use(cors(corsOptions));

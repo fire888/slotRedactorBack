@@ -1,0 +1,22 @@
+{
+    "typeExec": "dragonBones",
+    "symbolNumber": 0,
+    "files": {
+        "dragon-img": {
+            "path": "files/liirp4ye",
+            "name": "r_J_tex.png",
+            "fileKey": "dragon-img_liirp4ye"
+        },
+        "dragon-ske": {
+            "path": "files/liirp4ye",
+            "name": "r_J_ske.json",
+            "fileKey": "dragon-ske_liirp4ye"
+        },
+        "dragon-tex": {
+            "path": "files/liirp4ye",
+            "name": "r_J_tex.json",
+            "fileKey": "dragon-tex_liirp4ye"
+        }
+    },
+    "sounds-animations": {}
+}

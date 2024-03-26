@@ -1,15 +1,10 @@
 [
     {
-        "id": "id_layer_23746",
-        "name": "4444",
-        "type": "element"
-    },
-    {
-        "id": "id_layer_67443",
-        "name": "aaaa",
+        "id": "id_layer_51099",
+        "name": "uttut",
         "type": "slotMachine",
         "properties": {
-            "columnsNum": "1",
+            "columnsNum": "10",
             "rowsNum": "5",
             "horDivider": 0,
             "vertDivider": 0,
